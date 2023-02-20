@@ -1,2 +1,2 @@
-# awesome-android-aosp
-A collection of Android AOSP and ROM development related resources
+# Awesome Android AOSP
+A collection of Android AOSP (Android Open Source Project) and ROM development related resources
