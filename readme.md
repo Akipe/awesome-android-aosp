@@ -8,6 +8,10 @@ Inspired by many awesome list like [sindresorhus/awesome](https://github.com/sin
 
 **This project is in work in progress !!! Some links may be not valid or not so usefull.**
 
+Contributions are welcome! Im' looking for any kind of information that can help in the development of Android ROM. Don't hesitate to participate to make pull requests and or to exchange in the issues. You can read the [contribution guidelines](contributing.md) to know how to help me.
+
+*English is not my primary language, there might be some language mistakes (feel free to correct them!).*
+
 ## Contents
 
 - [Contents](#contents)
@@ -169,7 +173,9 @@ Inspired by many awesome list like [sindresorhus/awesome](https://github.com/sin
 
 ## Related awesome
 
-* [JStumpp/awesome-android](https://github.com/JStumpp/awesome-android#readme) - For Android application development.
+* [awesome-android](https://github.com/JStumpp/awesome-android#readme) - For Android application development.
+* [awesome-android-ui](https://github.com/wasabeef/awesome-android-ui) - List of Android UI/UX Libraries
+* [ android-security-awesome](https://github.com/ashishb/android-security-awesome) - A collection of android security related resources.
 
 ## Contributing
 
