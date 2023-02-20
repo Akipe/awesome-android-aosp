@@ -6,9 +6,9 @@ This collection does not concern the development of application, there is a awes
 
 Inspired by many awesome list like [sindresorhus/awesome](https://github.com/sindresorhus/awesome).
 
-**This project is in work in progress !!! Some links may be not valid or not so usefull.**
+**This project is in work in progress !!! Some links may be not valid or not so useful.**
 
-Contributions are welcome! Im' looking for any kind of information that can help in the development of Android ROM. Don't hesitate to participate to make pull requests and or to exchange in the issues. You can read the [contribution guidelines](contributing.md) to know how to help me.
+Contributions are welcome! I am looking for any kind of information that can help in the development of Android ROM. Don't hesitate to participate to make pull requests and or to exchange in the issues. You can read the [contribution guidelines](contributing.md) to know how to help me.
 
 *English is not my primary language, there might be some language mistakes (feel free to correct them!).*
 
@@ -113,7 +113,7 @@ Contributions are welcome! Im' looking for any kind of information that can help
 
 *Tools for helping development of Android Rom*
 
-* [akhilnarang/scripts (Github)](https://github.com/akhilnarang/scripts) - Some script usefull for ROM development.
+* [akhilnarang/scripts (Github)](https://github.com/akhilnarang/scripts) - Some script useful for ROM development.
 * [ShivamKumarJha/android_tools (Github)](https://github.com/ShivamKumarJha/android_tools) - Collection of scripts to help with Android ROM stuff.
 * [dumpyara](https://github.com/AndroidDumps/dumpyara) - For dumping files like vendors or blobs of an Android device.
 * [dumpyara (python)](https://github.com/sebaubuntu-python/dumpyara)
