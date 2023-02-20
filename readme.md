@@ -44,6 +44,8 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Android Device Tree Bringup](https://blog.realogs.in/android-device-tree-bringup/)
 * [Introduction to AOSP](https://blog.realogs.in/getting-started-with-aosp/)
 * [Android Build System](https://elinux.org/Android_Build_System)
+* [How to build Android.... Where do I start?](https://www.youtube.com/watch?v=yNVe3mjCI1k)
+* [Linux Device Driver Programming Using Beaglebone Black (udemy)](https://www.udemy.com/course/linux-device-driver-programming-using-beaglebone-black/)
 
 #### Formation
 
@@ -83,6 +85,14 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [AOSP Introduction : AOSP Source Code Analysis Lecture 1](https://www.youtube.com/watch?v=MsUhQMz30J4)
 * [Android Framework - Device Tree in Android](https://www.youtube.com/watch?v=KA4TKFKyCMc&t=11s)
 * [Cara Port Custom ROM AOSP | Android 10](https://www.youtube.com/watch?v=kwnQVY1Wn6s)
+* [Getting Started | AOSP Rom Development](https://adityatelange.in/blog/aosp/aosp-getting-started/)
+* [How AOSP Security Patches are merged into Android Custom ROMs?](https://adityatelange.in/blog/aosp/merge-security-patches-aosp/)
+* [CAF's Android for MSM](https://adityatelange.in/blog/aosp/caf-android-for-msm/)
+* [Software Build and Installation Guide, Linux Android (Qualcomm)](https://developer.qualcomm.com/download/db410c/linux-android-software-build-and-installation-guide.pdf)
+* [Prebuilt apk in Build | AOSP Rom Development](https://adityatelange.in/blog/aosp/aosp-adding-prebuilt-apk/)
+* [Setting Up Build Environment | AOSP Rom Development](https://adityatelange.in/blog/aosp/aosp-setting-up-build-environment/)
+* [Creating a device tree from scratch](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1nnhWBrZtuVz5YC2OPfQVVp)
+* [AOSP Build References](https://www.youtube.com/playlist?list=PLeiDFxcsdhUq6Ch-9AAtiVU7Lw0tTSnKb)
 
 ## Documentation
 
@@ -100,6 +110,8 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Guides and Resources for Sony Xperia™ & AOSP](https://sx.ix5.org/info/)
 * [Open Devices : Guides & Resources (Sony devices)](https://opendevices.ix5.org/resources/)
 * [XDA : All guides at one place](https://forum.xda-developers.com/t/guides-all-guides-at-one-place.2073370/)
+* [Qualcomm Android Source Realease](https://wiki.codelinaro.org/en/clo/la/release)
+* [Archilinux wiki Android building](https://wiki.archlinux.org/title/Android#Building) - Steps for building Android on Archlinux (and maybe other distributions).
 
 ### Video Channel
 
@@ -155,6 +167,12 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 *Telegram is often used by system maintainers to share informations*
 
+* [Android ROM Development](https://t.me/androidromdev) - Discussion about Android ROM development and testing.
+* [RomDevelopment](https://t.me/alaskalinuxuser_romdevelopment)
+* [Bringup/FW chat](https://t.me/androidbringup) - Chat for device bringup/debugging and firmware.
+* [Linux Kernel Brickers](https://t.me/LinuxKernelNewbies)
+* [Android Building Help](https://t.me/AndroidBuildersHelp) - Group for help compiling Android AOSP ROMs.
+
 ## News
 
 * [LineageOS Engineering Blog](https://lineageos.org/engineering/)
@@ -166,10 +184,12 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Motorola](https://www.motorola.com/us/developer) & [Github](https://github.com/MotorolaMobilityLLC)
 * [Samsung](https://opensource.samsung.com/main) and [inquiry](https://opensource.samsung.com/requestInquiry)
 * [Sony](https://developer.sony.com/develop/open-source/)
+* [Qualcomm (Code Aurora)](https://www.codeaurora.org/) and [Proprietary sources](https://chipcode.qti.qualcomm.com/)
 
 ## Some device project
 
-* [Raspberry Vanilla](https://github.com/raspberry-vanilla) - AOSP for Raspberry Pi 4
+* [Raspberry Vanilla](https://github.com/raspberry-vanilla) - AOSP for Raspberry Pi 4.
+* [Project Elixir • [Devices]](https://github.com/ProjectElixir-Devices) - Offer a minimal UI enhancement & close to Stock Android ROM with great performance, security and stability.
 
 ## Related awesome
 
