@@ -20,7 +20,8 @@ Contributions are welcome! I am looking for any kind of information that can hel
     - [Formation](#formation)
   - [Specific point](#specific-point)
 - [Documentation](#documentation)
-  - [Video Channel](#video-channel)
+  - [Android Source](#android-source)
+- [Video Channel](#video-channel)
 - [Tools](#tools)
 - [Videos](#videos)
 - [Books](#books)
@@ -73,9 +74,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Vendor Blob Extraction (v2)](https://baalajimaestro.me/posts/extract-vendor-2/)
 * [Working with SELinux on Android](https://lineageos.org/engineering/HowTo-SELinux/)
 * [Qualcomm’s Chain of Trust](https://lineageos.org/engineering/Qualcomm-Firmware/)
-* [Verified Boot](https://source.android.com/docs/security/features/verifiedboot)
 * [Device Tree Reference](https://elinux.org/Device_Tree_Reference)
-* [Implementing dm-verity](https://source.android.com/docs/security/features/verifiedboot/dm-verity)
 * [Some problems that can occur while rom compilation and their solutions(especially for lettuce)](https://github.com/hpnightowl/android_helpful/blob/master/errors.txt)
 * [How To Port TWRP For MediaTek Android Devices](https://techsbyte.com/how-to-port-twrp-for-mediatek-android-devices/)
 * [How To Extract Your Stock Firmware from Your Android Device](https://techsbyte.com/how-to-extract-your-stock-firmware-from-your-android-device/)
@@ -113,7 +112,13 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Qualcomm Android Source Realease](https://wiki.codelinaro.org/en/clo/la/release)
 * [Archilinux wiki Android building](https://wiki.archlinux.org/title/Android#Building) - Steps for building Android on Archlinux (and maybe other distributions).
 
-### Video Channel
+### Android Source
+
+* [AIDL for HALs](https://source.android.com/docs/core/architecture/aidl/aidl-hals)
+* [Implementing dm-verity](https://source.android.com/docs/security/features/verifiedboot/dm-verity)
+* [Verified Boot](https://source.android.com/docs/security/features/verifiedboot)
+
+## Video Channel
 
 * [AlaskaLinuxUser AKLU](https://www.youtube.com/c/AlaskaLinuxUserAKLU)
 * [Android & Linux Development (@remainder30000)](https://www.youtube.com/@remainder30000)
@@ -150,6 +155,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [DumprX](https://github.com/DumprX/DumprX)
 * [Android Build Environment Scripts](https://github.com/CyberJalagam/android_rom_building_scripts)
 * [android_helpful](https://github.com/hpnightowl/android_helpful)
+* [hidl2aidl](https://source.android.com/docs/core/architecture/aidl/aidl-hals#converting-to-aidl) - For Converting an existing HAL from HIDL to AIDL.
 
 ## Videos
 
