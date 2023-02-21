@@ -50,6 +50,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
       - [TWRP](#twrp)
       - [LineageOS](#lineageos)
       - [ArrowOS](#arrowos)
+      - [OmniROM](#omnirom)
   - [Tools](#tools)
     - [Bash](#bash)
     - [Git, Gerrit \& merging](#git-gerrit--merging)
@@ -65,13 +66,19 @@ Contributions are welcome! I am looking for any kind of information that can hel
 - [Information](#information)
   - [Devices databases](#devices-databases)
 - [Tools](#tools-1)
+  - [General](#general-1)
+  - [Extractor](#extractor)
+  - [Kernel](#kernel-1)
+  - [Blob \& vendor](#blob--vendor)
+  - [Conversion](#conversion)
+  - [Debugging](#debugging-1)
   - [Vendor specific](#vendor-specific-1)
+    - [Nexus](#nexus)
     - [LG](#lg)
     - [MediaTek](#mediatek-1)
     - [Samsung](#samsung-1)
     - [Sony](#sony-2)
   - [Users scripts](#users-scripts)
-- [Videos](#videos)
 - [Books](#books)
 - [Online groupes](#online-groupes)
   - [Telegram channel](#telegram-channel)
@@ -99,6 +106,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Android Build System](https://elinux.org/Android_Build_System)
 * [How to build Android.... Where do I start?](https://www.youtube.com/watch?v=yNVe3mjCI1k)
 * [Linux Device Driver Programming Using Beaglebone Black (kernel)(udemy)(not free)](https://www.udemy.com/course/linux-device-driver-programming-using-beaglebone-black/)
+* [AOSP - Android OS Internals Series (Youtube playlist)](https://www.youtube.com/playlist?app=desktop&list=PLAlSOSt8vS8Ss3uEshNXQe3cbx9qtl8m4)
 
 ### Specific point
 
@@ -242,6 +250,8 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Making Dump Files Out of Android Device Partitions](https://forum.xda-developers.com/t/guide-making-dump-files-out-of-android-device-partitions.2450045/)
 * [Vendor Blob Extraction (v2)](https://baalajimaestro.me/posts/extract-vendor-2/) [old version](https://baalajimaestro.me/posts/extract-vendor/)
 * [How To Extract Your Stock Firmware from Your Android Device](https://techsbyte.com/how-to-extract-your-stock-firmware-from-your-android-device/)
+* [Find out which shared libs (.so) are missing](https://forum.xda-developers.com/t/tutorial-find-out-which-shared-libs-so-are-missing.2737126/)
+* [ldd equivalent on android](https://stackoverflow.com/questions/15534104/ldd-equivalent-on-android)
 
 #### Feature
 
@@ -262,6 +272,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 * [How to examine Android SELinux policy](https://www.whitewinterwolf.com/posts/2016/08/15/examine-android-selinux-policy/)
 * [Working with SELinux on Android](https://lineageos.org/engineering/HowTo-SELinux/)
+* [SELinux for Android 8.0](https://source.android.com/static/docs/security/features/selinux/images/SELinux_Treble.pdf)
 
 #### App integration
 
@@ -298,6 +309,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Strace outil de dépannage Linux / debugging](https://math-linux.com/linux-2/tutoriels-linux/article/strace-outil-de-depannage-linux-debugging)
 * [Strace et Ltrace : tracez les appels systèmes et librairies](https://wiki.deimos.fr/Strace_et_Ltrace_:_tracez_les_appels_syst%C3%A8mes_et_librairies.html)
 * [Android Log Analysis](https://budhdisharma.medium.com/android-log-analysis-176f9b9dafaf)
+* [How to Acquire Logs](https://telegra.ph/HOW-TO-TAKE-LOGS-06-11)
 
 #### Vendor specific
 
@@ -358,10 +370,15 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 * [How To Port CyanogenMod/LineageOS Android To Your Own Device](https://fat-tire.github.io/porting-intro.html)
 * [How to adapt a LineageOS device tree for AOSP](https://theautomatedparts.com/apblog/?p=12)
+* [How-to Build LineageOS​](https://forum.xda-developers.com/t/guide-build-lineageos-how-to-use-github.3551484/)
 
 ##### ArrowOS
 
 * [ArrowOS Compilation guide](https://blog.arrowos.net/android/arrowos/guides/compilation-guide/)
+
+##### OmniROM
+
+* [OmniROM - Porting Omni to your device](https://github.com/omnirom/Docs/blob/master/Porting_Omni_To_Your_Device.md)
 
 ### Tools
 
@@ -481,58 +498,69 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [PHONEDB - Processor](https://phonedb.net/index.php?m=processor&s=headlines)
 * [J's Android Device Database](http://newandroidbook.com/ddb/)
 
-
-
 ## Tools
 
 *Tools for helping development of Android Rom*
 
+### General
+
+* [Android Build Environment Scripts](https://github.com/CyberJalagam/android_rom_building_scripts)
+* [android_helpful](https://github.com/hpnightowl/android_helpful)
+* [mAid](https://maid.binbash.rocks/index.html) ([sources](https://code.binbash.rocks:8443/mAid)) - An easy and ready-to-use distribution for developing Android.
+* [Projekt Scribt](https://github.com/ScriBt/ScriBt) ([XDA thread](https://forum.xda-developers.com/t/guide-tool-linux-projekt-scribt-v2-2-1-build-a-rom-newbie-friendly.3503018/)) - ROM envsetup, sync and build script for learning developers.
+* [aosp-merger](https://github.com/LineageOS/scripts/tree/master/aosp-merger)
+
+### Extractor
+
+* [Android Image Kitchen](https://forum.xda-developers.com/t/tool-android-image-kitchen-unpack-repack-kernel-ramdisk-win-android-linux-mac.2073775/) - Unpack/Repack Kernel Ramdisk
+* [imjtool](http://newandroidbook.com/tools/imjtool.html)
+* [dextra](http://newandroidbook.com/tools/dextra.html)
+* [abootimg](https://github.com/ggrandou/abootimg)
+* [bootimgtool](https://github.com/vianney/bootimgtool)
+* [ROME](https://code.binbash.rocks:8443/mAid/android_rome) - [ROM] [E]xtractor, a simple GUI for extracting custom and stock ROMs containing.
+
+### Kernel
+
+* [Kernel Rebaser Script](https://github.com/Sushrut1101/android-kernel-rebaser)
+* [best-caf-kernel.py](https://github.com/LineageOS/scripts/blob/master/best-caf-kernel/best-caf-kernel.py)
+
+### Blob & vendor
+
 * [dumpyara](https://github.com/AndroidDumps/dumpyara) - For dumping files like vendors or blobs of an Android device.
 * [dumpyara (python)](https://github.com/sebaubuntu-python/dumpyara)
+* [Android-Blob-Utility](https://forum.xda-developers.com/t/blob-utility-for-aosp-based-roms.2794413/) [(sources)](https://github.com/JackpotClavin/Android-Blob-Utility)
+* [DumprX](https://github.com/DumprX/DumprX)
+* [aosp-missing-blobs](https://github.com/joshuous/AospMissingBlobs) - Tool to identify required blobs that are missing from AOSP ROM builds with dependencies.
+
+### Conversion
+
+* [hidl2aidl](https://source.android.com/docs/core/architecture/aidl/aidl-hals#converting-to-aidl) - For Converting an existing HAL from HIDL to AIDL.
+
+### Debugging
+
 * [Binder Explorer](https://github.com/opersys/binder-explorer-web)
 * [Process Explorer web](https://github.com/opersys/process-explorer-web) & [Process Explorer app](https://github.com/opersys/process-explorer-app)
 * [file-explorer web](https://github.com/opersys/file-explorer-web) & [file-explorer app](https://github.com/opersys/file-explorer-app)
 * [jtrace](http://newandroidbook.com/tools/jtrace.html)
 * [bdsm](http://newandroidbook.com/tools/bdsm.html)
-* [imjtool](http://newandroidbook.com/tools/imjtool.html)
 * [memento](http://newandroidbook.com/tools/memento.html)
 * [Process Explorer](http://newandroidbook.com/tools/procexp.html)
-* [dextra](http://newandroidbook.com/tools/dextra.html)
 * [bindump](http://newandroidbook.com/tools/bindump.html)
 * [JPT](http://newandroidbook.com/tools/jpt.html)
-* [anestisb/android-prepare-vendor (Github)](https://github.com/anestisb/android-prepare-vendor)
-* [UnSIN ~ SIN v3/v4/v5 Unpacker](https://forum.xda-developers.com/t/tool-unsin-sin-v3-v4-v5-unpacker-v1-13.3128106/)
-* [Android Image Kitchen](https://forum.xda-developers.com/t/tool-android-image-kitchen-unpack-repack-kernel-ramdisk-win-android-linux-mac.2073775/) - Unpack/Repack Kernel Ramdisk
-* [Android-Blob-Utility](https://forum.xda-developers.com/t/blob-utility-for-aosp-based-roms.2794413/) [(sources)](https://github.com/JackpotClavin/Android-Blob-Utility)
 * [Alogview](https://github.com/flimberger/alogview)
 * [PID Cat](https://github.com/JakeWharton/pidcat)
-* [DumprX](https://github.com/DumprX/DumprX)
-* [Android Build Environment Scripts](https://github.com/CyberJalagam/android_rom_building_scripts)
-* [android_helpful](https://github.com/hpnightowl/android_helpful)
-* [hidl2aidl](https://source.android.com/docs/core/architecture/aidl/aidl-hals#converting-to-aidl) - For Converting an existing HAL from HIDL to AIDL.
 * [strace](https://forum.xda-developers.com/t/utility-strace-4-8-ultimate-debugging-utility-now-ported-to-android.2516002/)
-* [mAid](https://maid.binbash.rocks/index.html) ([sources](https://code.binbash.rocks:8443/mAid)) - An easy and ready-to-use distribution for developing Android.
-* [abootimg](https://github.com/ggrandou/abootimg)
-* [bootimgtool](https://github.com/vianney/bootimgtool)
-* [ROME](https://code.binbash.rocks:8443/mAid/android_rome) - [ROM] [E]xtractor, a simple GUI for extracting custom and stock ROMs containing.
 * [Simple-ADB](https://forum.xda-developers.com/t/win-mac-linx-simple-adb.3417155/) ([sources](https://github.com/mhashim6/Simple-ADB)) - ADB/Fastboot with a Graphical User Interface.
-* [How-to Build LineageOS​](https://forum.xda-developers.com/t/guide-build-lineageos-how-to-use-github.3551484/)
-* [Find out which shared libs (.so) are missing](https://forum.xda-developers.com/t/tutorial-find-out-which-shared-libs-so-are-missing.2737126/)
-* [ldd equivalent on android](https://stackoverflow.com/questions/15534104/ldd-equivalent-on-android)
-* [OmniROM - Porting Omni to your device](https://github.com/omnirom/Docs/blob/master/Porting_Omni_To_Your_Device.md)
-* [SELinux for Android 8.0](https://source.android.com/static/docs/security/features/selinux/images/SELinux_Treble.pdf)
-* [How to Acquire Logs](https://telegra.ph/HOW-TO-TAKE-LOGS-06-11)
-* [Projekt Scribt](https://github.com/ScriBt/ScriBt) ([XDA thread](https://forum.xda-developers.com/t/guide-tool-linux-projekt-scribt-v2-2-1-build-a-rom-newbie-friendly.3503018/)) - ROM envsetup, sync and build script for learning developers.
-* [Kernel Rebaser Script](https://github.com/Sushrut1101/android-kernel-rebaser)
 * [dumpsys](https://developer.android.com/studio/command-line/dumpsys)
 * [Logcat](https://developer.android.com/studio/command-line/logcat)
 * [dmtracedump](https://developer.android.com/studio/command-line/dmtracedump)
 * [Simpleperf](https://android.googlesource.com/platform/system/extras/+/master/simpleperf/doc/README.md)
-* [aosp-missing-blobs](https://github.com/joshuous/AospMissingBlobs) - Tool to identify required blobs that are missing from AOSP ROM builds with dependencies.
-* [best-caf-kernel.py](https://github.com/LineageOS/scripts/blob/master/best-caf-kernel/best-caf-kernel.py)
-* [aosp-merger](https://github.com/LineageOS/scripts/tree/master/aosp-merger)
- 
+
 ### Vendor specific
+
+#### Nexus
+
+* [anestisb/android-prepare-vendor (Github)](https://github.com/anestisb/android-prepare-vendor)
 
 #### LG
 
@@ -550,6 +578,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 #### Sony
 
 * [Flashtool](https://github.com/Androxyde/Flashtool) and [website](https://flashtool.net/download.html) - An Xperia device flashing tool.
+* [UnSIN ~ SIN v3/v4/v5 Unpacker](https://forum.xda-developers.com/t/tool-unsin-sin-v3-v4-v5-unpacker-v1-13.3128106/)
 
 ### Users scripts
 
@@ -559,10 +588,6 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Build scripts](https://github.com/JarlPenguin/releases)
 * [LineageOS scripts](https://github.com/LineageOS/scripts)
 * [ShivamKumarJha/android_tools (Github)](https://github.com/ShivamKumarJha/android_tools) - Collection of scripts to help with Android ROM stuff.
-
-## Videos
-
-* [AOSP - Android OS Internals Series (Youtube playlist)](https://www.youtube.com/playlist?app=desktop&list=PLAlSOSt8vS8Ss3uEshNXQe3cbx9qtl8m4)
 
 ## Books
 
