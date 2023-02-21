@@ -41,7 +41,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
   - [Forum](#forum)
 - [News](#news)
 - [Vendors open source](#vendors-open-source)
-- [Android AOSP ROMs](#android-aosp-roms)
+- [ROMs](#roms)
 - [Sources example](#sources-example)
   - [Device project](#device-project)
 - [Related awesome](#related-awesome)
@@ -466,11 +466,11 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Sony](https://developer.sony.com/develop/open-source/) and [build instructions](https://developer.sony.com/develop/open-devices/guides/aosp-build-instructions/)
 * [Qualcomm (Code Aurora)](https://www.codeaurora.org/), [Sources](https://source.codeaurora.org/) and [Proprietary sources](https://chipcode.qti.qualcomm.com/)
 
-## Android AOSP ROMs
+## ROMs
 
-*Biggest Android AOSP projects. You can check her Gerrit instance for study how to port ROMs.*
+*Biggest ROMs projects. You can check her Gerrit instance for study how to port ROMs.*
 
-* [Android AOSP]()
+* [Android AOSP](https://source.android.com/)
   * [Google Android Review Gerrit](https://android-review.googlesource.com/q/status:open+-is:wip)
 * [LineageOS]()
   * [LineageOS Gerrit](https://review.lineageos.org/q/status:open+-is:wip)
