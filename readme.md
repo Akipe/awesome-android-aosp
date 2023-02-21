@@ -50,12 +50,12 @@ Contributions are welcome! I am looking for any kind of information that can hel
       - [TWRP](#twrp)
       - [LineageOS](#lineageos)
       - [ArrowOS](#arrowos)
-    - [Tools](#tools)
-      - [Bash](#bash)
-      - [Git, Gerrit \& merging](#git-gerrit--merging)
-      - [GNU Make](#gnu-make)
-      - [Soong](#soong)
-      - [Ninja build](#ninja-build)
+  - [Tools](#tools)
+    - [Bash](#bash)
+    - [Git, Gerrit \& merging](#git-gerrit--merging)
+    - [GNU Make](#gnu-make)
+    - [Soong](#soong)
+    - [Ninja build](#ninja-build)
   - [Formation](#formation)
   - [Documentation](#documentation)
     - [Qualcomm](#qualcomm-2)
@@ -363,15 +363,15 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 * [ArrowOS Compilation guide](https://blog.arrowos.net/android/arrowos/guides/compilation-guide/)
 
-#### Tools
+### Tools
 
-##### Bash
+#### Bash
 
 *There is also an awesome list with more resources : [awesome-shell](https://github.com/alebcay/awesome-shell#readme)*.
 
 * [Bash Commands and Tips for Beginners to Experts](https://dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je)
 
-##### Git, Gerrit & merging
+#### Git, Gerrit & merging
 
 *There is also awesome lists with more resources : [awesome-git](https://github.com/dictcp/awesome-git#readme), [Git and Git Flow Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet#readme) and [git-tips](https://github.com/git-tips/tips#readme).*
 
@@ -383,17 +383,17 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Git For Newbies](https://baalajimaestro.me/posts/git-for-newbies/)
 * [Using Gerrit code review](https://forum.xda-developers.com/t/guide-using-gerrit-code-review.3720802/)
 
-##### GNU Make
+#### GNU Make
 
 *There is also an awesome list with more resources : [awesome-make](https://github.com/adelarsq/awesome-make#readme)*
 
 * [GNU Autotools: a tutorial](https://bootlin.com/pub/conferences/2016/elc/petazzoni-autotools-tutorial/petazzoni-autotools-tutorial.pdf)
 
-##### Soong
+#### Soong
 
 * [Soong readme](https://android.googlesource.com/platform/build/soong/+/refs/heads/master/README.md) - Official documentation from Google.
 
-##### Ninja build
+#### Ninja build
 
 * [The Ninja build system](https://ninja-build.org/manual.html)
 
