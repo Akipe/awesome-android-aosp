@@ -541,9 +541,9 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Binder Explorer](https://github.com/opersys/binder-explorer-web) - Represente Binder relations.
 * [bindump](http://newandroidbook.com/tools/bindump.html) - Map which PIDs communicate over Binder.
 * [dmtracedump](https://developer.android.com/studio/command-line/dmtracedump) - Generates graphical call-stack diagrams from trace log files.
-* [dumpsys](https://developer.android.com/studio/command-line/dumpsys) - 
-* [file-explorer web](https://github.com/opersys/file-explorer-web) & [file-explorer app](https://github.com/opersys/file-explorer-app) - 
-* [JPT](http://newandroidbook.com/tools/jpt.html) - Get information about Android system services.
+* [dumpsys](https://developer.android.com/studio/command-line/dumpsys) - Get information about Android system services.
+* [file-explorer web](https://github.com/opersys/file-explorer-web) & [file-explorer app](https://github.com/opersys/file-explorer-app) - Exploring Android files with your computer.
+* [JPT](http://newandroidbook.com/tools/jpt.html) - A "quick & dirty" GPT partition editor.
 * [jtrace](http://newandroidbook.com/tools/jtrace.html) - An augmented, Linux/Android aware strace with plugin architecture.
 * [Logcat](https://developer.android.com/studio/command-line/logcat) - A command-line tool that dumps a log of system messages.
 * [memento](http://newandroidbook.com/tools/memento.html) - A simple but highly useful memory inspection tool.
