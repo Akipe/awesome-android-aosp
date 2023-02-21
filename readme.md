@@ -505,30 +505,30 @@ Contributions are welcome! I am looking for any kind of information that can hel
 ### General
 
 * [aosp-merger](https://github.com/LineageOS/scripts/tree/master/aosp-merger)
-* [mAid](https://maid.binbash.rocks/index.html) ([sources](https://code.binbash.rocks:8443/mAid)) - An easy and ready-to-use distribution for developing Android.
+* [mAid](https://maid.binbash.rocks/index.html) ([sources](https://code.binbash.rocks:8443/mAid)) - An easy and ready-to-use Linux distribution for developing Android.
 * [Projekt Scribt](https://github.com/ScriBt/ScriBt) ([XDA thread](https://forum.xda-developers.com/t/guide-tool-linux-projekt-scribt-v2-2-1-build-a-rom-newbie-friendly.3503018/)) - ROM envsetup, sync and build script for learning developers.
 
 ### Extractor
 
-* [abootimg](https://github.com/ggrandou/abootimg)
-* [Android Image Kitchen](https://forum.xda-developers.com/t/tool-android-image-kitchen-unpack-repack-kernel-ramdisk-win-android-linux-mac.2073775/) - Unpack/Repack Kernel Ramdisk
-* [bootimgtool](https://github.com/vianney/bootimgtool)
-* [dextra](http://newandroidbook.com/tools/dextra.html)
-* [imjtool](http://newandroidbook.com/tools/imjtool.html)
+* [abootimg](https://github.com/ggrandou/abootimg) - Manipulate Android boot images.
+* [Android Image Kitchen](https://forum.xda-developers.com/t/tool-android-image-kitchen-unpack-repack-kernel-ramdisk-win-android-linux-mac.2073775/) - Unpack/repack kernel and recovery images, and edit the ramdisk.
+* [bootimgtool](https://github.com/vianney/bootimgtool) - Unpack/pack Android boot.img.
+* [dextra](http://newandroidbook.com/tools/dextra.html) - An alternative to dexdump for displaying information about .dex files.
+* [imjtool](http://newandroidbook.com/tools/imjtool.html) - A quick extractor of Android images.
 * [ROME](https://code.binbash.rocks:8443/mAid/android_rome) - [ROM] [E]xtractor, a simple GUI for extracting custom and stock ROMs containing.
 
 ### Kernel
 
-* [best-caf-kernel.py](https://github.com/LineageOS/scripts/blob/master/best-caf-kernel/best-caf-kernel.py)
-* [Kernel Rebaser Script](https://github.com/Sushrut1101/android-kernel-rebaser)
+* [best-caf-kernel.py](https://github.com/LineageOS/scripts/blob/master/best-caf-kernel/best-caf-kernel.py) - Finding the best CAF tag for a vendor kernel.
+* [Kernel Rebaser Script](https://github.com/Sushrut1101/android-kernel-rebaser) - Rebase an OEM kernel to Android Common Kernel base.
 
 ### Blob & vendor
 
-* [Android-Blob-Utility](https://forum.xda-developers.com/t/blob-utility-for-aosp-based-roms.2794413/) [(sources)](https://github.com/JackpotClavin/Android-Blob-Utility)
-* [aosp-missing-blobs](https://github.com/joshuous/AospMissingBlobs) - Tool to identify required blobs that are missing from AOSP ROM builds with dependencies.
-* [DumprX](https://github.com/DumprX/DumprX)
-* [dumpyara](https://github.com/AndroidDumps/dumpyara) - For dumping files like vendors or blobs of an Android device.
-* [dumpyara (python)](https://github.com/sebaubuntu-python/dumpyara)
+* [Android-Blob-Utility](https://forum.xda-developers.com/t/blob-utility-for-aosp-based-roms.2794413/) [(sources)](https://github.com/JackpotClavin/Android-Blob-Utility) - Easily find which proprietary blobs is needed.
+* [aosp-missing-blobs](https://github.com/joshuous/AospMissingBlobs) - Identify required blobs that are missing from AOSP ROM builds with dependencies.
+* [DumprX](https://github.com/DumprX/DumprX) - Firmware extractor based on dumpyara.
+* [dumpyara](https://github.com/AndroidDumps/dumpyara) - Dumping vendor and Android content of a device.
+* [dumpyara (Python)](https://github.com/sebaubuntu-python/dumpyara) - Like dumpyara but code in Python.
 
 ### Conversion
 
@@ -536,29 +536,29 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 ### Debugging
 
-* [Alogview](https://github.com/flimberger/alogview)
-* [bdsm](http://newandroidbook.com/tools/bdsm.html)
-* [Binder Explorer](https://github.com/opersys/binder-explorer-web)
-* [bindump](http://newandroidbook.com/tools/bindump.html)
-* [dmtracedump](https://developer.android.com/studio/command-line/dmtracedump)
-* [dumpsys](https://developer.android.com/studio/command-line/dumpsys)
-* [file-explorer web](https://github.com/opersys/file-explorer-web) & [file-explorer app](https://github.com/opersys/file-explorer-app)
-* [JPT](http://newandroidbook.com/tools/jpt.html)
-* [jtrace](http://newandroidbook.com/tools/jtrace.html)
-* [Logcat](https://developer.android.com/studio/command-line/logcat)
-* [memento](http://newandroidbook.com/tools/memento.html)
-* [PID Cat](https://github.com/JakeWharton/pidcat)
-* [Process Explorer](http://newandroidbook.com/tools/procexp.html)
-* [Process Explorer web](https://github.com/opersys/process-explorer-web) & [Process Explorer app](https://github.com/opersys/process-explorer-app)
-* [Simpleperf](https://android.googlesource.com/platform/system/extras/+/master/simpleperf/doc/README.md)
+* [Alogview](https://github.com/flimberger/alogview) - A coloured log viewer for ADB logcat.
+* [bdsm](http://newandroidbook.com/tools/bdsm.html) - Debbuging Android's Binder.
+* [Binder Explorer](https://github.com/opersys/binder-explorer-web) - Represente Binder relations.
+* [bindump](http://newandroidbook.com/tools/bindump.html) - Map which PIDs communicate over Binder.
+* [dmtracedump](https://developer.android.com/studio/command-line/dmtracedump) - Generates graphical call-stack diagrams from trace log files.
+* [dumpsys](https://developer.android.com/studio/command-line/dumpsys) - 
+* [file-explorer web](https://github.com/opersys/file-explorer-web) & [file-explorer app](https://github.com/opersys/file-explorer-app) - 
+* [JPT](http://newandroidbook.com/tools/jpt.html) - Get information about Android system services.
+* [jtrace](http://newandroidbook.com/tools/jtrace.html) - An augmented, Linux/Android aware strace with plugin architecture.
+* [Logcat](https://developer.android.com/studio/command-line/logcat) - A command-line tool that dumps a log of system messages.
+* [memento](http://newandroidbook.com/tools/memento.html) - A simple but highly useful memory inspection tool.
+* [PID Cat](https://github.com/JakeWharton/pidcat) - Only display log messages coming from a specific application.
+* [Process Explorer](http://newandroidbook.com/tools/procexp.html) - Show current process like the "top" application.
+* [Process Explorer web](https://github.com/opersys/process-explorer-web) & [Process Explorer app](https://github.com/opersys/process-explorer-app) - Show current process graphicaly.
+* [Simpleperf](https://android.googlesource.com/platform/system/extras/+/master/simpleperf/doc/README.md) - A native CPU profiling tool for Android (include in Android Studio).
 * [Simple-ADB](https://forum.xda-developers.com/t/win-mac-linx-simple-adb.3417155/) ([sources](https://github.com/mhashim6/Simple-ADB)) - ADB/Fastboot with a Graphical User Interface.
-* [strace](https://forum.xda-developers.com/t/utility-strace-4-8-ultimate-debugging-utility-now-ported-to-android.2516002/)
+* [strace](https://forum.xda-developers.com/t/utility-strace-4-8-ultimate-debugging-utility-now-ported-to-android.2516002/) - A debugging utility to monitor a program system calls or signals it receives. 
 
 ### Vendor specific
 
 #### Nexus
 
-* [anestisb/android-prepare-vendor (Github)](https://github.com/anestisb/android-prepare-vendor)
+* [anestisb/android-prepare-vendor (Github)](https://github.com/anestisb/android-prepare-vendor) - A collection of utilities for Nexus devices.
 
 #### LG
 
@@ -576,7 +576,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 #### Sony
 
 * [Flashtool](https://github.com/Androxyde/Flashtool) and [website](https://flashtool.net/download.html) - An Xperia device flashing tool.
-* [UnSIN ~ SIN v3/v4/v5 Unpacker](https://forum.xda-developers.com/t/tool-unsin-sin-v3-v4-v5-unpacker-v1-13.3128106/)
+* [UnSIN ~ SIN v3/v4/v5 Unpacker](https://forum.xda-developers.com/t/tool-unsin-sin-v3-v4-v5-unpacker-v1-13.3128106/) - An unpacker for Sony devices images.
 
 ### Users scripts
 
