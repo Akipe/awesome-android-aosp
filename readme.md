@@ -85,7 +85,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
   - [Telegram channel](#telegram-channel)
   - [Forum](#forum)
 - [News](#news)
-- [Vendors open source](#vendors-open-source)
+- [Vendors sources](#vendors-sources)
 - [Blob](#blob)
 - [ROMs](#roms)
 - [Sources example](#sources-example)
@@ -637,7 +637,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
   * [TWRP](https://www.xda-developers.com/tag/twrp/)
   * [XDA MODS](https://www.xda-developers.com/category/developments/)
 
-## Vendors open source
+## Vendors sources
 
 *Where you can download open source software of your device, like the Linux kernel sources.*
 
