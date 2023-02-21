@@ -21,6 +21,8 @@ Contributions are welcome! I am looking for any kind of information that can hel
   - [Specific point](#specific-point)
     - [Bash](#bash)
     - [Git](#git)
+    - [GNU Make](#gnu-make)
+    - [Soong](#soong)
 - [Documentation](#documentation)
   - [Devices databases](#devices-databases)
   - [Android Source](#android-source)
@@ -41,7 +43,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 - [Vendors open source](#vendors-open-source)
 - [Android AOSP ROMs](#android-aosp-roms)
 - [Sources example](#sources-example)
-  - [Some device project](#some-device-project)
+  - [Device project](#device-project)
 - [Related awesome](#related-awesome)
 - [Todo](#todo)
 - [Contributing](#contributing)
@@ -50,7 +52,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 ### Where to start
 
-* [Get started with Android Development (source.android.com)](https://source.android.com/docs/setup) - Official guide to beggining Android AOSP development.
+* [Get started with Android Development (source.android.com)](https://source.android.com/docs/setup) - Official guide to beginning Android AOSP development.
 * [eyedeekay/android_porting_guidebook (github)](https://github.com/eyedeekay/android_porting_guidebook) - An (incomplete) guide book for porting Android ROM.
 * [Android OS Internals / AOSP Mobile ROM Development (udemy)](https://www.udemy.com/course/android-os-internals-aosp-mobile-development-2020-edition/) - A paid course for learning Android OS development.
 * [Android OS Internals / AOSP Automotive ROM Development (udemy)](https://www.udemy.com/course/android-os-internals-aosp-automotive-development/) - A paid course for learning Android OS development.
@@ -71,7 +73,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 ### Specific point
 
 * [Tutorial: Android Internals - Building a Custom ROM, Pt. 1 of 2 (Youtube)](https://www.youtube.com/watch?v=1_H4AlQaNa0)
-* [Building The Android Open Source Project (4 parts)](https://littlelostandroid.wordpress.com/2015/11/28/building-the-android-open-source-project/)
+* [Building The Android Open Source Project 1](https://littlelostandroid.wordpress.com/2015/11/28/building-the-android-open-source-project/) [(archive)](https://web.archive.org/web/20230221162551/https://littlelostandroid.wordpress.com/2015/11/28/building-the-android-open-source-project/), [2](https://littlelostandroid.wordpress.com/2015/11/30/building-the-android-open-source-project-part-2-start-off-small/), [3](https://littlelostandroid.wordpress.com/2015/12/07/building-the-android-open-source-project-part-3-flashing/), [4](https://littlelostandroid.wordpress.com/2015/12/09/building-the-android-open-source-project-part-4-git-repositories/)
 * [Android Tools (Github)](https://github.com/nathanchance/Android-Tools/) - Contains public guides and scripts tailored for custom Android Development.
 * [How to examine Android SELinux policy](https://www.whitewinterwolf.com/posts/2016/08/15/examine-android-selinux-policy/)
 * [Extract vendor from stock firmware (Sony Xperia Z7 Premium)](https://forum.xda-developers.com/t/guide-extract-vendor-from-stock-firmware.4212587/)
@@ -209,14 +211,26 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 #### Bash
 
+*There is also an awesome list with more resources : [awesome-shell](https://github.com/alebcay/awesome-shell#readme)*.
+
 * [Bash Commands and Tips for Beginners to Experts](https://dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je)
 
 #### Git
+
+*There is also awesome lists with more resources : [awesome-git](https://github.com/dictcp/awesome-git#readme), [Git and Git Flow Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet#readme) and [git-tips](https://github.com/git-tips/tips#readme).*
 
 * [Oh Shit, Git!?!](https://ohshitgit.com/)
 * [Git Immersion](https://gitimmersion.com/)
 * [Become a git guru](https://www.atlassian.com/git/tutorials)
 * [Git For Newbies](https://baalajimaestro.me/posts/git-for-newbies/)
+
+#### GNU Make
+
+*There is also an awesome list with more resources : [awesome-make](https://github.com/adelarsq/awesome-make#readme)*
+
+#### Soong
+
+* [Soong readme](https://android.googlesource.com/platform/build/soong/+/refs/heads/master/README.md) - Official documentation from Google.
 
 ## Documentation
 
@@ -310,6 +324,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Android Common Kernels](https://source.android.com/docs/core/architecture/kernel/android-common)
 * [Analyze with Profile GPU Rendering](https://developer.android.com/topic/performance/rendering/profile-gpu)
 * [Inspect GPU rendering speed and overdraw](https://developer.android.com/topic/performance/rendering/inspect-gpu-rendering)
+* [Soong Build System](https://source.android.com/docs/setup/build)
 
 ## Video Channel
 
@@ -415,7 +430,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 ### Telegram channel
 
-*Telegram is often used by system maintainers to share informations*
+*Telegram is often used for asking help and share informations.*
 
 * [AndroidRom_developers](https://t.me/bestandroiddevs)
 * [Android Building Help](https://t.me/AndroidBuildersHelp) - Group for help compiling Android AOSP ROMs.
@@ -441,6 +456,8 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 ## Vendors open source
 
+*Where you can download open source software of your device, like the Linux kernel sources.*
+
 * [Fairphone](https://code.fairphone.com/)
 * [Huawei](https://consumer.huawei.com/en/opensource/)
 * [LG](https://opensource.lge.com/index) and [inquiry](https://opensource.lge.com/inquiry)
@@ -451,6 +468,8 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 ## Android AOSP ROMs
 
+*Biggest Android AOSP projects. You can check her Gerrit instance for study how to port ROMs.*
+
 * [Android AOSP]()
   * [Google Android Review Gerrit](https://android-review.googlesource.com/q/status:open+-is:wip)
 * [LineageOS]()
@@ -460,10 +479,14 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 ## Sources example
 
+*Source code for some project related to Android AOSP.*
+
 * [android-linux-stable (archive)](https://github.com/android-linux-stable)
 * [Android AOSP mirror Github](https://github.com/aosp-mirror/platform_development)
 
-### Some device project
+### Device project
+
+*Some device project source which you can inspect to study how to port devices.*
 
 * [Raspberry Vanilla](https://github.com/raspberry-vanilla) - AOSP for Raspberry Pi 4.
 * [Project Elixir • [Devices]](https://github.com/ProjectElixir-Devices) - Offer a minimal UI enhancement & close to Stock Android ROM with great performance, security and stability.
@@ -471,8 +494,14 @@ Contributions are welcome! I am looking for any kind of information that can hel
 ## Related awesome
 
 * [awesome-android](https://github.com/JStumpp/awesome-android#readme) - For Android application development.
-* [awesome-android-ui](https://github.com/wasabeef/awesome-android-ui) - List of Android UI/UX Libraries
-* [ android-security-awesome](https://github.com/ashishb/android-security-awesome) - A collection of android security related resources.
+* [awesome-android-ui](https://github.com/wasabeef/awesome-android-ui#readme) - List of Android UI/UX Libraries
+* [android-security-awesome](https://github.com/ashishb/android-security-awesome#readme) - A collection of android security related resources.
+* [awesome-git](https://github.com/dictcp/awesome-git#readme) - Ressources for learning how to use Git.
+* [Git and Git Flow Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet#readme)
+* [git-tips](https://github.com/git-tips/tips#readme)
+* [awesome-shell](https://github.com/alebcay/awesome-shell#readme)
+* [awesome-linux](https://github.com/inputsh/awesome-linux#readme)
+* [awesome-make](https://github.com/adelarsq/awesome-make#readme)
 
 ## Todo
 * <https://github.com/davisRoman/aosp-research>
