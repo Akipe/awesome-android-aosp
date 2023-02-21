@@ -354,7 +354,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [anestisb/android-prepare-vendor (Github)](https://github.com/anestisb/android-prepare-vendor)
 * [UnSIN ~ SIN v3/v4/v5 Unpacker](https://forum.xda-developers.com/t/tool-unsin-sin-v3-v4-v5-unpacker-v1-13.3128106/)
 * [Android Image Kitchen](https://forum.xda-developers.com/t/tool-android-image-kitchen-unpack-repack-kernel-ramdisk-win-android-linux-mac.2073775/) - Unpack/Repack Kernel Ramdisk
-* [Android-Blob-Utility][https://forum.xda-developers.com/t/blob-utility-for-aosp-based-roms.2794413/] [(sources)](https://github.com/JackpotClavin/Android-Blob-Utility)
+* [Android-Blob-Utility](https://forum.xda-developers.com/t/blob-utility-for-aosp-based-roms.2794413/) [(sources)](https://github.com/JackpotClavin/Android-Blob-Utility)
 * [Alogview](https://github.com/flimberger/alogview)
 * [PID Cat](https://github.com/JakeWharton/pidcat)
 * [DumprX](https://github.com/DumprX/DumprX)
