@@ -72,6 +72,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
   - [Blob \& vendor](#blob--vendor)
   - [Conversion](#conversion)
   - [Debugging](#debugging-1)
+  - [Partitions](#partitions)
   - [Vendor specific](#vendor-specific-1)
     - [Nexus](#nexus)
     - [LG](#lg)
@@ -543,7 +544,6 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [dmtracedump](https://developer.android.com/studio/command-line/dmtracedump) - Generates graphical call-stack diagrams from trace log files.
 * [dumpsys](https://developer.android.com/studio/command-line/dumpsys) - Get information about Android system services.
 * [file-explorer web](https://github.com/opersys/file-explorer-web) & [file-explorer app](https://github.com/opersys/file-explorer-app) - Exploring Android files with your computer.
-* [JPT](http://newandroidbook.com/tools/jpt.html) - A "quick & dirty" GPT partition editor.
 * [jtrace](http://newandroidbook.com/tools/jtrace.html) - An augmented, Linux/Android aware strace with plugin architecture.
 * [Logcat](https://developer.android.com/studio/command-line/logcat) - A command-line tool that dumps a log of system messages.
 * [memento](http://newandroidbook.com/tools/memento.html) - A simple but highly useful memory inspection tool.
@@ -553,6 +553,10 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Simpleperf](https://android.googlesource.com/platform/system/extras/+/master/simpleperf/doc/README.md) - A native CPU profiling tool for Android (include in Android Studio).
 * [Simple-ADB](https://forum.xda-developers.com/t/win-mac-linx-simple-adb.3417155/) ([sources](https://github.com/mhashim6/Simple-ADB)) - ADB/Fastboot with a Graphical User Interface.
 * [strace](https://forum.xda-developers.com/t/utility-strace-4-8-ultimate-debugging-utility-now-ported-to-android.2516002/) - A debugging utility to monitor a program system calls or signals it receives. 
+
+### Partitions
+
+* [JPT](http://newandroidbook.com/tools/jpt.html) - A "quick & dirty" GPT partition editor.
 
 ### Vendor specific
 
