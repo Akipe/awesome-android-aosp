@@ -641,13 +641,40 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 *Where you can download open source software of your device, like the Linux kernel sources.*
 
+* [Asus](https://www.asus.com/mobile/phones/all-series/)
+  * Search for each devices > support > Driver & Utility > Source Code
 * [Fairphone](https://code.fairphone.com/)
+* [Google](https://developers.google.com/android/images)
 * [Huawei](https://consumer.huawei.com/en/opensource/)
-* [LG](https://opensource.lge.com/index) and [inquiry](https://opensource.lge.com/inquiry)
-* [Motorola](https://www.motorola.com/us/developer) & [Github](https://github.com/MotorolaMobilityLLC)
-* [Qualcomm (Code Aurora)](https://www.codeaurora.org/), [Sources](https://source.codeaurora.org/) and [Proprietary sources](https://chipcode.qti.qualcomm.com/)
-* [Samsung](https://opensource.samsung.com/main) and [inquiry](https://opensource.samsung.com/requestInquiry)
-* [Sony](https://developer.sony.com/develop/open-source/) and [build instructions](https://developer.sony.com/develop/open-devices/guides/aosp-build-instructions/)
+* [Infinix](https://www.infinixmobility.com)
+  * [Github](https://github.com/OpenSource-Infinix)
+* [LG](https://opensource.lge.com/index)
+  * [Inquiry sources](https://opensource.lge.com/inquiry)
+* [MediaTek](https://www.mediatek.com/) - No open source repositories available directly.
+  * [Github](https://github.com/MediaTek-Labs)
+* [Nokia / HMD Global](https://www.nokia.com/)
+  * No sources
+* [Motorola](https://www.motorola.com/us/developer)
+  * [Github repositories](https://github.com/MotorolaMobilityLLC)
+* [Nothing Phone](https://nothing.tech/)
+  * [Github](https://github.com/NothingOSS)
+* [OnePlus](https://www.oneplus.com/)
+  * [Github](https://github.com/OnePlusOSS)
+* [Oppo](https://www.oppo.com/my/store/contents/legal/open-source-software-notice/)
+  * [Github](https://github.com/oppo-source)
+* [Qualcomm (Code Aurora)](https://www.codeaurora.org/)
+  * [Repositories sources](https://source.codeaurora.org/)
+  * [Proprietary binaries sources (account needed)](https://chipcode.qti.qualcomm.com/)
+* [Realme](https://github.com/realme-kernel-opensource)
+* [Samsung](https://opensource.samsung.com/main)
+  * [Inquiry sources](https://opensource.samsung.com/requestInquiry)
+* [Sony](https://developer.sony.com/develop/open-source/)
+  * [Build instructions](https://developer.sony.com/develop/open-devices/guides/aosp-build-instructions/)
+* [Vivo](https://opensource.vivo.com/Project)
+* [Wiko](https://www.wikogeek.com/)
+  * [Inquiry sources](https://de.wikomobile.com/promo.php?d=2919)
+* [Xiaomi](www.xiaomi.cn)
+  * [Github repositories](https://github.com/MiCode?type=source)
 
 ## Blob
 
