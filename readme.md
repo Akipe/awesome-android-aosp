@@ -19,6 +19,8 @@ Contributions are welcome! I am looking for any kind of information that can hel
   - [Where to start](#where-to-start)
     - [Formation](#formation)
   - [Specific point](#specific-point)
+    - [Bash](#bash)
+    - [Git](#git)
 - [Documentation](#documentation)
   - [Devices databases](#devices-databases)
   - [Android Source](#android-source)
@@ -37,6 +39,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
   - [Forum](#forum)
 - [News](#news)
 - [Vendors open source](#vendors-open-source)
+- [Android AOSP ROMs](#android-aosp-roms)
 - [Sources example](#sources-example)
   - [Some device project](#some-device-project)
 - [Related awesome](#related-awesome)
@@ -84,7 +87,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Making Dump Files Out of Android Device Partitions](https://forum.xda-developers.com/t/guide-making-dump-files-out-of-android-device-partitions.2450045/)
 * [How to build android cts? And how to add and run your test case?](https://stackoverflow.com/questions/2824015/how-to-build-android-cts-and-how-to-add-and-run-your-test-case)
 * [Building AOSP, fastbooting on device](https://scribe.rip/@sohambhattacharya/building-aosp-fastbooting-on-device-eae05938cef8)
-* [Vendor Blob Extraction (v2)](https://baalajimaestro.me/posts/extract-vendor-2/)
+* [Vendor Blob Extraction (v2)](https://baalajimaestro.me/posts/extract-vendor-2/) [old version](https://baalajimaestro.me/posts/extract-vendor/)
 * [Working with SELinux on Android](https://lineageos.org/engineering/HowTo-SELinux/)
 * [Qualcomm’s Chain of Trust](https://lineageos.org/engineering/Qualcomm-Firmware/)
 * [Device Tree Reference](https://elinux.org/Device_Tree_Reference)
@@ -188,6 +191,32 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Adreno and Vulkan drivers for Snapdragon 820/1](https://forum.xda-developers.com/t/mod-adreno-nougat-vulkan-thdr-adreno-and-vulkan-drivers-for-snapdragon-820-1.3555141/)
 * [Hardware rendering of SurfaceFlinger on Qualcomm Adreno GPUs](https://mjanja.ch/2012/12/hardware-rendering-of-surfaceflinger-on-qualcomm-adreno-gpus/)
 * [How does someone find which CAF tag of the camera HAL is closest to stock one? / CameraWrapper ](https://www.reddit.com/r/LineageOS/comments/8pv0lz/devq_how_does_someone_find_which_caf_tag_of_the/)
+* [How to import the sources to Android Studio / IntelliJ](https://wiki.lineageos.org/how-to/import-to-android-studio)
+* Android rom building made easy - a beginers Guide [part 1](https://www.youtube.com/watch?v=LPXK2Lv0nmk) [part 2](https://www.youtube.com/watch?v=Zr7esDS-QrI)
+* [Building AOSP](https://github.com/nathanchance/android-tools/blob/main/guides/building_aosp.txt)
+* [How to merge a newer CAF tag in an android kernel](https://gist.github.com/DD3Boh/6c51fd3c5f91b1042e956771483714de)
+* [Porting Kernel Source to Snapdragon Device](https://forum.xda-developers.com/t/guide-porting-kernel-source-to-snapdragon-device.4042829/)
+* [How To Build Android Kernel With Features](https://forum.xda-developers.com/t/guide-noobs-familiar-how-to-build-android-kernel-with-features.3654336/)
+* [How to Build Linux Kernel with Android](https://gist.github.com/EduApps-CDG/733e29c28dd53e91128d384c2e879397)
+* [Use Github Action to compile Recovery](https://github.com/CaptainThrowback/Action-Recovery-Builder)
+* [How to compile any Android stock kernel](https://www.youtube.com/watch?v=cueEGjQES9o)
+* [Kernel For Newbies](https://baalajimaestro.me/posts/kernel-for-newbies/)
+* [how to upstream the android kernel](https://www.youtube.com/watch?v=ZDqJvOj3-aE)
+* [Compile a custom android kernel for Asus ROG Phone 2 using clang 10](https://www.youtube.com/watch?v=b8-eOfWviU0)
+* [How to create twrp device tree from scratch](https://www.youtube.com/playlist?list=PLsljP0DCGt1EBN4X-NR3-oS6f1NYxLLQA)
+* [start working on android kernel from scratch add kernel commits history qlcom devices part 1](https://www.youtube.com/watch?v=89sQiVznZxM)
+* [Android kernel development](https://www.youtube.com/playlist?list=PLsljP0DCGt1Fn8Ie8KeJxW4PZcImVwDE2)
+
+#### Bash
+
+* [Bash Commands and Tips for Beginners to Experts](https://dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je)
+
+#### Git
+
+* [Oh Shit, Git!?!](https://ohshitgit.com/)
+* [Git Immersion](https://gitimmersion.com/)
+* [Become a git guru](https://www.atlassian.com/git/tutorials)
+* [Git For Newbies](https://baalajimaestro.me/posts/git-for-newbies/)
 
 ## Documentation
 
@@ -238,6 +267,8 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [ArrowOS Compilation guide](https://blog.arrowos.net/android/arrowos/guides/compilation-guide/)
 * [How to adapt a LineageOS device tree for AOSP](https://theautomatedparts.com/apblog/?p=12)
 * [Halium](https://docs.halium.org/en/latest/index.html)
+* [Android Kernel Download](https://elinux.org/Android_Kernel_Download)
+* [Android Kernel Features](https://elinux.org/Android_Kernel_Features)
 
 ### Devices databases
 
@@ -272,6 +303,13 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Encryption](https://source.android.com/docs/security/features/encryption)
 * [File-Based Encryption](https://source.android.com/docs/security/features/encryption/file-based)
 * [Full-Disk Encryption](https://source.android.com/docs/security/features/encryption/full-disk)
+* [Android HAL Reference (legacy)](https://source.android.com/reference/hal)
+* [Customizing SELinux](https://source.android.com/docs/security/features/selinux/customize)
+* [Writing SELinux Policy](https://source.android.com/docs/security/features/selinux/device-policy)
+* [Downloading the Source](https://source.android.com/docs/setup/build/downloading)
+* [Android Common Kernels](https://source.android.com/docs/core/architecture/kernel/android-common)
+* [Analyze with Profile GPU Rendering](https://developer.android.com/topic/performance/rendering/profile-gpu)
+* [Inspect GPU rendering speed and overdraw](https://developer.android.com/topic/performance/rendering/inspect-gpu-rendering)
 
 ## Video Channel
 
@@ -327,6 +365,9 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Logcat](https://developer.android.com/studio/command-line/logcat)
 * [dmtracedump](https://developer.android.com/studio/command-line/dmtracedump)
 * [Simpleperf](https://android.googlesource.com/platform/system/extras/+/master/simpleperf/doc/README.md)
+* [aosp-missing-blobs](https://github.com/joshuous/AospMissingBlobs) - Tool to identify required blobs that are missing from AOSP ROM builds with dependencies.
+* [best-caf-kernel.py](https://github.com/LineageOS/scripts/blob/master/best-caf-kernel/best-caf-kernel.py)
+* [aosp-merger](https://github.com/LineageOS/scripts/tree/master/aosp-merger)
  
 ### Vendor specific
 
@@ -354,6 +395,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [ShivamKumarJha/android_tools (Github)](https://github.com/ShivamKumarJha/android_tools) - Collection of scripts to help with Android ROM stuff.
 * [akhilnarang/scripts (Github)](https://github.com/akhilnarang/scripts) - Some script useful for ROM development.
 * [Build scripts](https://github.com/JarlPenguin/releases)
+* [LineageOS scripts](https://github.com/LineageOS/scripts)
 
 ## Videos
 
@@ -376,12 +418,15 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 *Telegram is often used by system maintainers to share informations*
 
-* [Android ROM Development](https://t.me/androidromdev) - Discussion about Android ROM development and testing.
-* [RomDevelopment](https://t.me/alaskalinuxuser_romdevelopment)
-* [Bringup/FW chat](https://t.me/androidbringup) - Chat for device bringup/debugging and firmware.
-* [Linux Kernel Brickers](https://t.me/LinuxKernelNewbies)
+* [AndroidRom_developers](https://t.me/bestandroiddevs)
 * [Android Building Help](https://t.me/AndroidBuildersHelp) - Group for help compiling Android AOSP ROMs.
+* [Android ROM Development](https://t.me/androidromdev) - Discussion about Android ROM development and testing.
+* [AOSP Tracker](https://t.me/aosptracker) - Tracking Android source tags and branches.
+* [Bringup/FW chat](https://t.me/androidbringup) - Chat for device bringup/debugging and firmware.
 * [Codeaurora Releases](https://t.me/s/CAFReleases) - Tracking CAF new releases.
+* [Linux Kernel Brickers](https://t.me/LinuxKernelNewbies)
+* [TWRP Building Support Group](https://t.me/build_twrp)
+* [RomDevelopment](https://t.me/alaskalinuxuser_romdevelopment)
 
 ### Forum
 
@@ -405,12 +450,18 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Sony](https://developer.sony.com/develop/open-source/) and [build instructions](https://developer.sony.com/develop/open-devices/guides/aosp-build-instructions/)
 * [Qualcomm (Code Aurora)](https://www.codeaurora.org/), [Sources](https://source.codeaurora.org/) and [Proprietary sources](https://chipcode.qti.qualcomm.com/)
 
+## Android AOSP ROMs
+
+* [Android AOSP]()
+  * [Google Android Review Gerrit](https://android-review.googlesource.com/q/status:open+-is:wip)
+* [LineageOS]()
+  * [LineageOS Gerrit](https://review.lineageos.org/q/status:open+-is:wip)
+* [TWRP](https://twrp.me/)
+  * [TWRP Gerrit](https://gerrit.twrp.me/q/status:open+-is:wip)
+
 ## Sources example
 
-* [LineageOS Gerrit](https://review.lineageos.org/q/status:open+-is:wip)
-* [TWRP Gerrit](https://gerrit.twrp.me/q/status:open+-is:wip)
 * [android-linux-stable (archive)](https://github.com/android-linux-stable)
-* [Google Android Review Gerrit](https://android-review.googlesource.com/q/status:open+-is:wip)
 * [Android AOSP mirror Github](https://github.com/aosp-mirror/platform_development)
 
 ### Some device project
