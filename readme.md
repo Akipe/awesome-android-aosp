@@ -41,6 +41,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
   - [Forum](#forum)
 - [News](#news)
 - [Vendors open source](#vendors-open-source)
+- [Blob](#blob)
 - [ROMs](#roms)
 - [Sources example](#sources-example)
   - [Device project](#device-project)
@@ -289,7 +290,6 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Device Info HW Database](https://deviceinfohw.ru/devices/)
 * [PHONEDB](https://phonedb.net/)
 * [PHONEDB - Processor](https://phonedb.net/index.php?m=processor&s=headlines)
-* [Android Dumps](https://dumps.tadiphone.dev/dumps)
 
 ### Android Source
 
@@ -330,9 +330,9 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 * [AlaskaLinuxUser AKLU](https://www.youtube.com/c/AlaskaLinuxUserAKLU)
 * [Android & Linux Development (@remainder30000)](https://www.youtube.com/@remainder30000)
-* [OSP »» Android OS »» ROM »» Android Development](https://www.youtube.com/@aosp_android_tollcafe/videos)
 * [Dimple S](https://www.youtube.com/@dimples_android_geek)
 * [Haikal Luthfianino Balukia](https://www.youtube.com/@haikalluthfianinobalukia2423/videos)
+* [OSP »» Android OS »» ROM »» Android Development](https://www.youtube.com/@aosp_android_tollcafe/videos)
 
 ## Tools
 
@@ -354,7 +354,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [anestisb/android-prepare-vendor (Github)](https://github.com/anestisb/android-prepare-vendor)
 * [UnSIN ~ SIN v3/v4/v5 Unpacker](https://forum.xda-developers.com/t/tool-unsin-sin-v3-v4-v5-unpacker-v1-13.3128106/)
 * [Android Image Kitchen](https://forum.xda-developers.com/t/tool-android-image-kitchen-unpack-repack-kernel-ramdisk-win-android-linux-mac.2073775/) - Unpack/Repack Kernel Ramdisk
-* [Android-Blob-Utility](https://github.com/JackpotClavin/Android-Blob-Utility)
+* [Android-Blob-Utility][https://forum.xda-developers.com/t/blob-utility-for-aosp-based-roms.2794413/] [(sources)](https://github.com/JackpotClavin/Android-Blob-Utility)
 * [Alogview](https://github.com/flimberger/alogview)
 * [PID Cat](https://github.com/JakeWharton/pidcat)
 * [DumprX](https://github.com/DumprX/DumprX)
@@ -406,10 +406,10 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 *You can use them as inspiration to create your own or find solutions*
 
-* [ShivamKumarJha/android_tools (Github)](https://github.com/ShivamKumarJha/android_tools) - Collection of scripts to help with Android ROM stuff.
 * [akhilnarang/scripts (Github)](https://github.com/akhilnarang/scripts) - Some script useful for ROM development.
 * [Build scripts](https://github.com/JarlPenguin/releases)
 * [LineageOS scripts](https://github.com/LineageOS/scripts)
+* [ShivamKumarJha/android_tools (Github)](https://github.com/ShivamKumarJha/android_tools) - Collection of scripts to help with Android ROM stuff.
 
 ## Videos
 
@@ -466,6 +466,12 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Sony](https://developer.sony.com/develop/open-source/) and [build instructions](https://developer.sony.com/develop/open-devices/guides/aosp-build-instructions/)
 * [Qualcomm (Code Aurora)](https://www.codeaurora.org/), [Sources](https://source.codeaurora.org/) and [Proprietary sources](https://chipcode.qti.qualcomm.com/)
 
+## Blob
+
+***Binary Large OBject** are often private libaries that you have to get from vendor systems.*
+
+* [Android Dumps](https://dumps.tadiphone.dev/dumps)
+
 ## ROMs
 
 *Biggest ROMs projects. You can check her Gerrit instance for study how to port ROMs.*
@@ -483,25 +489,27 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 * [android-linux-stable (archive)](https://github.com/android-linux-stable)
 * [Android AOSP mirror Github](https://github.com/aosp-mirror/platform_development)
+* [Android dummy trees](https://github.com/AndroidBlobs/) - Device & kernel repositories as reference for many devices.
 
 ### Device project
 
 *Some device project source which you can inspect to study how to port devices.*
 
-* [Raspberry Vanilla](https://github.com/raspberry-vanilla) - AOSP for Raspberry Pi 4.
 * [Project Elixir • [Devices]](https://github.com/ProjectElixir-Devices) - Offer a minimal UI enhancement & close to Stock Android ROM with great performance, security and stability.
+* [Raspberry Vanilla](https://github.com/raspberry-vanilla) - AOSP for Raspberry Pi 4.
 
 ## Related awesome
 
+* [android-security-awesome](https://github.com/ashishb/android-security-awesome#readme) - A collection of android security related resources.
 * [awesome-android](https://github.com/JStumpp/awesome-android#readme) - For Android application development.
 * [awesome-android-ui](https://github.com/wasabeef/awesome-android-ui#readme) - List of Android UI/UX Libraries
-* [android-security-awesome](https://github.com/ashishb/android-security-awesome#readme) - A collection of android security related resources.
+* [awesome-c](https://github.com/inputsh/awesome-c) - A curated list of C good stuff.
 * [awesome-git](https://github.com/dictcp/awesome-git#readme) - Ressources for learning how to use Git.
-* [Git and Git Flow Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet#readme)
-* [git-tips](https://github.com/git-tips/tips#readme)
-* [awesome-shell](https://github.com/alebcay/awesome-shell#readme)
-* [awesome-linux](https://github.com/inputsh/awesome-linux#readme)
-* [awesome-make](https://github.com/adelarsq/awesome-make#readme)
+* [awesome-linux](https://github.com/inputsh/awesome-linux#readme) - Collections of Linux & GNU\Linux resources.
+* [awesome-make](https://github.com/adelarsq/awesome-make#readme) - Collections of Make resources.
+* [awesome-shell](https://github.com/alebcay/awesome-shell#readme) - A curated list of awesome command-line frameworks, toolkits, guides and gizmos.
+* [Git and Git Flow Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet#readme) - Collection of git commands with descriptions.
+* [git-tips](https://github.com/git-tips/tips#readme) - Collection of git-tips.
 
 ## Todo
 * <https://github.com/davisRoman/aosp-research>
