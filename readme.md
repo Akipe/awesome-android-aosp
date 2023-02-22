@@ -105,59 +105,59 @@ Contributions are welcome! I am looking for any kind of information that can hel
 ### Where to start (complete guide)
 
 * [Get started with Android Development](https://source.android.com/docs/setup) (official guide) - Official guide to beginning Android AOSP development.
-* [Android Porting Guidebook](https://github.com/eyedeekay/android_porting_guidebook) (unfinished) - An (incomplete) guide book for porting Android ROM.
+* [Android Porting Guidebook](https://github.com/eyedeekay/android_porting_guidebook) (2015/unfinished) - An (incomplete) guide book for porting Android ROM.
 * [Android OS Internals / AOSP Mobile ROM Development](https://www.udemy.com/course/android-os-internals-aosp-mobile-development-2020-edition/) (udemy/not free) - Mobile Development.
 * [Android OS Internals / AOSP Automotive ROM Development](https://www.udemy.com/course/android-os-internals-aosp-automotive-development/) (udemy/not free) - Android Automotive.
 * [Android OS Internals / AOSP in Depth](https://www.udemy.com/course/android-os-internals-aosp-in-depth/) (udemy/not free) - Deep OS Analysis, Android Startup, AMS, WMS, System UI and more.
-* [Android ROM Development From Source To End](https://forum.xda-developers.com/t/guide-complete-android-rom-development-from-source-to-end.2814763/) - The ultimate guide for ROM development starting from source to end.
-* [How to build Android.... Where do I start?](https://www.youtube.com/watch?v=yNVe3mjCI1k) - Where newcomers should start.
+* [Android ROM Development From Source To End](https://forum.xda-developers.com/t/guide-complete-android-rom-development-from-source-to-end.2814763/) (2022) - The ultimate guide for ROM development starting from source to end.
+* [How to build Android.... Where do I start?](https://www.youtube.com/watch?v=yNVe3mjCI1k) (2019/video) - Where newcomers should start.
 * [Linux Device Driver Programming Using Beaglebone Black](https://www.udemy.com/course/linux-device-driver-programming-using-beaglebone-black/) (kernel/udemy/not free) - Foundation course on practical Linux device driver programming
-* [AOSP - Android OS Internals Series](https://www.youtube.com/playlist?app=desktop&list=PLAlSOSt8vS8Ss3uEshNXQe3cbx9qtl8m4) (Youtube playlist) - Explore Android 12 from an AOSP point of view.
+* [AOSP - Android OS Internals Series](https://www.youtube.com/playlist?app=desktop&list=PLAlSOSt8vS8Ss3uEshNXQe3cbx9qtl8m4) (recent/video playlist) - Explore Android 12 from an AOSP point of view.
 
 ### Specific point
 
 #### Introduction
 
-* [Android Getting Started Guide](https://boundarydevices.com/android-getting-started-guide/)
-* [Beginners Guide to Android ROM Development](https://forum.xda-developers.com/t/how-to-beginners-guide-to-android-rom-development.1272270/)
-* [Introduction to AOSP](https://blog.realogs.in/getting-started-with-aosp/)
-* [AOSP Introduction : AOSP Source Code Analysis Lecture 1](https://www.youtube.com/watch?v=MsUhQMz30J4)
-* [Getting Started | AOSP Rom Development](https://adityatelange.in/blog/aosp/aosp-getting-started/)
-* [Android rom building made easy - a beginers Guide part 1](https://www.youtube.com/watch?v=LPXK2Lv0nmk) [part 2](https://www.youtube.com/watch?v=Zr7esDS-QrI)
-* [Android: What is...](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1nbaEuyRi60ZWVP8_gGQb0J)
+* [Android Getting Started Guide](https://boundarydevices.com/android-getting-started-guide/) (2015)
+* [Beginners Guide to Android ROM Development](https://forum.xda-developers.com/t/how-to-beginners-guide-to-android-rom-development.1272270/) (2013)
+* [Introduction to AOSP](https://blog.realogs.in/getting-started-with-aosp/) (2022)
+* [AOSP Introduction : AOSP Source Code Analysis Lecture 1](https://www.youtube.com/watch?v=MsUhQMz30J4) (2022/video)
+* [Getting Started | AOSP Rom Development](https://adityatelange.in/blog/aosp/aosp-getting-started/) (2020)
+* [Android rom building made easy - a beginers Guide part 1](https://www.youtube.com/watch?v=LPXK2Lv0nmk) [part 2](https://www.youtube.com/watch?v=Zr7esDS-QrI) (2017/video)
+* [Android: What is...](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1nbaEuyRi60ZWVP8_gGQb0J) (video playlist)
 
 #### General
 
-* [Android Tools (Github)](https://github.com/nathanchance/Android-Tools/) - Contains public guides and scripts tailored for custom Android Development.
-* [AOSP Part 3: Developing Efficiently](https://blog.udinic.com/2014/07/24/aosp-part-3-developing-efficiently/)
-* [AOSP: Advanced Development Tricks ](https://www.inovex.de/de/blog/aosp-advanced-development-tricks/)
-* [How to build Custom ROMs and Kernels![10,P,O,N,M,L]](https://forum.xda-developers.com/t/guide-video-tutorial-how-to-build-custom-roms-and-kernels-10-p-o-n-m-l.3814251/)
-* [Intermediate to Advanced Custom Rom and Kernel Building](https://forum.xda-developers.com/t/guide-video-tutorial-intermediate-to-advanced-custom-rom-and-kernel-building.3823927/)
-* [Building AOSP, fastbooting on device](https://scribe.rip/@sohambhattacharya/building-aosp-fastbooting-on-device-eae05938cef8)
-* [Some problems that can occur while rom compilation and their solutions(especially for lettuce)](https://github.com/hpnightowl/android_helpful/blob/master/errors.txt)
-* [Embedded Android](https://www.opersys.com/downloads/cc-slides/embedded-android/embedded-android-141125.pdf)
-* [AOSP Build References](https://www.youtube.com/playlist?list=PLeiDFxcsdhUq6Ch-9AAtiVU7Lw0tTSnKb)
-* [Building My Product on Android Open Source Project](https://elinux.org/images/2/29/Customizing_AOSP_for_my_Device.pdf)
-* [Android System Development](https://bootlin.com/pub/conferences/2012/captronic/android/android-captronic.pdf)
-* [Android System Development (2019)](https://bootlin.com/doc/legacy/android/)
-* [Android Hacks, Variants, Tricks and Resources](https://www.slideshare.net/opersys/android-variants-hacks-tricks-and-resources-presented-at-andevconii)
-* [Android Cookbook: AOSP Custom ROM Building 201](https://tomwwolf.wordpress.com/android/android-cookbook-custom-aosp-rom-building-201/)
-* [Android Cookbook: AOSP ROM Building 102](https://tomwwolf.wordpress.com/android/android-cookbook-aosp-rom-building-101/)
-* [Complete Android ROM development and essential tutorials](https://forum.xda-developers.com/t/guide-complete-android-rom-development-and-essential-tutorials-by-nero-young.1661770/)
-* [How To Port ROMS to Your Device [AOSP]](https://forum.xda-developers.com/t/guide-how-to-port-roms-to-your-device-aosp.2483143/)
-* [Create your Own Custom ROM an easy way](https://forum.xda-developers.com/t/guide-how-to-create-your-own-custom-rom-an-easy-way.2195858/)
-* [Create own ROM (for any Android device)](https://forum.xda-developers.com/t/guide-how-to-create-own-rom-for-any-android-device-for-n00b-easiest-methods.1801690/)
-* [All you need to know to build Android from scratch!](https://forum.xda-developers.com/t/guide-2018-all-you-need-to-know-to-build-android-from-scratch.3862893/)
-* [AOSP Build Guide](https://www.youtube.com/watch?app=desktop&v=-OePyL55rvs)
-* [Building AOSP](https://github.com/nathanchance/android-tools/blob/main/guides/building_aosp.txt)
-* [Android Build System Ultimate Guide](https://aabdelfattah.me/2013/04/08/android-build-system-ultimate-guide/)
-* [A practical approach to the AOSP build system](https://blog.jayway.com/2012/10/24/a-practical-approach-to-the-aosp-build-system/)
-* [AOSP Build System](https://budhdisharma.medium.com/aosp-build-system-767deeb535fa)
-* [AOSP System Image](https://scribe.privacydev.net/android-news/aosp-system-image-b80e44ddf4)
-* [Android internals](https://www.youtube.com/playlist?list=PLEq1q16moI5uvGNEdu0eODGiSJAk3VXfy)
-* [android internals](https://www.youtube.com/playlist?list=PL07D15CEBAC16A98B)
-* [How to port roms in Windows​](https://forum.xda-developers.com/t/guide-how-to-port-roms-snapdragon-windows-linux.3801391/)
-* [Android Internals](https://vimeo.com/18017921)
+* [Android Tools (Github)](https://github.com/nathanchance/Android-Tools/) (2021) - Contains public guides and scripts tailored for custom Android Development.
+* [AOSP Part 3: Developing Efficiently](https://blog.udinic.com/2014/07/24/aosp-part-3-developing-efficiently/) (2014)
+* [AOSP: Advanced Development Tricks ](https://www.inovex.de/de/blog/aosp-advanced-development-tricks/) (2021)
+* [How to build Custom ROMs and Kernels![10,P,O,N,M,L]](https://forum.xda-developers.com/t/guide-video-tutorial-how-to-build-custom-roms-and-kernels-10-p-o-n-m-l.3814251/) (2019)
+* [Intermediate to Advanced Custom Rom and Kernel Building](https://forum.xda-developers.com/t/guide-video-tutorial-intermediate-to-advanced-custom-rom-and-kernel-building.3823927/) (2019)
+* [Building AOSP, fastbooting on device](https://scribe.rip/@sohambhattacharya/building-aosp-fastbooting-on-device-eae05938cef8) (2018)
+* [Some problems that can occur while rom compilation and their solutions(especially for lettuce)](https://github.com/hpnightowl/android_helpful/blob/master/errors.txt) (2019)
+* [Embedded Android](https://www.opersys.com/downloads/cc-slides/embedded-android/embedded-android-141125.pdf) (old/pdf)
+* [AOSP Build References](https://www.youtube.com/playlist?list=PLeiDFxcsdhUq6Ch-9AAtiVU7Lw0tTSnKb) (2022/video playlist)
+* [Building My Product on Android Open Source Project](https://elinux.org/images/2/29/Customizing_AOSP_for_my_Device.pdf) (2015/pdf)
+* [Android System Development](https://bootlin.com/pub/conferences/2012/captronic/android/android-captronic.pdf) (old/pdf)
+* [Android System Development](https://bootlin.com/doc/legacy/android/) (2019/pdf)
+* [Android Hacks, Variants, Tricks and Resources](https://www.slideshare.net/opersys/android-variants-hacks-tricks-and-resources-presented-at-andevconii) (old/pdf)
+* [Android Cookbook: AOSP Custom ROM Building 201](https://tomwwolf.wordpress.com/android/android-cookbook-custom-aosp-rom-building-201/) (2013)
+* [Android Cookbook: AOSP ROM Building 102](https://tomwwolf.wordpress.com/android/android-cookbook-aosp-rom-building-101/) (2013)
+* [Complete Android ROM development and essential tutorials](https://forum.xda-developers.com/t/guide-complete-android-rom-development-and-essential-tutorials-by-nero-young.1661770/) (2013)
+* [How To Port ROMS to Your Device [AOSP]](https://forum.xda-developers.com/t/guide-how-to-port-roms-to-your-device-aosp.2483143/) (2013)
+* [Create your Own Custom ROM an easy way](https://forum.xda-developers.com/t/guide-how-to-create-your-own-custom-rom-an-easy-way.2195858/) (2016)
+* [Create own ROM (for any Android device)](https://forum.xda-developers.com/t/guide-how-to-create-own-rom-for-any-android-device-for-n00b-easiest-methods.1801690/) (2013)
+* [All you need to know to build Android from scratch!](https://forum.xda-developers.com/t/guide-2018-all-you-need-to-know-to-build-android-from-scratch.3862893/) (2018)
+* [AOSP Build Guide](https://www.youtube.com/watch?app=desktop&v=-OePyL55rvs) (2018/video)
+* [Building AOSP](https://github.com/nathanchance/android-tools/blob/main/guides/building_aosp.txt) (2021)
+* [Android Build System Ultimate Guide](https://aabdelfattah.me/2013/04/08/android-build-system-ultimate-guide/) (2013)
+* [A practical approach to the AOSP build system](https://blog.jayway.com/2012/10/24/a-practical-approach-to-the-aosp-build-system/) (2012)
+* [AOSP Build System](https://budhdisharma.medium.com/aosp-build-system-767deeb535fa) (2019)
+* [AOSP System Image](https://scribe.privacydev.net/android-news/aosp-system-image-b80e44ddf4) (2019)
+* [Android internals](https://www.youtube.com/playlist?list=PLEq1q16moI5uvGNEdu0eODGiSJAk3VXfy) (old/video playlists)
+* [android internals](https://www.youtube.com/playlist?list=PL07D15CEBAC16A98B) (2012/video playlist)
+* [How to port roms in Windows​](https://forum.xda-developers.com/t/guide-how-to-port-roms-snapdragon-windows-linux.3801391/) (2019)
+* [Android Internals](https://vimeo.com/18017921) (2010/video)
 * [Porting to custom hardware](https://elinux.org/images/7/71/03-android-inside.pdf) (2010/pdf)
 * [Porting Android to New Hardware](https://www.pudn.com/detail/2374139) (2011/pdf)
 * [AN11690 - NXP NCI Android Porting Guidelines](https://www.nxp.com/docs/en/application-note/AN11690.pdf) (2020/pdf)
@@ -513,40 +513,294 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 ### Official Android Documentation
 
-*All this pages are from source.android.com. You can with this list view its content more easily.*
+*All this pages are from source.android.com or developer.android.com. You can with this list view its content more easily.*
 
-* [Android Compatibility Definition Document (CDD)](https://source.android.com/docs/compatibility/cdd)
-* [AIDL for HALs](https://source.android.com/docs/core/architecture/aidl/aidl-hals)
-* [Building Kernels](https://source.android.com/docs/setup/build/building-kernels)
-* [Implementing dm-verity](https://source.android.com/docs/security/features/verifiedboot/dm-verity)
-* [Linux-stable Merges](https://source.android.com/docs/core/architecture/kernel/linux-stable-merges)
-* [Verified Boot](https://source.android.com/docs/security/features/verifiedboot)
-* [Android.mk](https://developer.android.com/ndk/guides/android_mk)
-* [Vendor Native Development Kit (VNDK) overview](https://source.android.com/docs/core/architecture/vndk)
-* [Downloading the Source](https://source.android.com/docs/setup/download/downloading)
-* [Optimizing Boot Times](https://source.android.com/docs/core/perf/boot-times)
-* [Capture a system trace on the command line](https://developer.android.com/topic/performance/tracing/command-line)
-* [Capture a system trace on a device](https://developer.android.com/topic/performance/tracing/on-device)
-* [The Android Profiler](https://developer.android.com/studio/profile/android-profiler)
-* [Environment variables](https://developer.android.com/studio/command-line/variables)
-* [Debugging Native Android Platform Code](https://source.android.com/docs/core/tests/debug)
-* [Using Strace](https://source.android.com/docs/core/tests/debug/strace)
-* [Understanding Systrace](https://source.android.com/docs/core/tests/debug/systrace)
-* [Evaluating Performance](https://source.android.com/docs/core/tests/debug/eval_perf)
-* [Diagnosing Native Crashes](https://source.android.com/docs/core/tests/debug/native-crash)
-* [Inspect CPU activity with CPU Profiler](https://developer.android.com/studio/profile/cpu-profiler)
-* [Using Debuggers](https://source.android.com/docs/core/tests/debug/gdb)
-* [Encryption](https://source.android.com/docs/security/features/encryption)
-* [File-Based Encryption](https://source.android.com/docs/security/features/encryption/file-based)
-* [Full-Disk Encryption](https://source.android.com/docs/security/features/encryption/full-disk)
-* [Android HAL Reference (legacy)](https://source.android.com/reference/hal)
-* [Customizing SELinux](https://source.android.com/docs/security/features/selinux/customize)
-* [Writing SELinux Policy](https://source.android.com/docs/security/features/selinux/device-policy)
-* [Downloading the Source](https://source.android.com/docs/setup/build/downloading)
-* [Android Common Kernels](https://source.android.com/docs/core/architecture/kernel/android-common)
-* [Analyze with Profile GPU Rendering](https://developer.android.com/topic/performance/rendering/profile-gpu)
-* [Inspect GPU rendering speed and overdraw](https://developer.android.com/topic/performance/rendering/inspect-gpu-rendering)
-* [Soong Build System](https://source.android.com/docs/setup/build)
+[Android Open Source Project](https://source.android.com/) :
+
+* Getting Started
+  * About
+    * [Set up for Android Development](https://source.android.com/docs/setup/about)
+    * [Android Software Management](https://source.android.com/docs/setup/about/codelines)
+    * [Codenames, Tags, and Build Numbers](https://source.android.com/docs/setup/about/build-numbers)
+    * [Brand Guidelines](https://source.android.com/docs/setup/about/brands)
+    * [Licenses](https://source.android.com/docs/setup/about/licenses)
+    * [Frequently asked questions](https://source.android.com/docs/setup/about/faqs)
+    * [Android 13 release notes](https://source.android.com/docs/setup/about/android-13-release)
+    * [Android 12 release notes](https://source.android.com/docs/setup/about/android-12-release)
+    * [Android 11 release notes](https://source.android.com/docs/setup/about/android-11-release)
+    * [Android 10 release notes](https://source.android.com/docs/setup/about/android-10-release)
+    * [Android 9 release notes](https://source.android.com/docs/setup/about/p-release-notes)
+    * [Site updates](https://source.android.com/docs/setup/about/site-updates?version=12)
+  * Start
+    * [Android developer codelab](https://source.android.com/docs/setup/start)
+    * [Android platform glossary](https://source.android.com/docs/setup/start/glossary)
+    * [Requirements](https://source.android.com/docs/setup/start/requirements)
+    * [Supporting Older Versions](https://source.android.com/docs/setup/start/older-versions)
+    * [Establishing a build environment](https://source.android.com/docs/setup/start/initializing)
+  * Download
+    * [Source control tools](https://source.android.com/docs/setup/download)
+    * [Downloading the Source](https://source.android.com/docs/setup/download/downloading)
+  * Build
+    * [Soong Build System](https://source.android.com/docs/setup/build)
+    * [Building Android](https://source.android.com/docs/setup/build/building)
+    * [Android Debug Bridge (ADB)](https://source.android.com/docs/setup/build/adb)
+    * [Flashing devices](https://source.android.com/docs/setup/build/running)
+    * [Android flash tool](https://source.android.com/docs/setup/build/flash)
+    * [Building Kernels](https://source.android.com/docs/setup/build/building-kernels)
+    * [Implementing Java SDK Library](https://source.android.com/docs/setup/build/java-library)
+    * [Source Sync Issues](https://source.android.com/docs/setup/build/known-issues)
+    * [Android Rust Introduction](https://source.android.com/docs/setup/build/rust/building-rust-modules/overview)
+    * [Android on Bazel](https://source.android.com/docs/setup/build/bazel/introduction)
+  * Create
+    * [Source Control Workflow](https://source.android.com/docs/setup/create/coding-tasks)
+    * [Repo Command Reference](https://source.android.com/docs/setup/create/repo)
+    * [Adding a New Device](https://source.android.com/docs/setup/create/new-device)
+    * [Understanding 64-bit Builds](https://source.android.com/docs/setup/create/64-bit-builds)
+    * [Using Reference Boards](https://source.android.com/docs/setup/create/devices)
+    * [Generic system images](https://source.android.com/docs/setup/create/gsi)
+    * Cuttlefish
+      * [Cuttlefish Virtual Android Devices](https://source.android.com/docs/setup/create/cuttlefish)
+      * [Use Cuttlefish to Launch an AOSP Build](https://source.android.com/docs/setup/create/cuttlefish-use)
+      * [Cuttlefish: GPU Graphics Acceleration](https://source.android.com/docs/setup/create/cuttlefish-ref-gpu)
+      * [Cuttlefish: Restarting and Resetting](https://source.android.com/docs/setup/create/cuttlefish-restart)
+      * [Cuttlefish: Multi-tenancy](https://source.android.com/docs/setup/create/cuttlefish-ref-multi-tenancy)
+      * [Testing Connectivity of Multiple Devices](https://source.android.com/docs/setup/create/cuttlefish-connectivity)
+      * [Cuttlefish: WebRTC Streaming](https://source.android.com/docs/setup/create/cuttlefish-ref-webrtc)
+      * [Cuttlefish Control Panel](https://source.android.com/docs/setup/create/cuttlefish-control-panel)
+      * [Cuttlefish: Running Stable CTS](https://source.android.com/docs/setup/create/cuttlefish-cts)
+    * [Using Android Emulator Virtual Devices](https://source.android.com/docs/setup/create/avd)
+    * [Compiling with Jack for Android 6.0–8.1](https://source.android.com/docs/setup/create/jack)
+    * [AndroidX and Jetpack](https://source.android.com/docs/setup/create/androidx-and-jetpack)
+  * Contribute
+    * [Contributing](https://source.android.com/docs/setup/contribute)
+    * [Project Roles](https://source.android.com/docs/setup/contribute/roles)
+    * [Code search](https://source.android.com/docs/setup/contribute/code-search)
+    * [Life of a patch](https://source.android.com/docs/setup/contribute/life-of-a-patch)
+    * [Submitting patches](https://source.android.com/docs/setup/contribute/submit-patches)
+    * [Git source editor](https://source.android.com/docs/setup/contribute/source-editor)
+    * [Viewing patches](https://source.android.com/docs/setup/contribute/view-patches)
+    * [Android Continuous Integration](https://source.android.com/docs/setup/contribute/dashboard)
+    * [Life of a bug](https://source.android.com/docs/setup/contribute/life-of-a-bug)
+    * [Reporting bugs](https://source.android.com/docs/setup/contribute/report-bugs)
+    * [Coding with respect](https://source.android.com/docs/setup/contribute/respectful-code)
+    * [AOSP Java code style for contributors](https://source.android.com/docs/setup/contribute/code-style)
+  * Community
+    * [Code of conduct](https://source.android.com/docs/setup/community/cofc)
+    * [Android community and contacts](https://source.android.com/docs/setup/community)
+* Security
+  * [Overview](https://source.android.com/docs/security)
+  * Security Overview
+    * [Secure an Android Device](https://source.android.com/docs/security/overview)
+    * ...
+  * Android Security Bulletins
+    * [Bulletins Home](https://source.android.com/docs/security/bulletin)
+    * [Android security bulletin](https://source.android.com/docs/security/bulletin/asb-overview)
+    * ...
+  * Features
+    * [Android Security Features](https://source.android.com/docs/security/features)
+    * ...
+    * Application Signing
+      * [Application Signing](https://source.android.com/docs/security/features/apksigning)
+      * ...
+    * Authentication
+      * [Authentication](https://source.android.com/docs/security/features/authentication)
+      * ...
+    * Encryption
+      * [Encryption](https://source.android.com/docs/security/features/encryption)
+      * [File-Based Encryption](https://source.android.com/docs/security/features/encryption/file-based)
+      * [Full-Disk Encryption](https://source.android.com/docs/security/features/encryption/full-disk)
+      * ...
+    * Keystore
+      * [Hardware-backed Keystore](https://source.android.com/docs/security/features/keystore)
+      * ...
+    * Identity Credential
+      * [Identity Credential](https://source.android.com/docs/security/features/identity-credentials)
+    * SELinux
+      * [Security-Enhanced Linux in Android](https://source.android.com/docs/security/features/selinux)
+      * ...
+      * [Customizing SELinux](https://source.android.com/docs/security/features/selinux/customize)
+      * ...
+      * [Writing SELinux Policy](https://source.android.com/docs/security/features/selinux/device-policy)
+      * ...
+    * Trusty TEE
+      * [Trusty TEE](https://source.android.com/docs/security/features/trusty)
+      * ...
+    * Verified Boot
+      * [Verified Boot](https://source.android.com/docs/security/features/verifiedboot)
+      * ...
+      * [Implementing dm-verity](https://source.android.com/docs/security/features/verifiedboot/dm-verity)
+      * ...
+  * Testing
+    * [Security Testing](https://source.android.com/docs/security/test/fuzz-sanitize)
+    * ...
+  * Best Practices
+    * [Android Security Best Practices](https://source.android.com/docs/security/best-practices)
+    * ...
+* Core Topics
+  * [Overview](https://source.android.com/docs/core)
+  * Architecture
+    * [Architecture overview](https://source.android.com/docs/core/architecture)
+    * Hardware Abstraction Layer (HAL)
+      * [Hardware Abstraction Layer (HAL) overview](https://source.android.com/docs/core/architecture/hal)
+      * ...
+      * Previous Kernels (<=4.19)
+        * ...
+        * [Linux-stable Merges](https://source.android.com/docs/core/architecture/kernel/linux-stable-merges)
+        * ...
+    * Kernel
+      * [Kernel overview](https://source.android.com/docs/core/architecture/kernel)
+      * [Stable Kernel Releases & Updates](https://source.android.com/docs/core/architecture/kernel/releases)
+      * [Android Common Kernels](https://source.android.com/docs/core/architecture/kernel/android-common)
+      * ...
+    * HIDL (General)
+      * [HIDL](https://source.android.com/docs/core/architecture/hidl)
+      * ...
+    * HIDL (C++)
+      * [HIDL C++](https://source.android.com/docs/core/architecture/hidl-cpp)
+      * ...
+    * HIDL (Java)
+      * [HIDL Java](https://source.android.com/docs/core/architecture/hidl-java)
+      * ...
+    * Configuration
+      * [Configuration overview](https://source.android.com/docs/core/architecture/configuration)
+      * ...
+    * Device Tree Overlays
+      * [Device tree overlays](https://source.android.com/docs/core/architecture/dto)
+      * ...
+    * Vendor NDK
+      * [Vendor Native Development Kit (VNDK) overview](https://source.android.com/docs/core/architecture/vndk)
+      * ...
+    * Vendor Interface Object
+      * [Vendor Interface Object](https://source.android.com/docs/core/architecture/vintf)
+      * ...
+    * AIDL
+      * [AIDL Overview](https://source.android.com/docs/core/architecture/aidl)
+      * ...
+      * [AIDL for HALs](https://source.android.com/docs/core/architecture/aidl/aidl-hals)
+      * ...
+    * Bootloader
+      * [Bootloader overview](https://source.android.com/docs/core/architecture/bootloader)
+      * ...
+    * Partitions
+      * [Overview](https://source.android.com/docs/core/architecture/partitions)
+  * Audio
+    * [Audio](https://source.android.com/docs/core/audio)
+    * ...
+  * Camera
+    * [Camera](https://source.android.com/docs/core/camera)
+    * ...
+  * Connectivity
+    * [Connectivity](https://source.android.com/docs/core/connect)
+    * ...
+  * Data
+    * [Android data use](https://source.android.com/docs/core/data)
+    * ...
+  * Display
+    * [Android display](https://source.android.com/docs/core/display)
+    * ...
+  * Fonts
+    * [Implementing Custom Font Fallback](https://source.android.com/docs/core/fonts/custom-font-fallback)
+  * Graphics
+    * [Graphics](https://source.android.com/docs/core/graphics)
+    * ...
+  * Interaction
+    * [Interaction in Android](https://source.android.com/docs/core/interaction)
+    * ...
+  * Media
+    * [Media](https://source.android.com/docs/core/media)
+    * ...
+  * Performance
+    * [Android Performance Optimization](https://source.android.com/docs/core/perf)
+    * ...
+    * [Optimizing Boot Times](https://source.android.com/docs/core/perf/boot-times)
+    * ...
+  * Permissions
+    * [Android Permissions](https://source.android.com/docs/core/permissions)
+    * ...
+  * Power
+    * [Power Profiles for Android](https://source.android.com/docs/core/power)
+    * ...
+  * Runtime
+    * [Android Runtime (ART) and Dalvik](https://source.android.com/docs/core/runtime)
+    * ...
+  * Settings
+    * [Android Settings Menu](https://source.android.com/docs/core/settings)
+    * ...
+  * Storage
+    * [Storage](https://source.android.com/docs/core/storage)
+    * ...
+  * Virtualization
+    * [Android Virtualization Framework (AVF) overview](https://source.android.com/docs/core/virtualization)
+    * ...
+  * Tests
+    * [Android Platform Testing](https://source.android.com/docs/core/tests)
+    * ...
+    * Debugging
+      * [Debugging Native Android Platform Code](https://source.android.com/docs/core/tests/debug)
+      * ...
+      * [Diagnosing Native Crashes](https://source.android.com/docs/core/tests/debug/native-crash)
+      * Evaluating Performance
+        * [Evaluating Performance](https://source.android.com/docs/core/tests/debug/eval_perf)
+        * [Understanding Systrace](https://source.android.com/docs/core/tests/debug/systrace)
+        * ...
+      * ...
+      * [Using Debuggers](https://source.android.com/docs/core/tests/debug/gdb)
+      * ...
+      * [Using Strace](https://source.android.com/docs/core/tests/debug/strace)
+  * Updates
+    * [OTA Updates](https://source.android.com/docs/core/ota)
+    * ...
+* Compatibility
+  * [Overview](https://source.android.com/docs/compatibility)
+  * Compatibility
+    * [Android Compatibility Program Overview](https://source.android.com/docs/compatibility/overview)
+    * [Android Compatibility Definition Document (CDD)](https://source.android.com/docs/compatibility/cdd)
+    * ...
+  * Compatibility Test Suite (CTS)
+    * [Compatibility Test Suite](https://source.android.com/docs/compatibility/cts)
+    * ...
+* Android Devices
+  * [Overview](https://source.android.com/docs/devices)
+  * ...
+* Reference
+  * [Overview](https://source.android.com/reference)
+  * HIDL
+    * [Documentation for HIDL interfaces](https://source.android.com/reference/hidl)
+  * HAL
+    * [Android HAL Reference (legacy)](https://source.android.com/reference/hal)
+    * [Data Structures](https://source.android.com/reference/hal/annotated)
+    * [Data Structure Index](https://source.android.com/reference/hal/classes)
+    * [Data Fields](https://source.android.com/reference/hal/functions)
+    * [File List](https://source.android.com/reference/hal/files)
+    * [Globals](https://source.android.com/reference/hal/globals)
+    * [Deprecated List](https://source.android.com/reference/hal/deprecated)
+  * Trade Federation
+    * [Class Index](https://source.android.com/reference/tradefed/classes)
+    * [Package Index](https://source.android.com/reference/tradefed/packages)
+    * ...
+  * Security Test Suite
+    * [Class Index](https://source.android.com/reference/sts/classes)
+    * [Package Index](https://source.android.com/reference/sts/packages)
+    * ...
+
+[Android for Developers](https://developer.android.com/) :
+
+* Guides
+  * Introduction
+    * ...
+  * Build your project
+    * ...
+    * ndk-build
+      * ...
+      * [Android.mk](https://developer.android.com/ndk/guides/android_mk)
+      * ...
+  * [Capture a system trace on the command line](https://developer.android.com/topic/performance/tracing/command-line)
+  * [Capture a system trace on a device](https://developer.android.com/topic/performance/tracing/on-device)
+  * [The Android Profiler](https://developer.android.com/studio/profile/android-profiler)
+  * [Environment variables](https://developer.android.com/studio/command-line/variables)
+  * [Inspect CPU activity with CPU Profiler](https://developer.android.com/studio/profile/cpu-profiler)
+  * [Analyze with Profile GPU Rendering](https://developer.android.com/topic/performance/rendering/profile-gpu)
+  * [Inspect GPU rendering speed and overdraw](https://developer.android.com/topic/performance/rendering/inspect-gpu-rendering)
 
 ### Video Channel
 
