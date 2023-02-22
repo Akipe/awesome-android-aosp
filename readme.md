@@ -536,6 +536,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [ASSAYYED KITCHEN](https://forum.xda-developers.com/t/best-android-roms-apks-file_systems-editor-assayyed_kitchen.3410545/) [(direct link)](https://mega.nz/#!fAIkBZKQ!aS-9yNL9GKgVzgJd9C5DWJtjD_fNM6bHTiz-1KnsydA) - A set of tool for cooking Android on Windows.
 * [mAid](https://maid.binbash.rocks/index.html) ([sources](https://code.binbash.rocks:8443/mAid)) - An easy and ready-to-use Linux distribution for developing Android.
 * [Projekt Scribt](https://github.com/ScriBt/ScriBt) ([XDA thread](https://forum.xda-developers.com/t/guide-tool-linux-projekt-scribt-v2-2-1-build-a-rom-newbie-friendly.3503018/)) - ROM envsetup, sync and build script for learning developers.
+* [Building from source Any ROM](https://forum.xda-developers.com/t/guide-building-from-source-any-rom.2200926/)
 
 ### Generator
 
@@ -765,7 +766,8 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 ***Binary Large OBject** are often private libaries that you have to get from vendor systems.*
 
-* [Android Dumps](https://dumps.tadiphone.dev/dumps)
+* [Android Dumps](https://dumps.tadiphone.dev/dumps) - Get complete files dumps of specific devices.
+* The Muppets ([Gitlab](https://gitlab.com/the-muppets)/[Github](https://github.com/TheMuppets?type=source)) - A regroupment of different vendor files.
 
 ## ROMs
 
