@@ -680,9 +680,9 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 ## News
 
-* [Android Champ](https://medium.com/android-knowledge-store)
-* [LineageOS Engineering Blog](https://lineageos.org/engineering/)
-* [XDA Developers](https://www.xda-developers.com/)
+* [Android Champ blog](https://medium.com/android-knowledge-store)
+* [LineageOS engineering blog](https://lineageos.org/engineering/)
+* [XDA Developers news](https://www.xda-developers.com/)
   * [Development](https://www.xda-developers.com/tag/development/)
   * [LineageOS](https://www.xda-developers.com/tag/lineageos/)
   * [TWRP](https://www.xda-developers.com/tag/twrp/)
