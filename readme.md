@@ -23,6 +23,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
     - [Building](#building)
       - [Automation](#automation)
     - [Device tree](#device-tree)
+    - [Trebble](#trebble)
     - [Android Framework](#android-framework)
     - [Kernel](#kernel)
       - [Qualcomm](#qualcomm)
@@ -34,6 +35,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
       - [Encryption](#encryption)
     - [Security](#security)
       - [SELinux](#selinux)
+      - [Audio](#audio)
     - [App integration](#app-integration)
     - [Optimization](#optimization)
     - [Android CTS/VTS \& test](#android-ctsvts--test)
@@ -152,9 +154,14 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [A practical approach to the AOSP build system](https://blog.jayway.com/2012/10/24/a-practical-approach-to-the-aosp-build-system/)
 * [AOSP Build System](https://budhdisharma.medium.com/aosp-build-system-767deeb535fa)
 * [AOSP System Image](https://scribe.privacydev.net/android-news/aosp-system-image-b80e44ddf4)
-* [Android Build System](https://elinux.org/Android_Build_System)
-* [Building Custom Roms](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1m8k9gztsQnnXDg1G4X1f6z)
-* [VirtualBox](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1ltYDIzCsSMCOpxXJSjrZd5)
+* [Android internals](https://www.youtube.com/playlist?list=PLEq1q16moI5uvGNEdu0eODGiSJAk3VXfy)
+* [android internals](https://www.youtube.com/playlist?list=PL07D15CEBAC16A98B)
+* [How to port roms in Windows​](https://forum.xda-developers.com/t/guide-how-to-port-roms-snapdragon-windows-linux.3801391/)
+* [Android Internals](https://vimeo.com/18017921)
+* [Porting to custom hardware](https://elinux.org/images/7/71/03-android-inside.pdf) (2010/pdf)
+* [Porting Android to New Hardware](https://www.pudn.com/detail/2374139) (2011/pdf)
+* [AN11690 - NXP NCI Android Porting Guidelines](https://www.nxp.com/docs/en/application-note/AN11690.pdf) (2020/pdf)
+* [Industrialize your ROM cooking: good practices](https://elinux.org/images/d/d3/ROM_cooking_and_good_practices--vagnet.pdf) (old/pdf)
 
 #### Building
 
@@ -178,6 +185,10 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Envsetup.sh configuration lunch for Android development (translate)](https://blog-csdn-net.translate.goog/llping2011/article/details/9339373?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc) [(original link)](https://blog.csdn.net/llping2011/article/details/9339373)
 * [Detailed explanation of Android compilation system (1) - build/envsetup.sh (translate)](https://blog-csdn-net.translate.goog/mzm2438975656/article/details/52571743?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc) [(original link)](https://blog.csdn.net/mzm2438975656/article/details/52571743)
 * [Notes on GCC 7.x+ for Android](https://gist.github.com/nathanchance/965028fc180b1cced015ac7530b2eaeb)
+* [Android Build System](https://elinux.org/Android_Build_System)
+* [Building Custom Roms](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1m8k9gztsQnnXDg1G4X1f6z)
+* [VirtualBox](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1ltYDIzCsSMCOpxXJSjrZd5)
+* [How to build Android from source (2020 edition)](https://forum.xda-developers.com/t/guide-how-to-build-android-from-source-2020-edition.4171993/)
 
 ##### Automation
 
@@ -194,6 +205,14 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [AOSP Folder Description](https://budhdisharma.medium.com/aosp-folder-description-ac1d55aa8bb2)
 * [Android Device Tree Bringup](https://blog.realogs.in/android-device-tree-bringup/)
 * [The method of independently compiling the device tree multi-file multi-dts dependency (translate)](https://blog-csdn-net.translate.goog/vesamount/article/details/83350300?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc) [(original link)](https://blog.csdn.net/vesamount/article/details/83350300)
+
+#### Trebble
+
+* [How to make GSIs overlay file for your phone](https://forum.xda-developers.com/t/guide-how-to-make-gsis-overlay-file-for-your-phone.3878974/)
+* [GSI Porting Tools for Android](https://forum.xda-developers.com/t/gsi-porting-tools-for-android-auto-script-a-to-a-b-wip.4089193/)
+* [Guide For Flashing GSIs for all Android devices (2021)](https://forum.xda-developers.com/t/discoveryandroid-guide-for-flashing-gsis-for-all-android-devices-2021.4348851/)
+* [How to port A system image to AB (system-as-root)](https://forum.xda-developers.com/t/guide-how-to-port-a-system-image-to-ab-system-as-root.3829885/)
+* [How to build a Project Treble GSI ROM from source?](https://forum.xda-developers.com/t/guide-how-to-build-a-project-treble-gsi-rom-from-source-31-08.3801803/)
 
 #### Android Framework
 
@@ -241,6 +260,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Linux kernel device tree and compilation (translate)](https://blog-csdn-net.translate.goog/u014650722/article/details/79076352?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc) [(original link)](https://blog.csdn.net/u014650722/article/details/79076352)
 * [KernelNewbies: KernelBuild](https://kernelnewbies.org/KernelBuild)
 * [Compiling an Android kernel with Clang](https://github.com/nathanchance/android-kernel-clang)
+* [Captronic Porting Linux on an ARM board](https://bootlin.com/pub/conferences/2015/captronic/captronic-porting-linux-on-arm.pdf) (pdf)
 
 ##### Qualcomm
 
@@ -259,6 +279,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 * [Compile a custom android kernel for Asus ROG Phone 2 using clang 10](https://www.youtube.com/watch?v=b8-eOfWviU0)
 * [How to port a newer kernel to android-x86?](https://groups.google.com/g/android-x86/c/corNvvbjjSo)
+* [Custom Kernel on 96boards Hikey LeMaker](https://suchakra.wordpress.com/2016/04/15/custom-kernel-on-96boards-hikey/)
 
 #### Blob and dump
 
@@ -294,6 +315,11 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [How to examine Android SELinux policy](https://www.whitewinterwolf.com/posts/2016/08/15/examine-android-selinux-policy/)
 * [Working with SELinux on Android](https://lineageos.org/engineering/HowTo-SELinux/)
 * [SELinux for Android 8.0](https://source.android.com/static/docs/security/features/selinux/images/SELinux_Treble.pdf)
+
+##### Audio
+
+* [Fix Bluetooth Audio A2DP & aptX in any GSI ROM](https://forum.xda-developers.com/t/guide-fix-bluetooth-audio-a2dp-aptx-in-any-gsi-rom.3950938/)
+* [Fix Bluetooth Audio & aptX & Bluetooth in call in GSI ROM](https://forum.xda-developers.com/t/guide-fix-bluetooth-audio-aptx-bluetooth-in-call-in-gsi-rom.4455275/)
 
 #### App integration
 
@@ -347,6 +373,10 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Qualcomm Code Aurora caf-manifest tags](https://gitlab.com/simonsmh/caf-manifest/-/tags)
 * [How do I compile Android 4.4.2 for Qualcomm MSM systems?](https://stackoverflow.com/questions/29763302/how-do-i-compile-android-4-4-2-for-qualcomm-msm-systems)
 * [The Compilation Process of Qualcomm Projects written by Beginners](https://programmer.help/blogs/the-compilation-process-of-qualcomm-projects-written-by-beginners.html)
+* [Little Kernel Boot Loader Overview](https://developer.qualcomm.com/download/db410c/little-kernel-boot-loader-overview.pdf) (pdf)
+* [Qualcomm® Snapdragon™ 410 processor, sensors Porting Guide](https://developer.qualcomm.com/qfile/28820/lm80-p0436-9_sensors_porting_guide.pdf) (2015/pdf)
+* [Qualcomm® Snapdragon™ 410 processor, Interfacing Grove Digital Light I2C Sensor, Application Note](https://developer.qualcomm.com/download/db410c/interfacing-grove-digital-light-i2c-sensor-application-note.pdf) (2016/pdf)
+* [Qualcomm® Snapdragon™ 410 processor, Software Build and Installation Guide, Linux Android](https://developer.qualcomm.com/download/db410c/linux-android-software-build-and-installation-guide.pdf) (2016/pdf)
 
 ##### MediaTek
 
@@ -400,6 +430,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [How To Port CyanogenMod/LineageOS Android To Your Own Device](https://fat-tire.github.io/porting-intro.html)
 * [How to adapt a LineageOS device tree for AOSP](https://theautomatedparts.com/apblog/?p=12)
 * [How-to Build LineageOS​](https://forum.xda-developers.com/t/guide-build-lineageos-how-to-use-github.3551484/)
+* [How To Port CyanogenMod Android To Your Own Device (archive wiki)](https://web.archive.org/web/20161224192644/https://wiki.cyanogenmod.org/w/Doc:_porting_intro)
 
 ##### ArrowOS
 
@@ -644,7 +675,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 #### Huawei (and Honor)
 
-* [PotatoNV](https://github.com/mashed-potatoes/PotatoNV) - Unlock bootloader for Huawei & honor devices on Kirin SoC.
+* [PotatoNV](https://github.com/mashed-potatoes/PotatoNV) - Unlock bootloader for Huawei & Honor devices on Kirin SoC.
 
 ### Users scripts
 
@@ -665,11 +696,15 @@ Contributions are welcome! I am looking for any kind of information that can hel
   * Android Internals::Developer's View - *volume 2* ([amazon](https://www.amazon.com/dp/0991055543?&_encoding=UTF8&tag=newosxbookcom-20&linkCode=ur2&linkId=bb5d8363ae5c9a2be1dceb1745a229b8&camp=1789&creative=9325))
   * Android Internals::Security - *volume 3* (being written)
   * Android Internals::The Implementer's View - *volume 4* (being written)
+* Android System Programming: Porting, customizing, and debugging Android HAL *by Roger Ye* ([amazon](https://www.amazon.com/Android-System-Programming-customizing-debugging/dp/178712536X))
 * Android Security Internals: An In-Depth Guide to Android's Security Architecture *by  Nikolay Elenkov* ([amazon](https://www.amazon.com/Android-Security-Internals-Depth-Architecture/dp/1593275811))
 * Embedded Android: Porting, Extending, and Customizing *by Karim Yaghmour* ([oreilly](https://www.oreilly.com/library/view/embedded-android/9781449327958/)/[amazon](https://www.amazon.com/_/dp/1449308295))
 * Embedded Programming with Android: Bringing Up an Android System from Scratch *by Roger Ye* ([oreilly](https://www.oreilly.com/library/view/embedded-programming-with/9780134030920/)/[amazon](https://www.amazon.com/Embedded-Programming-Android-Bringing-Scratch/dp/0134030001))
 
 ## Online groupes
+
+* [Reddit Android](https://www.reddit.com/r/Android/)
+* [Reddit LineageOS](https://www.reddit.com/r/LineageOS/)
 
 ### Telegram channel
 
@@ -697,6 +732,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 * [Android Champ blog](https://medium.com/android-knowledge-store)
 * [LineageOS engineering blog](https://lineageos.org/engineering/)
+* [LineageOS blog](https://lineageos.org/blog/)
 * [XDA Developers news](https://www.xda-developers.com/)
   * [Development](https://www.xda-developers.com/tag/development/)
   * [LineageOS](https://www.xda-developers.com/tag/lineageos/)
@@ -748,6 +784,8 @@ Contributions are welcome! I am looking for any kind of information that can hel
   * [Github repositories](https://github.com/MotorolaMobilityLLC)
 * [Nothing Phone](https://nothing.tech/)
   * [Github](https://github.com/NothingOSS)
+* [NPX](https://www.nxp.com/)
+  * [Github](https://github.com/NXPNFCLinux)
 * Nubia
   * todo
 * [OnePlus](https://www.oneplus.com/)
@@ -790,9 +828,35 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 * [Android AOSP](https://source.android.com/)
   * [Android Review Gerrit](https://android-review.googlesource.com/q/status:open+-is:wip)
-* [LineageOS]()
+* [CalyxOS](https://calyxos.org/)
+  * [Matrix main channel](https://app.element.io/#/room/#CalyxOS:matrix.org)
+  * [Matrix development](https://app.element.io/#/room/#calyxos-dev:matrix.org)
+  * [Reddit](https://www.reddit.com/r/CalyxOS/)
+  * [Development documentation](https://calyxos.org/docs/development/)
+  * [Gitlab](https://gitlab.com/CalyxOS)
+  * [Github](https://github.com/CalyxOS)
+  * [Issues](https://gitlab.com/CalyxOS/calyxos/-/issues)
+  * [Gerrit](https://review.calyxos.org/q/status:open+-is:wip)
+* [GrapheneOS](https://grapheneos.org/)
+  * [Build documentation](https://grapheneos.org/build)
+  * [FAQ](https://grapheneos.org/faq)
+  * [Releases](https://grapheneos.org/releases)
+  * [Sources link](https://grapheneos.org/source)
+  * [Github](https://github.com/GrapheneOS)
+* [LineageOS](https://lineageos.org/)
   * [Github](https://github.com/LineageOS)
   * [Gerrit](https://review.lineageos.org/q/status:open+-is:wip)
+  * [Issues](https://gitlab.com/LineageOS/issues)
+  * [Translation](https://crowdin.com/project/lineageos)
+  * [Wiki](https://wiki.lineageos.org/)
+  * [IRC](https://kiwiirc.com/nextclient/irc.libera.chat#lineageos)
+  * [Discord](https://discord.com/invite/gD6DMtf)
+  * [Status infrastructure](https://status.lineageos.org/)
+* [paranoidandroid](https://paranoidandroid.co/)
+  * [Gerrit](https://gerrit.aospa.co/q/status:open+-is:wip)
+* [ProtonAOSP](https://protonaosp.org/)
+  * [Developers documentation](https://protonaosp.org/developers/download)
+  * [Github](https://github.com/ProtonAOSP)
 * [TWRP](https://twrp.me/)
   * [Github](https://github.com/TeamWin)
   * [Gerrit](https://gerrit.twrp.me/q/status:open+-is:wip)
