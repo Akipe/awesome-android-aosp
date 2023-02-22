@@ -51,6 +51,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
       - [LineageOS](#lineageos)
       - [ArrowOS](#arrowos)
       - [OmniROM](#omnirom)
+      - [Other](#other)
   - [Tools](#tools)
     - [Bash](#bash)
     - [Git, Gerrit \& merging](#git-gerrit--merging)
@@ -67,12 +68,14 @@ Contributions are welcome! I am looking for any kind of information that can hel
   - [Devices databases](#devices-databases)
 - [Tools](#tools-1)
   - [General](#general-1)
+  - [Generator](#generator)
   - [Extractor](#extractor)
   - [Kernel](#kernel-1)
   - [Blob \& vendor](#blob--vendor)
   - [Conversion](#conversion)
+  - [Informations](#informations)
   - [Debugging](#debugging-1)
-  - [Partitions](#partitions)
+  - [Partitions, storage \& data](#partitions-storage--data)
   - [Vendor specific](#vendor-specific-1)
     - [Nexus](#nexus)
     - [LG](#lg)
@@ -168,6 +171,9 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [AOSP: Source Code, Repo, Git](https://scribe.bus-hit.me/android-knowledge-store/aosp-source-code-repo-git-afd973a00356)
 * [AOSP Emulator Guide](https://budhdisharma.medium.com/aosp-emulator-guide-762879714cd2)
 * [Android AOSP Source Code Download and Build](https://budhdisharma.medium.com/android-aosp-source-code-download-and-build-92843c782df5)
+* [Envsetup.sh configuration lunch for Android development (translate)](https://blog-csdn-net.translate.goog/llping2011/article/details/9339373?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc) [(original link)](https://blog.csdn.net/llping2011/article/details/9339373)
+* [Detailed explanation of Android compilation system (1) - build/envsetup.sh (translate)](https://blog-csdn-net.translate.goog/mzm2438975656/article/details/52571743?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc) [(original link)](https://blog.csdn.net/mzm2438975656/article/details/52571743)
+* [Notes on GCC 7.x+ for Android](https://gist.github.com/nathanchance/965028fc180b1cced015ac7530b2eaeb)
 
 ##### Automation
 
@@ -183,6 +189,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [How to make a device-tree for your phone](https://forum.xda-developers.com/t/guide-how-to-make-a-device-tree-for-your-phone.3698419/)
 * [AOSP Folder Description](https://budhdisharma.medium.com/aosp-folder-description-ac1d55aa8bb2)
 * [Android Device Tree Bringup](https://blog.realogs.in/android-device-tree-bringup/)
+* [The method of independently compiling the device tree multi-file multi-dts dependency (translate)](https://blog-csdn-net.translate.goog/vesamount/article/details/83350300?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc) [(original link)](https://blog.csdn.net/vesamount/article/details/83350300)
 
 #### Android Framework
 
@@ -226,6 +233,10 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Android Kernel Features](https://elinux.org/Android_Kernel_Features)
 * [Android Kernel Download](https://elinux.org/Android_Kernel_Download)
 * [Linux kernel and driver development course](https://bootlin.com/doc/training/linux-kernel/)
+* [Android 8.0 learning --- modular kernel (translate)](https://bbs-zecoki-com.translate.goog/thread-18911-1-1.html?_x_tr_sch=http&_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc) [(original link)](http://bbs.zecoki.com/thread-18911-1-1.html)
+* [Linux kernel device tree and compilation (translate)](https://blog-csdn-net.translate.goog/u014650722/article/details/79076352?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc) [(original link)](https://blog.csdn.net/u014650722/article/details/79076352)
+* [KernelNewbies: KernelBuild](https://kernelnewbies.org/KernelBuild)
+* [Compiling an Android kernel with Clang](https://github.com/nathanchance/android-kernel-clang)
 
 ##### Qualcomm
 
@@ -253,6 +264,9 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [How To Extract Your Stock Firmware from Your Android Device](https://techsbyte.com/how-to-extract-your-stock-firmware-from-your-android-device/)
 * [Find out which shared libs (.so) are missing](https://forum.xda-developers.com/t/tutorial-find-out-which-shared-libs-so-are-missing.2737126/)
 * [ldd equivalent on android](https://stackoverflow.com/questions/15534104/ldd-equivalent-on-android)
+* [What are blobs and HALs? ](https://www.reddit.com/r/Android/comments/52ovsh/eli5_what_are_blobs_and_hals/)
+* [What are Blobs on Android?](https://www.quora.com/What-are-Blobs-on-Android)
+* [Guide for full firmware extractors](https://github.com/Akianonymus/Firmware_Extraction)
 
 #### Feature
 
@@ -297,7 +311,6 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 * [How to build a Project Treble GSI ROM from source?](https://forum.xda-developers.com/t/guide-how-to-build-a-project-treble-gsi-rom-from-source-31-08.3801803/)
 
-
 #### Debugging
 
 * [Battery Status: Android](https://scribe.nixnet.services/android-knowledge-store/battery-status-android-fe3fd63f7ae5)
@@ -311,6 +324,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Strace et Ltrace : tracez les appels systèmes et librairies](https://wiki.deimos.fr/Strace_et_Ltrace_:_tracez_les_appels_syst%C3%A8mes_et_librairies.html)
 * [Android Log Analysis](https://budhdisharma.medium.com/android-log-analysis-176f9b9dafaf)
 * [How to Acquire Logs](https://telegra.ph/HOW-TO-TAKE-LOGS-06-11)
+* [Proper AOSP bug reporting](https://github.com/nathanchance/android-tools/blob/main/guides/proper_bug_reporting.txt)
 
 #### Vendor specific
 
@@ -366,6 +380,12 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Compile LineageOS TWRP: Setting up minimal LineageOS TWRP](https://www.youtube.com/watch?v=7xdIxiiHLlc&t=9s)
 * [TWRP Flags for BoardConfig.mk](https://forum.xda-developers.com/t/twrp-flags-for-boardconfig-mk.3333970/)
 * [How to compile TWRP touch recovery](https://forum.xda-developers.com/t/dev-how-to-compile-twrp-touch-recovery.1943625/)
+* [TWRP standard device files for Qualcomm SoCs decryption](https://github.com/TeamWin/android_device_qcom_twrp-common)
+* [How generate TWRP with TwrpBuilder](https://github.com/TwrpBuilder/twrpbuilder_tree_generator/wiki)
+* [TWRP tree from scratch](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1lnwTD8QP_e5Ohj8Ys-0oO7)
+* [Android.mk : a set of tag](https://github.com/TeamWin/android_bootable_recovery/blob/android-12.1/Android.mk)
+* [Compile TWRP](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1kzxSkdZSG_h_f-GDNmSmAl)
+* [How to compile TWRP touch recovery](https://forum.xda-developers.com/t/dev-how-to-compile-twrp-touch-recovery.1943625/#post-32965365)
 
 ##### LineageOS
 
@@ -380,6 +400,10 @@ Contributions are welcome! I am looking for any kind of information that can hel
 ##### OmniROM
 
 * [OmniROM - Porting Omni to your device](https://github.com/omnirom/Docs/blob/master/Porting_Omni_To_Your_Device.md)
+
+##### Other
+
+* [Building Alternative Recoveries](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1nQ2HgCoeJS3j_bpTIXh_Fe)
 
 ### Tools
 
@@ -400,6 +424,8 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Become a git guru](https://www.atlassian.com/git/tutorials)
 * [Git For Newbies](https://baalajimaestro.me/posts/git-for-newbies/)
 * [Using Gerrit code review](https://forum.xda-developers.com/t/guide-using-gerrit-code-review.3720802/)
+* [Working with git bisect](https://nathanchance.dev/posts/working-with-git-bisect/) - To allows you to find out specifically which change or commit caused a particular issue.
+* [git-cherry-pick documentation](https://git-scm.com/docs/git-cherry-pick)
 
 #### GNU Make
 
@@ -430,7 +456,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [XDA Forum : XDA-University](https://forum.xda-developers.com/f/xda-university.2060/)
 * [XDA Forum : Android Software Development](https://forum.xda-developers.com/f/android-software-development.524/)
 * [XDA : All guides at one place](https://forum.xda-developers.com/t/guides-all-guides-at-one-place.2073370/)
-* [Archlinux wiki Android building](https://wiki.archlinux.org/title/Android#Building) - Steps for building Android on Archlinux (and maybe other distributions).
+* [Archlinux : How build Android](https://wiki.archlinux.org/title/Android#Building) - Steps for building Android on Archlinux (and maybe other distributions).
 * [Projekt ScriBt wiki](https://scribt.github.io/index.html) ([XDA thread](https://forum.xda-developers.com/t/guide-tool-linux-projekt-scribt-v2-2-1-build-a-rom-newbie-friendly.3503018/) & [sources](https://github.com/ScriBt/ScriBt.github.io))
 * [bootlin documentation](https://bootlin.com/docs/)
 * [Halium](https://docs.halium.org/en/latest/index.html)
@@ -443,7 +469,6 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 * [Guides and Resources for Sony Xperia™ & AOSP](https://sx.ix5.org/info/)
 * [Open Devices : Guides & Resources (Sony devices)](https://opendevices.ix5.org/resources/)
-
 
 ### Official Android Documentation
 
@@ -496,6 +521,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 * [Device Info HW Database](https://deviceinfohw.ru/devices/)
 * [J's Android Device Database](http://newandroidbook.com/ddb/)
+* [Kimovil](https://www.kimovil.com/en/compare-smartphones)
 * [PHONEDB](https://phonedb.net/)
 * [PHONEDB - Processor](https://phonedb.net/index.php?m=processor&s=headlines)
 
@@ -505,16 +531,25 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 ### General
 
+* [Android MADkitchen (careful!)](https://androidforums.com/threads/introducing-android-mad-kitchen.1294651/) [(virustotal)](https://www.virustotal.com/gui/file-analysis/ODAwNWVlNjc4MTc0OTI3ODhiMDM2ZmVmODJmN2FhYmY6MTY3NzA2MzAxNw==) - Fork of the ASSAYYED KITCHEN for Windows (be careful).
 * [aosp-merger](https://github.com/LineageOS/scripts/tree/master/aosp-merger)
+* [ASSAYYED KITCHEN](https://forum.xda-developers.com/t/best-android-roms-apks-file_systems-editor-assayyed_kitchen.3410545/) [(direct link)](https://mega.nz/#!fAIkBZKQ!aS-9yNL9GKgVzgJd9C5DWJtjD_fNM6bHTiz-1KnsydA) - A set of tool for cooking Android on Windows.
 * [mAid](https://maid.binbash.rocks/index.html) ([sources](https://code.binbash.rocks:8443/mAid)) - An easy and ready-to-use Linux distribution for developing Android.
 * [Projekt Scribt](https://github.com/ScriBt/ScriBt) ([XDA thread](https://forum.xda-developers.com/t/guide-tool-linux-projekt-scribt-v2-2-1-build-a-rom-newbie-friendly.3503018/)) - ROM envsetup, sync and build script for learning developers.
+
+### Generator
+
+* [TwrpBuilder](https://github.com/TwrpBuilder/twrpbuilder_tree_generator) - Generate twrp device tree just using recovery.img and build.prop.
+* [twrpdtgen](https://github.com/twrpdtgen/twrpdtgen) [(doc)](https://github.com/twrpdtgen/twrpdtgen/wiki) - Create a TWRP device tree only from an Android recovery stock image ROM.
 
 ### Extractor
 
 * [abootimg](https://github.com/ggrandou/abootimg) - Manipulate Android boot images.
+* [Android Deodexer](https://github.com/Akianonymus/Android_deodexer) - For deodex odexed android firmwares.
 * [Android Image Kitchen](https://forum.xda-developers.com/t/tool-android-image-kitchen-unpack-repack-kernel-ramdisk-win-android-linux-mac.2073775/) - Unpack/repack kernel and recovery images, and edit the ramdisk.
 * [bootimgtool](https://github.com/vianney/bootimgtool) - Unpack/pack Android boot.img.
 * [dextra](http://newandroidbook.com/tools/dextra.html) - An alternative to dexdump for displaying information about .dex files.
+* [Firmware Extraction](https://github.com/Akianonymus/Firmware_Extraction) - Regroupment of available firmware extractors.
 * [imjtool](http://newandroidbook.com/tools/imjtool.html) - A quick extractor of Android images.
 * [ROME](https://code.binbash.rocks:8443/mAid/android_rome) - [ROM] [E]xtractor, a simple GUI for extracting custom and stock ROMs containing.
 
@@ -522,6 +557,8 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 * [best-caf-kernel.py](https://github.com/LineageOS/scripts/blob/master/best-caf-kernel/best-caf-kernel.py) - Finding the best CAF tag for a vendor kernel.
 * [Kernel Rebaser Script](https://github.com/Sushrut1101/android-kernel-rebaser) - Rebase an OEM kernel to Android Common Kernel base.
+* [Toolchain build scripts](https://github.com/ClangBuiltLinux/tc-build) - A set of script for building kernel with LLCM, clang.
+* [bldgcc](https://github.com/nathanchance/android-tools/blob/main/scripts/bldgcc) - Builds GCC and binutils for exclusively building kernels.
 
 ### Blob & vendor
 
@@ -530,10 +567,21 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [DumprX](https://github.com/DumprX/DumprX) - Firmware extractor based on dumpyara.
 * [dumpyara](https://github.com/AndroidDumps/dumpyara) - Dumping vendor and Android content of a device.
 * [dumpyara (Python)](https://github.com/sebaubuntu-python/dumpyara) - Like dumpyara but code in Python.
+* [ldcheck](https://github.com/that1/ldcheck) - Check dependencies and missing for a blob file.
 
 ### Conversion
 
 * [hidl2aidl](https://source.android.com/docs/core/architecture/aidl/aidl-hals#converting-to-aidl) - For Converting an existing HAL from HIDL to AIDL.
+
+### Informations
+
+* [Device Info HW (playstore](https://play.google.com/store/apps/details?id=ru.andr7e.deviceinfohw&pli=1)/[paid version)](https://play.google.com/store/apps/details?id=ru.andr7e.deviceinfohw.pro) - A hardware and software information app for Android devices.
+* [TrustDevice-Android](https://github.com/trustdecision/trustdevice-android) [(izzyondroid)](https://apt.izzysoft.de/fdroid/index/apk/com.trustdevice.android)- Get informations about security and other.
+* [Codec Info](https://github.com/Parseus/codecinfo) ([playstore](https://play.google.com/store/apps/details?id=com.parseus.codecinfo)/[izzyondroid](https://apt.izzysoft.de/fdroid/index/apk/com.parseus.codecinfo)) - Detailed listing of multimedia codecs on your Android device.
+* [TrebleInfo](https://gitlab.com/TrebleInfo/TrebleInfo) ([playstore](https://play.google.com/store/apps/details?id=tk.hack5.treblecheck)/[f-droid](https://f-droid.org/packages/tk.hack5.treblecheck/)/[izzyondroid](https://apt.izzysoft.de/fdroid/index/apk/tk.hack5.treblecheck)) -  Check the Treble GSI requirements and determine the correct GSI type for your device.
+* [Kaltura Device Info](https://bitbucket.org/oF2pks/kaltura-device-info-android/src/master/) ([playstore](https://play.google.com/store/apps/details?id=com.kaltura.kalturadeviceinfo)/[f-droid](https://f-droid.org/fr/packages/com.oF2pks.kalturadeviceinfos/))
+* [Devstat](https://ianfield.com/DevStat/) ([source](https://github.com/IanField90/DevStat)/[izzyondroid](https://apt.izzysoft.de/fdroid/index/apk/uk.co.ianfield.devstat)) - Help you debug a number device issues like identifying various features you request in your AndroidManifest.xml.
+* [SysInfo](https://github.com/kl3jvi/sysinfo_app) ([izzyondroid](https://apt.izzysoft.de/fdroid/index/apk/com.kl3jvi.sysinfo)) - Simple and powerful application that gives you complete information about your mobile device.
 
 ### Debugging
 
@@ -554,8 +602,9 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Simple-ADB](https://forum.xda-developers.com/t/win-mac-linx-simple-adb.3417155/) ([sources](https://github.com/mhashim6/Simple-ADB)) - ADB/Fastboot with a Graphical User Interface.
 * [strace](https://forum.xda-developers.com/t/utility-strace-4-8-ultimate-debugging-utility-now-ported-to-android.2516002/) - A debugging utility to monitor a program system calls or signals it receives. 
 
-### Partitions
+### Partitions, storage & data
 
+* [iozone](https://fossies.org/linux/iozone/src/current/Android_Readme.md) - IO benchmark tool for Android.
 * [JPT](http://newandroidbook.com/tools/jpt.html) - A "quick & dirty" GPT partition editor.
 
 ### Vendor specific
@@ -617,8 +666,9 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Bringup/FW chat](https://t.me/androidbringup) - Chat for device bringup/debugging and firmware.
 * [Codeaurora Releases](https://t.me/s/CAFReleases) - Tracking CAF new releases.
 * [Linux Kernel Brickers](https://t.me/LinuxKernelNewbies)
-* [TWRP Building Support Group](https://t.me/build_twrp)
+* [TWRP Building Support Group](https://t.me/build_twrp) - Support group for building TWRP touch recovery.
 * [RomDevelopment](https://t.me/alaskalinuxuser_romdevelopment)
+* [XDA-Hub](https://t.me/xdadevelopershub) - Hub for finding specific XDA Telegram group.
 
 ### Forum
 
@@ -641,40 +691,75 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 *Where you can download open source software of your device, like the Linux kernel sources.*
 
+* [Alcatel](https://www.alcatelmobile.com/)
+  * [Open source](https://sourceforge.net/projects/alcatel/files/)
+* [Archos](https://www.archos.com/)
+  * todo
 * [Asus](https://www.asus.com/mobile/phones/all-series/)
-  * Search for each devices > support > Driver & Utility > Source Code
-* [Fairphone](https://code.fairphone.com/)
+  * Open source : search for each devices at [support](https://www.asus.com/support/) > Driver & Utility > Source Code (example : [Zenfone 9](https://www.asus.com/mobile/phones/zenfone/zenfone-9/helpdesk_download/?model2Name=Zenfone-9))
+* [BlackBerry](https://www.blackberry.com/us/en/support/devices)
+  * [Github](https://github.com/blackberry)
+* [BQ](https://educacion.bq.com/)
+  * [Open source](http://opensource.bq.com/)
+  * [Github](https://github.com/bq)
+* [Fairphone](https://www.fairphone.com/)
+  * [Open source](https://code.fairphone.com/)
 * [Google](https://developers.google.com/android/images)
-* [Huawei](https://consumer.huawei.com/en/opensource/)
+* [Honor](https://consumer.huawei.com/en/phones/)
+  * [Open source (1)](https://consumer.huawei.com/en/opensource/)
+  * [Open source (2)](https://www.hihonor.com/global/opensource/)
+* [HTC](https://www.htc.com/us/)
+  * [Open source](https://www.htcdev.com/devcenter/downloads)
+* [Huawei](https://consumer.huawei.com/en/phones/)
+  * [Open source](https://consumer.huawei.com/en/opensource/)
 * [Infinix](https://www.infinixmobility.com)
   * [Github](https://github.com/OpenSource-Infinix)
-* [LG](https://opensource.lge.com/index)
+* LeBest (LeEco/LeTV)
+  * [Open source](http://opensource.le.com/)
+* [Lenvovo](https://www.lenovo.com/us/en/tablets)
+  * Open source : search device on [support](https://support.lenovo.com/us/en) (example : [IdeaTab S2109](https://support.lenovo.com/us/en/downloads/ds00306-open-source-code-kernel-ideatab-s2109-tablet-ideatab-s2109a-tablet))
+* [LG](https://www.lg.com/us/cell-phones)
+  * [Open source](https://opensource.lge.com/index)
   * [Inquiry sources](https://opensource.lge.com/inquiry)
 * [MediaTek](https://www.mediatek.com/) - No open source repositories available directly.
   * [Github](https://github.com/MediaTek-Labs)
+* [Meizu](https://www.meizu.com/)
+  * [Open source](https://github.com/meizuosc)
 * [Nokia / HMD Global](https://www.nokia.com/)
   * No sources
-* [Motorola](https://www.motorola.com/us/developer)
+* [Motorola](https://www.motorola.com/us/)
+  * [Open source](https://www.motorola.com/us/developer)
   * [Github repositories](https://github.com/MotorolaMobilityLLC)
 * [Nothing Phone](https://nothing.tech/)
   * [Github](https://github.com/NothingOSS)
+* Nubia
+  * todo
 * [OnePlus](https://www.oneplus.com/)
   * [Github](https://github.com/OnePlusOSS)
-* [Oppo](https://www.oppo.com/my/store/contents/legal/open-source-software-notice/)
+* [Oppo](https://www.oppo.com/my/)
+  * [Open source notice](https://www.oppo.com/my/store/contents/legal/open-source-software-notice/)
   * [Github](https://github.com/oppo-source)
-* [Qualcomm (Code Aurora)](https://www.codeaurora.org/)
+* [Qualcomm](https://www.qualcomm.com/home)
+  * [Code Aurora](https://www.codeaurora.org/)
   * [Repositories sources](https://source.codeaurora.org/)
   * [Proprietary binaries sources (account needed)](https://chipcode.qti.qualcomm.com/)
-* [Realme](https://github.com/realme-kernel-opensource)
-* [Samsung](https://opensource.samsung.com/main)
+* [Realme](https://www.realme.com/global/)
+  * [Github](https://github.com/realme-kernel-opensource)
+* [Samsung](https://www.samsung.com/us/mobile/)
+  * [Open source](https://opensource.samsung.com/main)
   * [Inquiry sources](https://opensource.samsung.com/requestInquiry)
-* [Sony](https://developer.sony.com/develop/open-source/)
+* [Sony](https://electronics.sony.com/c/mobile)
+  * [Open source](https://developer.sony.com/develop/open-source/)
   * [Build instructions](https://developer.sony.com/develop/open-devices/guides/aosp-build-instructions/)
-* [Vivo](https://opensource.vivo.com/Project)
-* [Wiko](https://www.wikogeek.com/)
+* [Vivo](https://www.vivo.com/)
+  * [Open source](https://opensource.vivo.com/Project)
+* [Wiko](https://wikomobile.com/)
+  * [Open source](https://www.wikogeek.com/)
   * [Inquiry sources](https://de.wikomobile.com/promo.php?d=2919)
 * [Xiaomi](www.xiaomi.cn)
   * [Github repositories](https://github.com/MiCode?type=source)
+* [ZTE](https://ztedevices.com/)
+  * [Open source](https://opensource.ztedevices.com/)
 
 ## Blob
 
@@ -687,11 +772,14 @@ Contributions are welcome! I am looking for any kind of information that can hel
 *Biggest ROMs projects. You can check her Gerrit instance for study how to port ROMs.*
 
 * [Android AOSP](https://source.android.com/)
-  * [Google Android Review Gerrit](https://android-review.googlesource.com/q/status:open+-is:wip)
+  * [Android Review Gerrit](https://android-review.googlesource.com/q/status:open+-is:wip)
 * [LineageOS]()
-  * [LineageOS Gerrit](https://review.lineageos.org/q/status:open+-is:wip)
+  * [Github](https://github.com/LineageOS)
+  * [Gerrit](https://review.lineageos.org/q/status:open+-is:wip)
 * [TWRP](https://twrp.me/)
-  * [TWRP Gerrit](https://gerrit.twrp.me/q/status:open+-is:wip)
+  * [Github](https://github.com/TeamWin)
+  * [Gerrit](https://gerrit.twrp.me/q/status:open+-is:wip)
+  * [Community chat](https://twrp.zulipchat.com/join/zumqdy6spjszarpubcag4y33/)
 
 ## Sources example
 
@@ -700,6 +788,8 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Android AOSP mirror Github](https://github.com/aosp-mirror/platform_development)
 * [Android dummy trees](https://github.com/AndroidBlobs/) - Device & kernel repositories as reference for many devices.
 * [android-linux-stable (archive)](https://github.com/android-linux-stable)
+* [Minimal manifest for TWRP](https://github.com/minimal-manifest-twrp)
+* [Linux kernel](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/)
 
 ### Device project
 
