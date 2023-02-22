@@ -53,7 +53,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
       - [OmniROM](#omnirom)
       - [Other](#other)
   - [Tools](#tools)
-    - [Bash](#bash)
+    - [Bash \& shell](#bash--shell)
     - [Git, Gerrit \& merging](#git-gerrit--merging)
     - [GNU Make](#gnu-make)
     - [Soong](#soong)
@@ -121,6 +121,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [AOSP Introduction : AOSP Source Code Analysis Lecture 1](https://www.youtube.com/watch?v=MsUhQMz30J4)
 * [Getting Started | AOSP Rom Development](https://adityatelange.in/blog/aosp/aosp-getting-started/)
 * [Android rom building made easy - a beginers Guide part 1](https://www.youtube.com/watch?v=LPXK2Lv0nmk) [part 2](https://www.youtube.com/watch?v=Zr7esDS-QrI)
+* [Android: What is...](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1nbaEuyRi60ZWVP8_gGQb0J)
 
 #### General
 
@@ -151,6 +152,8 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [AOSP Build System](https://budhdisharma.medium.com/aosp-build-system-767deeb535fa)
 * [AOSP System Image](https://scribe.privacydev.net/android-news/aosp-system-image-b80e44ddf4)
 * [Android Build System](https://elinux.org/Android_Build_System)
+* [Building Custom Roms](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1m8k9gztsQnnXDg1G4X1f6z)
+* [VirtualBox](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1ltYDIzCsSMCOpxXJSjrZd5)
 
 #### Building
 
@@ -283,6 +286,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 #### Security
 
 * [Building and flashing a secured AOSP build with verified boot and separate lockscreen password for the Nexus 5X](https://www.howtoforge.com/tutorial/building-and-flashing-a-secured-aosp-build-with-verified-boot-and-separate-lockscreen-password-for-the-nexus-5x/)
+* [Signing Builds](https://wiki.lineageos.org/signing_builds)
 
 ##### SELinux
 
@@ -326,6 +330,8 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Android Log Analysis](https://budhdisharma.medium.com/android-log-analysis-176f9b9dafaf)
 * [How to Acquire Logs](https://telegra.ph/HOW-TO-TAKE-LOGS-06-11)
 * [Proper AOSP bug reporting](https://github.com/nathanchance/android-tools/blob/main/guides/proper_bug_reporting.txt)
+* [Troubleshooting examples](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1lQwh_NHLAzcZsW5lMerXby)
+* [Errors - Common or Not](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1kokIK8VfyE09RoCNqefoY3)
 
 #### Vendor specific
 
@@ -408,11 +414,12 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 ### Tools
 
-#### Bash
+#### Bash & shell
 
 *There is also an awesome list with more resources : [awesome-shell](https://github.com/alebcay/awesome-shell#readme)*.
 
 * [Bash Commands and Tips for Beginners to Experts](https://dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je)
+* [Linux](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1m0G44PfLl8eK_gt_dXd8Ay)
 
 #### Git, Gerrit & merging
 
@@ -427,6 +434,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [Using Gerrit code review](https://forum.xda-developers.com/t/guide-using-gerrit-code-review.3720802/)
 * [Working with git bisect](https://nathanchance.dev/posts/working-with-git-bisect/) - To allows you to find out specifically which change or commit caused a particular issue.
 * [git-cherry-pick documentation](https://git-scm.com/docs/git-cherry-pick)
+* [GitHub and GitLab](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1mm6avXq9ZxehWsb4gYuRb9)
 
 #### GNU Make
 
