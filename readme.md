@@ -273,6 +273,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 ##### Telephony
 
 * [Enable VoLTE trhough modem mod (NV Items) ](https://www.reddit.com/r/GooglePixel/comments/7n8pes/enable_volte_trhough_modem_mod_nv_items/)
+* [Android Telephony Basics](https://lineageos.org/engineering/Telephony/)
 
 ##### Encryption
 
@@ -645,14 +646,15 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 ## Books
 
-* [Android Firmware Customization](https://www.amazon.com/Android-Firmware-Customization-Arvind-Choudhary/dp/9385020293)
-* [Android Internals, A Confectioner's Cookbook, Volume I (first edition)](http://newandroidbook.com/AIvI-M-RL1.pdf) ([wikileaks link](https://wikileaks.org/ciav7p1/cms/files/AIvI-M-RL1.pdf)) - Free ebook 
-* [Android Internals::Developer's View](https://www.amazon.com/Android-Internals-Developers-Jonathan-Levin/dp/0991055543) ([Author website](http://newandroidbook.com/TOC.html))
-* [Android Internals::Power User's View](https://www.amazon.com/Android-Internals-Power-Users-View/dp/0991055586) ([Author website](http://newandroidbook.com/TOC.html))
-* [Android Security Internals: An In-Depth Guide to Android's Security Architecture](https://www.amazon.com/Android-Security-Internals-Depth-Architecture/dp/1593275811)
-* [Android Telephony Basics](https://lineageos.org/engineering/Telephony/)
-* [Embedded Android: Porting, Extending, and Customizing](https://www.oreilly.com/library/view/embedded-android/9781449327958/) by Karim Yaghmour.
-* [Embedded Programming with Android: Bringing Up an Android System from Scratch](https://www.oreilly.com/library/view/embedded-programming-with/9780134030920/)
+* Android Firmware Customization *by Arvind Choudhary* ([amazon](https://www.amazon.com/Android-Firmware-Customization-Arvind-Choudhary/dp/9385020293))
+* Android Internals series *by Jonathan Levin* ([website](http://newandroidbook.com/)/[summary](http://newandroidbook.com/TOC.html))
+  * Android Internals::Power User's View - *volume 1* ([amazon](https://www.amazon.com/gp/product/0991055586/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0991055586&linkCode=as2&tag=newosxbookcom-20&linkId=dee63bd17b404113dd16f234b5b904eb)/[free 2015 edition](http://newandroidbook.com/AIvI-M-RL1.pdf)/[wikileaks](https://wikileaks.org/ciav7p1/cms/files/AIvI-M-RL1.pdf))
+  * Android Internals::Developer's View - *volume 2* ([amazon](https://www.amazon.com/dp/0991055543?&_encoding=UTF8&tag=newosxbookcom-20&linkCode=ur2&linkId=bb5d8363ae5c9a2be1dceb1745a229b8&camp=1789&creative=9325))
+  * Android Internals::Security - *volume 3* (being written)
+  * Android Internals::The Implementer's View - *volume 4* (being written)
+* Android Security Internals: An In-Depth Guide to Android's Security Architecture *by  Nikolay Elenkov* ([amazon](https://www.amazon.com/Android-Security-Internals-Depth-Architecture/dp/1593275811))
+* Embedded Android: Porting, Extending, and Customizing *by Karim Yaghmour* ([oreilly](https://www.oreilly.com/library/view/embedded-android/9781449327958/))
+* Embedded Programming with Android: Bringing Up an Android System from Scratch *by Roger Ye* ([oreilly](https://www.oreilly.com/library/view/embedded-programming-with/9780134030920/)/[amazon](https://www.amazon.com/Embedded-Programming-Android-Bringing-Scratch/dp/0134030001))
 
 ## Online groupes
 
