@@ -12,6 +12,8 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 *English is not my primary language, there might be some language mistakes (feel free to correct them!).*
 
+There is also a list of all pages for the official AOSP Android documentation here : [summary_official_documentation.md](summary_official_documentation.md)
+
 ## Contents
 
 - [Contents](#contents)
@@ -105,7 +107,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 It is recommended to start with the official documentation available at <https://source.android.com/> & <https://developer.android.com/>.
 
-There is a summary available in this project for navigate more easily and find more quickly what you search : [official_documentation.md](offcial_documentation.md)
+There is a summary available in this project for navigate more easily and find more quickly what you search : [summary_official_documentation.md](./summary_official_documentation.md)
 
 * [Android Porting Guidebook](https://github.com/eyedeekay/android_porting_guidebook) (2015/unfinished) - An (incomplete) guide book for porting Android ROM.
 * [Android OS Internals / AOSP Mobile ROM Development](https://www.udemy.com/course/android-os-internals-aosp-mobile-development-2020-edition/) (udemy/not free) - Mobile Development.
