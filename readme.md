@@ -120,6 +120,8 @@ There is a summary available in this project for navigate more easily and find m
 
 ### Specific point
 
+*You may find also information and solution to the official documentation at [summary_official_documentation.md](summary_official_documentation.md)*
+
 #### Introduction
 
 * [Android Getting Started Guide](https://boundarydevices.com/android-getting-started-guide/) (2015)
