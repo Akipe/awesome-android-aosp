@@ -101,16 +101,15 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 ### Where to start (complete guide)
 
-* [Get started with Android Development (official guide)](https://source.android.com/docs/setup) - Official guide to beginning Android AOSP development.
-* [Android Porting Guidebook (unfinished)](https://github.com/eyedeekay/android_porting_guidebook) - An (incomplete) guide book for porting Android ROM.
-* [Android OS Internals / AOSP Mobile ROM Development (udemy)(not free)](https://www.udemy.com/course/android-os-internals-aosp-mobile-development-2020-edition/) - A paid course for learning Android OS development.
-* [Android OS Internals / AOSP Automotive ROM Development (udemy)(not free)](https://www.udemy.com/course/android-os-internals-aosp-automotive-development/) - A paid course for learning Android OS development.
-* [Android OS Internals / AOSP in Depth (udemy)(not free)](https://www.udemy.com/course/android-os-internals-aosp-in-depth/) - A paid course for learning Android OS development.
-* [Android ROM Development From Source To End](https://forum.xda-developers.com/t/guide-complete-android-rom-development-from-source-to-end.2814763/)
-* [Android Build System](https://elinux.org/Android_Build_System)
-* [How to build Android.... Where do I start?](https://www.youtube.com/watch?v=yNVe3mjCI1k)
-* [Linux Device Driver Programming Using Beaglebone Black (kernel)(udemy)(not free)](https://www.udemy.com/course/linux-device-driver-programming-using-beaglebone-black/)
-* [AOSP - Android OS Internals Series (Youtube playlist)](https://www.youtube.com/playlist?app=desktop&list=PLAlSOSt8vS8Ss3uEshNXQe3cbx9qtl8m4)
+* [Get started with Android Development](https://source.android.com/docs/setup) (official guide) - Official guide to beginning Android AOSP development.
+* [Android Porting Guidebook](https://github.com/eyedeekay/android_porting_guidebook) (unfinished) - An (incomplete) guide book for porting Android ROM.
+* [Android OS Internals / AOSP Mobile ROM Development](https://www.udemy.com/course/android-os-internals-aosp-mobile-development-2020-edition/) (udemy/not free) - Mobile Development.
+* [Android OS Internals / AOSP Automotive ROM Development](https://www.udemy.com/course/android-os-internals-aosp-automotive-development/) (udemy/not free) - Android Automotive.
+* [Android OS Internals / AOSP in Depth](https://www.udemy.com/course/android-os-internals-aosp-in-depth/) (udemy/not free) - Deep OS Analysis, Android Startup, AMS, WMS, System UI and more.
+* [Android ROM Development From Source To End](https://forum.xda-developers.com/t/guide-complete-android-rom-development-from-source-to-end.2814763/) - The ultimate guide for ROM development starting from source to end.
+* [How to build Android.... Where do I start?](https://www.youtube.com/watch?v=yNVe3mjCI1k) - Where newcomers should start.
+* [Linux Device Driver Programming Using Beaglebone Black](https://www.udemy.com/course/linux-device-driver-programming-using-beaglebone-black/) (kernel/udemy/not free) - Foundation course on practical Linux device driver programming
+* [AOSP - Android OS Internals Series](https://www.youtube.com/playlist?app=desktop&list=PLAlSOSt8vS8Ss3uEshNXQe3cbx9qtl8m4) (Youtube playlist) - Explore Android 12 from an AOSP point of view.
 
 ### Specific point
 
@@ -151,6 +150,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [A practical approach to the AOSP build system](https://blog.jayway.com/2012/10/24/a-practical-approach-to-the-aosp-build-system/)
 * [AOSP Build System](https://budhdisharma.medium.com/aosp-build-system-767deeb535fa)
 * [AOSP System Image](https://scribe.privacydev.net/android-news/aosp-system-image-b80e44ddf4)
+* [Android Build System](https://elinux.org/Android_Build_System)
 
 #### Building
 
