@@ -653,7 +653,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
   * Android Internals::Security - *volume 3* (being written)
   * Android Internals::The Implementer's View - *volume 4* (being written)
 * Android Security Internals: An In-Depth Guide to Android's Security Architecture *by  Nikolay Elenkov* ([amazon](https://www.amazon.com/Android-Security-Internals-Depth-Architecture/dp/1593275811))
-* Embedded Android: Porting, Extending, and Customizing *by Karim Yaghmour* ([oreilly](https://www.oreilly.com/library/view/embedded-android/9781449327958/))
+* Embedded Android: Porting, Extending, and Customizing *by Karim Yaghmour* ([oreilly](https://www.oreilly.com/library/view/embedded-android/9781449327958/)/[amazon](https://www.amazon.com/_/dp/1449308295))
 * Embedded Programming with Android: Bringing Up an Android System from Scratch *by Roger Ye* ([oreilly](https://www.oreilly.com/library/view/embedded-programming-with/9780134030920/)/[amazon](https://www.amazon.com/Embedded-Programming-Android-Bringing-Scratch/dp/0134030001))
 
 ## Online groupes
