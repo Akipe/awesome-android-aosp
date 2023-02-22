@@ -82,6 +82,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
     - [MediaTek](#mediatek-1)
     - [Samsung](#samsung-1)
     - [Sony](#sony-2)
+    - [Huawei (and Honor)](#huawei-and-honor)
   - [Users scripts](#users-scripts)
 - [Books](#books)
 - [Online groupes](#online-groupes)
@@ -640,6 +641,10 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 * [Flashtool](https://github.com/Androxyde/Flashtool) and [website](https://flashtool.net/download.html) - An Xperia device flashing tool.
 * [UnSIN ~ SIN v3/v4/v5 Unpacker](https://forum.xda-developers.com/t/tool-unsin-sin-v3-v4-v5-unpacker-v1-13.3128106/) - An unpacker for Sony devices images.
+
+#### Huawei (and Honor)
+
+* [PotatoNV](https://github.com/mashed-potatoes/PotatoNV) - Unlock bootloader for Huawei & honor devices on Kirin SoC.
 
 ### Users scripts
 
