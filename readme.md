@@ -261,6 +261,7 @@ Contributions are welcome! I am looking for any kind of information that can hel
 * [KernelNewbies: KernelBuild](https://kernelnewbies.org/KernelBuild)
 * [Compiling an Android kernel with Clang](https://github.com/nathanchance/android-kernel-clang)
 * [Captronic Porting Linux on an ARM board](https://bootlin.com/pub/conferences/2015/captronic/captronic-porting-linux-on-arm.pdf) (pdf)
+* [Android Kernel Configs](https://android.googlesource.com/kernel/configs/+/refs/heads/master/README.md)
 
 ##### Qualcomm
 
@@ -609,7 +610,9 @@ Contributions are welcome! I am looking for any kind of information that can hel
       * [Encryption](https://source.android.com/docs/security/features/encryption)
       * [File-Based Encryption](https://source.android.com/docs/security/features/encryption/file-based)
       * [Full-Disk Encryption](https://source.android.com/docs/security/features/encryption/full-disk)
-      * ...
+      * [Metadata Encryption](https://source.android.com/docs/security/features/encryption/metadata)
+      * [Enabling Adiantum](https://source.android.com/docs/security/features/encryption/adiantum)
+      * [Hardware-Wrapped Keys](https://source.android.com/docs/security/features/encryption/hw-wrapped-keys)
     * Keystore
       * [Hardware-backed Keystore](https://source.android.com/docs/security/features/keystore)
       * ...
@@ -617,9 +620,13 @@ Contributions are welcome! I am looking for any kind of information that can hel
       * [Identity Credential](https://source.android.com/docs/security/features/identity-credentials)
     * SELinux
       * [Security-Enhanced Linux in Android](https://source.android.com/docs/security/features/selinux)
-      * ...
+      * [SELinux concepts](https://source.android.com/docs/security/features/selinux/concepts)
+      * [Implementing SELinux](https://source.android.com/docs/security/features/selinux/implement)
       * [Customizing SELinux](https://source.android.com/docs/security/features/selinux/customize)
-      * ...
+      * [Building SELinux Policy](https://source.android.com/docs/security/features/selinux/build)
+      * [Policy Compatibility](https://source.android.com/docs/security/features/selinux/compatibility)
+      * [Validating SELinux](https://source.android.com/docs/security/features/selinux/validate)
+      * [Writing SELinux Policy](https://source.android.com/docs/security/features/selinux/device-policy)
       * [Writing SELinux Policy](https://source.android.com/docs/security/features/selinux/device-policy)
       * ...
     * Trusty TEE
@@ -627,9 +634,12 @@ Contributions are welcome! I am looking for any kind of information that can hel
       * ...
     * Verified Boot
       * [Verified Boot](https://source.android.com/docs/security/features/verifiedboot)
-      * ...
+      * [Device State](https://source.android.com/docs/security/features/verifiedboot/device-state)
+      * [Verifying Boot](https://source.android.com/docs/security/features/verifiedboot/verified-boot)
+      * [Boot Flow](https://source.android.com/docs/security/features/verifiedboot/boot-flow)
       * [Implementing dm-verity](https://source.android.com/docs/security/features/verifiedboot/dm-verity)
-      * ...
+      * [Verifying system_other Partition](https://source.android.com/docs/security/features/verifiedboot/verify-system-other-partition)
+      * [Android Verified Boot](https://source.android.com/docs/security/features/verifiedboot/avb)
   * Testing
     * [Security Testing](https://source.android.com/docs/security/test/fuzz-sanitize)
     * ...
@@ -643,15 +653,54 @@ Contributions are welcome! I am looking for any kind of information that can hel
     * Hardware Abstraction Layer (HAL)
       * [Hardware Abstraction Layer (HAL) overview](https://source.android.com/docs/core/architecture/hal)
       * ...
-      * Previous Kernels (<=4.19)
-        * ...
-        * [Linux-stable Merges](https://source.android.com/docs/core/architecture/kernel/linux-stable-merges)
-        * ...
     * Kernel
       * [Kernel overview](https://source.android.com/docs/core/architecture/kernel)
       * [Stable Kernel Releases & Updates](https://source.android.com/docs/core/architecture/kernel/releases)
       * [Android Common Kernels](https://source.android.com/docs/core/architecture/kernel/android-common)
-      * ...
+      * [The Generic Kernel Image (GKI) project](https://source.android.com/docs/core/architecture/kernel/generic-kernel-image)
+      * [GKI development](https://source.android.com/docs/core/architecture/kernel/gki-dev)
+      * [GKI Versioning](https://source.android.com/docs/core/architecture/kernel/gki-versioning)
+      * GKI Release Builds
+        * [Generic Kernel Image (GKI) release builds](https://source.android.com/docs/core/architecture/kernel/gki-release-builds)
+        * ...
+      * [Generic Kernel Image (GKI) Release Process](https://source.android.com/docs/core/architecture/kernel/gki-releases)
+      * [Maintain a stable Kernel Module Interface (KMI)](https://source.android.com/docs/core/architecture/kernel/stable-kmi)
+      * [Android Kernel ABI Monitoring](https://source.android.com/docs/core/architecture/kernel/abi-monitor)
+      * Modules
+        * [Kernel modules overview](https://source.android.com/docs/core/architecture/kernel/modules)
+        * [Configure kernel features as GKI modules](https://source.android.com/docs/core/architecture/kernel/convert-or-add)
+        * [Vendor module guidelines](https://source.android.com/docs/core/architecture/kernel/vendor-module-guidelines)
+        * [Loadable Kernel Modules](https://source.android.com/docs/core/architecture/kernel/loadable-kernel-modules)
+        * [Kernel Module Support](https://source.android.com/docs/core/architecture/kernel/kernel-module-support)
+        * [Test GKI modules](https://source.android.com/docs/core/architecture/kernel/test-kernel)
+      * [Boot Time Optimization](https://source.android.com/docs/core/architecture/kernel/boot-time-opt)
+      * [Debugging](https://source.android.com/docs/core/architecture/kernel/debugging-with-gki)
+      * [Develop Kernel Code for GKI](https://source.android.com/docs/core/architecture/kernel/kernel-code)
+      * [Android Kernel File System Support](https://source.android.com/docs/core/architecture/android-kernel-file-system-support)
+      * [Extending the Kernel with eBPF](https://source.android.com/docs/core/architecture/kernel/bpf)
+      * [Using DebugFS in Android 12](https://source.android.com/docs/core/architecture/kernel/using-debugfs-12)
+      * [FIPS 140-3 certifiable GKI crypto module](https://source.android.com/docs/core/architecture/kernel/gki-fips140-module)
+      * [Android kernel frequently asked questions](https://source.android.com/docs/core/architecture/kernel/gki-faq)
+      * GKI 1.0
+        * [GKI 1.0 overview](https://source.android.com/docs/core/architecture/kernel/gki1-overview)
+        * [GKI 1.0: Compatibility Testing](https://source.android.com/docs/core/architecture/kernel/gki-compat-test-1.0)
+      * Previous Kernels (<=4.19)
+        * [Previous kernels (<=4.19)](https://source.android.com/docs/core/architecture/kernel/previous-kernel-overview)
+        * [Linux-stable Merges](https://source.android.com/docs/core/architecture/kernel/linux-stable-merges)
+        * [Kernel Hardening](https://source.android.com/docs/core/architecture/kernel/hardening)
+        * [Android Live-LocK Daemon (llkd)](https://source.android.com/docs/core/architecture/kernel/llkd)
+        * [Kernel Configuration](https://source.android.com/docs/core/architecture/kernel/config)
+        * [Interface Requirements](https://source.android.com/docs/core/architecture/kernel/reqs-interfaces)
+        * [Incremental File System](https://source.android.com/docs/core/architecture/kernel/incfs)
+        * [Kernel Networking Unit Tests](https://source.android.com/docs/core/architecture/kernel/network_tests)
+        * Modular Kernels
+          * [Mounting Partitions Early](https://source.android.com/docs/core/architecture/kernel/mounting-partitions-early)
+          * [DTO Support](https://source.android.com/docs/core/architecture/kernel/dto-support)
+        * [Ion ABI Changes](https://source.android.com/docs/core/architecture/kernel/ion_abi_changes)
+        * [Modularizing ION Heaps for GKI](https://source.android.com/docs/core/architecture/kernel/ion_abi_changes)
+        * [Transitioning from ION to DMA-BUF Heaps](https://source.android.com/docs/core/architecture/kernel/ion_abi_changes)
+        * [Core Kernel Requirements](https://source.android.com/docs/core/architecture/kernel/ion_abi_changes)
+      * [EROFS](https://source.android.com/docs/core/architecture/kernel/ion_abi_changes)
     * HIDL (General)
       * [HIDL](https://source.android.com/docs/core/architecture/hidl)
       * ...
@@ -734,18 +783,47 @@ Contributions are welcome! I am looking for any kind of information that can hel
     * ...
   * Tests
     * [Android Platform Testing](https://source.android.com/docs/core/tests)
-    * ...
+    * Test Development Workflow
+      * [Test Development Workflow](https://source.android.com/docs/core/tests/development)
+      * ...
+    * Vendor Test Suite (VTS) 11
+      * [Vendor Test Suite (VTS) and infrastructure](https://source.android.com/docs/core/tests/vts)
+      * ...
+    * Vendor Test Suite (VTS) 10
+      * [Vendor Test Suite (VTS) & infrastructure for Android 10 and lower](https://source.android.com/docs/core/tests/vts/index10)
+      * ...
+    * Trade Federation (TF) Test Harness
+      * Getting Started
+        * [Trade Federation Overview](https://source.android.com/docs/core/tests/tradefed)
+        * ...
+      * Testing with TF
+        * [Write and Run Tradefed Tests](https://source.android.com/docs/core/tests/tradefed/testing)
+        * ...
+      * Developing TF
+        * [Developing Tradefed](https://source.android.com/docs/core/tests/tradefed/development)
+        * ...
+      * Architecture
+        * [Overview of Trade Federation Architecture](https://source.android.com/docs/core/tests/tradefed/architecture)
+        * ...
     * Debugging
       * [Debugging Native Android Platform Code](https://source.android.com/docs/core/tests/debug)
-      * ...
+      * [Reading bug reports](https://source.android.com/docs/core/tests/debug/read-bug-reports)
+      * [Understanding Logging](https://source.android.com/docs/core/tests/debug/understanding-logging)
+      * [Implementing Scoped Vendor Logging](https://source.android.com/docs/core/tests/debug/scoped-vendor-logging)
       * [Diagnosing Native Crashes](https://source.android.com/docs/core/tests/debug/native-crash)
       * Evaluating Performance
         * [Evaluating Performance](https://source.android.com/docs/core/tests/debug/eval_perf)
         * [Understanding Systrace](https://source.android.com/docs/core/tests/debug/systrace)
-        * ...
-      * ...
+        * [Using ftrace](https://source.android.com/docs/core/tests/debug/ftrace)
+        * [Identifying Capacity-Related Jank](https://source.android.com/docs/core/tests/debug/jank_capacity)
+        * [Identifying Jitter-Related Jank](https://source.android.com/docs/core/tests/debug/jank_jitter)
+      * Feature Implementation
+        * [Implementing Test Harness Mode](https://source.android.com/docs/core/tests/debug/harness)
       * [Using Debuggers](https://source.android.com/docs/core/tests/debug/gdb)
-      * ...
+      * [Debugging Native Memory Use](https://source.android.com/docs/core/tests/debug/native-memory)
+      * [Network Connectivity Tests](https://source.android.com/docs/core/connect/connect_tests)
+      * [Rescue Party](https://source.android.com/docs/core/tests/debug/rescue-party)
+      * [Implementing storaged](https://source.android.com/docs/core/tests/debug/storaged)
       * [Using Strace](https://source.android.com/docs/core/tests/debug/strace)
   * Updates
     * [OTA Updates](https://source.android.com/docs/core/ota)
