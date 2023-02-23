@@ -25,10 +25,12 @@ There is also a list of all pages for the official AOSP Android documentation he
     - [Building](#building)
       - [Automation](#automation)
     - [Device tree](#device-tree)
+    - [Storage](#storage)
     - [Trebble](#trebble)
     - [Android Framework](#android-framework)
     - [Kernel](#kernel)
       - [Qualcomm](#qualcomm)
+      - [MediaTek](#mediatek)
       - [Sony](#sony)
       - [Other vendors](#other-vendors)
     - [Blob and dump](#blob-and-dump)
@@ -45,10 +47,11 @@ There is also a list of all pages for the official AOSP Android documentation he
     - [Debugging](#debugging)
     - [Vendor specific](#vendor-specific)
       - [Qualcomm](#qualcomm-1)
-      - [MediaTek](#mediatek)
+      - [MediaTek](#mediatek-1)
       - [Raspberry Pi](#raspberry-pi)
       - [Samsung](#samsung)
       - [Google](#google)
+      - [Motorola](#motorola)
       - [Other vendors](#other-vendors-1)
     - [Rom specific](#rom-specific)
       - [TWRP](#twrp)
@@ -82,10 +85,13 @@ There is also a list of all pages for the official AOSP Android documentation he
   - [Vendor specific](#vendor-specific-1)
     - [Nexus](#nexus)
     - [LG](#lg)
-    - [MediaTek](#mediatek-1)
+    - [MediaTek](#mediatek-2)
+    - [Qualcomm](#qualcomm-3)
     - [Samsung](#samsung-1)
     - [Sony](#sony-2)
     - [Huawei (and Honor)](#huawei-and-honor)
+    - [Xiaomi](#xiaomi)
+    - [Motorola](#motorola-1)
   - [Users scripts](#users-scripts)
 - [Books](#books)
 - [Online groupes](#online-groupes)
@@ -168,6 +174,14 @@ There is a summary available in this project for navigate more easily and find m
 * [Porting Android to New Hardware](https://www.pudn.com/detail/2374139) (2011/pdf)
 * [AN11690 - NXP NCI Android Porting Guidelines](https://www.nxp.com/docs/en/application-note/AN11690.pdf) (2020/pdf)
 * [Industrialize your ROM cooking: good practices](https://elinux.org/images/d/d3/ROM_cooking_and_good_practices--vagnet.pdf) (old/pdf)
+* [Make your first custom Rom- easiest way](https://forum.xda-developers.com/t/guide-make-your-first-custom-rom-easiest-way.1821695/)
+* [How to port roms to your Device](https://forum.xda-developers.com/t/guide-how-to-port-roms-to-your-device.1957219/)
+* [How To Port Different Roms to Your Device - For CM, AOSP & AOKP](https://forum.xda-developers.com/t/guide-how-to-port-different-roms-to-your-device-for-cm-aosp-aokp.2545618/)
+* [[Development] [Source] [Noob] [Friendly]](https://forum.xda-developers.com/t/rom-development-source-noob-friendly.3848394/)
+* [Porting Roms between two similar devices](https://forum.xda-developers.com/t/guide-porting-roms-between-two-similar-devices.2675345/)
+* [How To Port a Custom Rom](https://forum.xda-developers.com/t/guide-how-to-port-a-custom-rom-noob-friendly.3157127/)
+* [How to port ROMS](https://forum.xda-developers.com/t/guide-how-to-port-roms.1941239/)
+* [Install a Linux OS alongside almost any Android device](https://forum.xda-developers.com/t/guide-root-install-a-linux-os-alongside-almost-any-android-device-december-2017.3726844/)
 
 #### Building
 
@@ -195,6 +209,12 @@ There is a summary available in this project for navigate more easily and find m
 * [Building Custom Roms](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1m8k9gztsQnnXDg1G4X1f6z)
 * [VirtualBox](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1ltYDIzCsSMCOpxXJSjrZd5)
 * [How to build Android from source (2020 edition)](https://forum.xda-developers.com/t/guide-how-to-build-android-from-source-2020-edition.4171993/)
+* [how to make a flashable package (update.zip)](https://forum.xda-developers.com/t/guide-how-to-make-a-flashable-package-update-zip.732957/)
+* [Compiling ROMs from Compressed Sources](https://forum.xda-developers.com/t/guide-compiling-roms-from-compressed-sources.3426480/)
+* [Set up ADB and Fastboot on a Mac easily](https://forum.xda-developers.com/t/guide-set-up-adb-and-fastboot-on-a-mac-easily-with-screenshots.1917237/)
+* [How to build Android 11 with low ram](https://forum.xda-developers.com/t/guide-how-to-build-android-11-with-low-ram.4298483/)
+* [Noobs guide to decompile/recompile android application](https://forum.xda-developers.com/t/how-to-noobs-guide-to-decompile-recompile-android-application.1860115/)
+* [Create your own UPDATE.ZIP](https://forum.xda-developers.com/t/tutorial-create-your-own-update-zip.1610121/)
 
 ##### Automation
 
@@ -211,6 +231,12 @@ There is a summary available in this project for navigate more easily and find m
 * [AOSP Folder Description](https://budhdisharma.medium.com/aosp-folder-description-ac1d55aa8bb2)
 * [Android Device Tree Bringup](https://blog.realogs.in/android-device-tree-bringup/)
 * [The method of independently compiling the device tree multi-file multi-dts dependency (translate)](https://blog-csdn-net.translate.goog/vesamount/article/details/83350300?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc) [(original link)](https://blog.csdn.net/vesamount/article/details/83350300)
+
+#### Storage
+
+* [Universal guide for making your partitions inside super read-writable again.](https://forum.xda-developers.com/t/guide-universal-guide-for-making-your-partitions-inside-super-read-writable-again.4483933/)
+* [SuperPatcherGSI Automated Script for patching the super partition](https://forum.xda-developers.com/t/superpatchergsi-automated-script-for-patching-the-super-partition-super-img.4528589/)
+* [Allow SDCard write access & switch SDCard Path](https://forum.xda-developers.com/t/guide-app-6-x-x-7-x-x-allow-sdcard-write-access-switch-sdcard-path.3593021/)
 
 #### Trebble
 
@@ -268,6 +294,11 @@ There is a summary available in this project for navigate more easily and find m
 * [Compiling an Android kernel with Clang](https://github.com/nathanchance/android-kernel-clang)
 * [Captronic Porting Linux on an ARM board](https://bootlin.com/pub/conferences/2015/captronic/captronic-porting-linux-on-arm.pdf) (pdf)
 * [Android Kernel Configs](https://android.googlesource.com/kernel/configs/+/refs/heads/master/README.md)
+* [Build Your Own Android Kernel](https://forum.xda-developers.com/t/guide-build-your-own-android-kernel-easiest-and-fastest-way-using-the-ndk.2152819/)
+* [Kernel Post Compilation Guide; how to turn kernel into img](https://forum.xda-developers.com/t/tutorial-kernel-post-compilation-guide-how-to-turn-kernel-into-img.3604083/)
+* [Kernel Building - Essentials | Build a Kernel Easily](https://forum.xda-developers.com/t/tool-dev-1-0-official-kernel-building-essentials-build-a-kernel-easily.3814023/)
+* [Compile your own android kernel from source](https://forum.xda-developers.com/t/ultimate-guide-noob-friendly-compile-your-own-android-kernel-from-source.2871276/)
+* [Compile an Android kernel module outside the kernel source tree.](https://hex.ro/wp/blog/compile-an-android-kernel-module-outside-the-kernel-source-tree/)
 
 ##### Qualcomm
 
@@ -277,6 +308,11 @@ There is a summary available in this project for navigate more easily and find m
 * [How to merge a newer CAF tag in an android kernel](https://gist.github.com/JackLI9/741e47f26ff062a450a94476e3fa7580)
 * [How to merge a newer CAF tag in an android kernel](https://gist.github.com/DD3Boh/6c51fd3c5f91b1042e956771483714de)
 * [Porting Kernel Source to Snapdragon Device](https://forum.xda-developers.com/t/guide-porting-kernel-source-to-snapdragon-device.4042829/)
+
+##### MediaTek
+
+* [A Noob Guide On Building Your Own Custom Kernel (ARM & ARM64 & MTK)](https://forum.xda-developers.com/t/guide-a-noob-guide-on-building-your-own-custom-kernel-arm-arm64-mtk.3581057/)
+* [A Noob Guide On Building Your Own Custom Kernel on WIN10](https://forum.xda-developers.com/t/guide-a-noob-guide-on-building-your-own-custom-kernel-on-win10-arm-arm64-mtk.3775494/)
 
 ##### Sony
 
@@ -299,6 +335,8 @@ There is a summary available in this project for navigate more easily and find m
 * [What are blobs and HALs? ](https://www.reddit.com/r/Android/comments/52ovsh/eli5_what_are_blobs_and_hals/)
 * [What are Blobs on Android?](https://www.quora.com/What-are-Blobs-on-Android)
 * [Guide for full firmware extractors](https://github.com/Akianonymus/Firmware_Extraction)
+* [How to Decompile APKs with ODEX files](https://forum.xda-developers.com/t/guide-how-to-decompile-apks-with-odex-files-noob-friendly.3325340/)
+* [How to easily edit/modify .apk files](https://forum.xda-developers.com/t/guide-how-to-easily-edit-modify-apk-files-simple-noob-friendly.2058850/)
 
 #### Feature
 
@@ -316,6 +354,7 @@ There is a summary available in this project for navigate more easily and find m
 
 * [Building and flashing a secured AOSP build with verified boot and separate lockscreen password for the Nexus 5X](https://www.howtoforge.com/tutorial/building-and-flashing-a-secured-aosp-build-with-verified-boot-and-separate-lockscreen-password-for-the-nexus-5x/)
 * [Signing Builds](https://wiki.lineageos.org/signing_builds)
+* [Passing SafetyNet Hardware Attestation on Stock (OEM) ROMs](https://forum.xda-developers.com/t/dev-guide-proof-of-concept-passing-safetynet-hardware-attestation-on-stock-oem-roms.4228005/)
 
 ##### SELinux
 
@@ -366,6 +405,8 @@ There is a summary available in this project for navigate more easily and find m
 * [Proper AOSP bug reporting](https://github.com/nathanchance/android-tools/blob/main/guides/proper_bug_reporting.txt)
 * [Troubleshooting examples](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1lQwh_NHLAzcZsW5lMerXby)
 * [Errors - Common or Not](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1kokIK8VfyE09RoCNqefoY3)
+* [How to take system logcats, kernel logs, and dmesg on Android](https://www.xda-developers.com/how-to-take-logs-android/)
+* [HOW TO USE ADB,DDMS AND TAKE A LOGCAT](https://forum.xda-developers.com/t/win-tutorial-how-to-use-adb-ddms-and-take-a-logcat-pictorial-explanation.2303834/)
 
 #### Vendor specific
 
@@ -384,11 +425,30 @@ There is a summary available in this project for navigate more easily and find m
 * [Qualcomm® Snapdragon™ 410 processor, sensors Porting Guide](https://developer.qualcomm.com/qfile/28820/lm80-p0436-9_sensors_porting_guide.pdf) (2015/pdf)
 * [Qualcomm® Snapdragon™ 410 processor, Interfacing Grove Digital Light I2C Sensor, Application Note](https://developer.qualcomm.com/download/db410c/interfacing-grove-digital-light-i2c-sensor-application-note.pdf) (2016/pdf)
 * [Qualcomm® Snapdragon™ 410 processor, Software Build and Installation Guide, Linux Android](https://developer.qualcomm.com/download/db410c/linux-android-software-build-and-installation-guide.pdf) (2016/pdf)
+* [Trying to use freedreno/turnip on Adreno 616](https://gitlab.freedesktop.org/mesa/mesa/-/issues/6802)
+* [Qualcomm Audio/Usb DAC Optimization, Spl monitor, Biquad Helper](https://forum.xda-developers.com/t/qualcomm-audio-usb-dac-optimization-spl-monitor-biquad-helper.3253957/)
+* [Unbricking and QPST - All Snapdragon / Qualcomm devices](https://forum.xda-developers.com/t/unbricking-and-qpst-all-snapdragon-qualcomm-devices.3451815/)
+* [Ultimate Qualcomm Snapdragon Unbrick Guide, Snapdragon’s are UNBRICKABLE](https://www.androidbrick.com/ultimate-qualcomm-snapdragon-unbrick-guide-snapdragons-are-unbrickable-qhsusb_dload_qpst_qfil_edl/)
+* [How to Use Qualcomm Flash Image Loader (QFIL)](https://consumingtech.com/use-qualcomm-flash-image-loader-qfil/)
+* [Unbrick Qualcomm via QFIL: Using rawprogram0.xml, patch0.xml, MBN](https://www.droidwin.com/unbrick-qualcomm-via-qfil-using-rawprogram0-xml-patch0-xml-and-mbn-file/)
+* [How to use QFIL to flash Qualcomm (QLM) firmware](https://www.youtube.com/watch?v=W9Cz4LwAzLg)
+* [How to return to Stock/Flash Images with QFIL](https://forum.xda-developers.com/t/guide-how-to-return-to-stock-flash-images-with-qfil.3901510/)
+* [How to use Qualcomm Flash Image Loader (QFIL)](https://xiaomitools.com/how-to-use-qualcomm-flash-image-loader-tool-qfil/)
+* [How To Unbrick Qualcomm Android Devices](https://www.leakite.com/revised-how-to-unbrick-qualcomm-android/)
+* [Unbrick via external sdcard (no QFIL!)](https://forum.xda-developers.com/t/guide-9008-edl-qdl-qualcomm-only-unbrick-via-external-sdcard-no-qfil.3748946/)
+* [Unbrick Qualcomm Mobiles with Step-by-step Guide](https://www.droidsavvy.com/2021/03/unbrick-qualcomm-mobiles-with-step-by-step-guide.html)
+* [How to fix bugs in custom rom (Qualcomm)](https://forum.xda-developers.com/t/how-to-fix-bugs-in-custom-rom-qualcomm.3894807/)
+* [Optimize GPU 60FPS and CPU processors Qualcomm snapdragon](https://forum.xda-developers.com/t/tut-optimize-gpu-60fps-and-cpu-processors-qualcomm-snapdragon.3703430/)
 
 ##### MediaTek
 
 * [How To Port TWRP For MediaTek Android Devices](https://techsbyte.com/how-to-port-twrp-for-mediatek-android-devices/)
 * [How To Port TWRP To A/B Partitioned Devices (MediaTek)](https://techsbyte.com/how-to-port-twrp-to-a-b-partitioned-devices-mediatek/)
+* [How to Decode LCM for Mediatek Devices](https://forum.xda-developers.com/t/guide-arm-how-to-decode-lcm-for-mediatek-devices.3599923/)
+* [How To Port & Modify Roms For Mediatek](https://forum.xda-developers.com/t/guide-how-to-port-modify-roms-for-mediatek-everything.2707438/)
+* [So what’s all this talk about Mediatek Secure Boot and DA files?](https://www.hovatek.com/blog/so-whats-all-this-talk-about-meditek-secure-boot-and-da-files/)
+* [How to bypass authentication and flash in EDL with NO auth for FREE](https://forum.xda-developers.com/t/guide-how-to-bypass-authentication-and-flash-in-edl-with-no-auth-for-free.4229683/)
+* [Dissecting a MediaTek BootROM exploit](https://tinyhack.com/2021/01/31/dissecting-a-mediatek-bootrom-exploit/)
 
 ##### Raspberry Pi
 
@@ -398,10 +458,27 @@ There is a summary available in this project for navigate more easily and find m
 
 * [How To Build CyanogenMod For Samsung Galaxy Note 4 International ("trltexx")](https://fat-tire.github.io/build-los-trltexx.html)
 * [How To Build CyanogenMod For Samsung Galaxy Note 4 T-Mobile ("trltetmo")](https://fat-tire.github.io/build-los-trltetmo.html)
+* [Remove FRP Lock on Samsung with Combination File (Odin)](https://technastic.com/remove-frp-samsung-combination-file/amp/#Removing_FRP_on_Samsung_with_Combination_File)
+* [how to build/modify roms for samsung devices](https://forum.xda-developers.com/t/guide-how-to-build-modify-roms-for-samsung-devices-7-0-6-0-1-maybe-more.3616040/)
+* [How to make a System Dump from Odin-packages](https://forum.xda-developers.com/t/guide-tut-how-to-make-a-system-dump-from-odin-packages.3206327/)
 
 ##### Google
 
 * [Android Cookbook: Nexus Device Hacking 101](https://tomwwolf.wordpress.com/android/android-cookbook-hacking101-nexus/)
+* [Connect USB peripherals to your Nexus One](https://sven.killig.de/android/N1/2.2/usb_host/)
+
+##### Motorola
+
+* [Downgrade Motorola Devices](http://www.droidrzr.com/topic/54902-how-to-downgrade-motorola-devices/)
+* [Motorola Flashing Utilities and Firmware (Unbrick Your Moto)](https://forum.xda-developers.com/t/index-motorola-flashing-utilities-and-firmware-unbrick-your-moto.3042687/)
+* [Motorola Stock Firmware](https://forum.xda-developers.com/t/index-motorola-stock-firmware.4222605/)
+* [Using Fastboot.exe with Motorola devices](https://forum.xda-developers.com/t/guide-using-fastboot-exe-with-motorola-devices.4042039/)
+* [How to Firmware Restore your Motorola Device on Windows 10 without RSDlite](https://www.youtube.com/watch?v=njXQYn53SPc)
+* [Un/locking Motorola Bootloader](https://forum.xda-developers.com/t/guide-un-locking-motorola-bootloader.4079111/)
+* [Emergency Download Mode](https://forum.xda-developers.com/t/index-motorola-flashing-utilities-and-firmware-unbrick-your-moto.3042687/page-6#post-80035788)
+* [Recovering from a hard brick](https://forum.xda-developers.com/t/guide-recovering-from-a-hard-brick.3989753/)
+* [Motorola Firmware XML to Bat Converter Tool for Windows](https://www.youtube.com/watch?v=dqAGWVPYmNo)
+* [P2K Tools](https://firmware.center/software/Motorola/)
 
 ##### Other vendors
 
@@ -414,6 +491,9 @@ There is a summary available in this project for navigate more easily and find m
 * [Buildroot development course](https://bootlin.com/doc/training/buildroot/)
 * [Yocto Project and OpenEmbedded development course](https://bootlin.com/doc/training/yocto/)
 * [Embedded Linux system development course](https://bootlin.com/doc/training/embedded-linux/)
+* [Getting Freedreno Turnip (Mesa Vulkan Driver) on a Poco F3](https://forum.xda-developers.com/t/getting-freedreno-turnip-mesa-vulkan-driver-on-a-poco-f3.4323871/)
+* [All about Spreadtrum](https://forum.xda-developers.com/t/ultimate-guide-sc6820-sc8810-all-about-spreadtrum.2998862/)
+* [Bootloader Unlocking on older Qualcomm ZTE Devices](https://forum.xda-developers.com/t/bootloader-unlocking-on-older-qualcomm-zte-devices-devinfo-partition-modification.4100897/)
 
 #### Rom specific
 
@@ -431,6 +511,7 @@ There is a summary available in this project for navigate more easily and find m
 * [Android.mk : a set of tag](https://github.com/TeamWin/android_bootable_recovery/blob/android-12.1/Android.mk)
 * [Compile TWRP](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1kzxSkdZSG_h_f-GDNmSmAl)
 * [How to compile TWRP touch recovery](https://forum.xda-developers.com/t/dev-how-to-compile-twrp-touch-recovery.1943625/#post-32965365)
+* [TWRP 3.0.X for Mediatek Devices.](https://forum.xda-developers.com/t/guide-port-twrp-3-0-x-for-mediatek-devices.3379681/)
 
 ##### LineageOS
 
@@ -438,6 +519,7 @@ There is a summary available in this project for navigate more easily and find m
 * [How to adapt a LineageOS device tree for AOSP](https://theautomatedparts.com/apblog/?p=12)
 * [How-to Build LineageOS​](https://forum.xda-developers.com/t/guide-build-lineageos-how-to-use-github.3551484/)
 * [How To Port CyanogenMod Android To Your Own Device (archive wiki)](https://web.archive.org/web/20161224192644/https://wiki.cyanogenmod.org/w/Doc:_porting_intro)
+* [How to port SONY Small Apps to Any Device Cm Based Roms](https://forum.xda-developers.com/t/guide-how-to-port-sony-small-apps-to-any-device-cm-based-roms.2228969/)
 
 ##### ArrowOS
 
@@ -450,6 +532,9 @@ There is a summary available in this project for navigate more easily and find m
 ##### Other
 
 * [Building Alternative Recoveries](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1nQ2HgCoeJS3j_bpTIXh_Fe)
+* [Definitive FAQ for newest miui](https://forum.xda-developers.com/t/guide-ics-jb-common-definitive-faq-for-newest-miui-porting.1777999/)
+* [Build or Port MIUI ROM to Any Device](https://forum.xda-developers.com/t/guide-complete-build-or-port-miui-rom-to-any-device.3250984/)
+* [How to port manufacturer ROM (Sense/Touchwizz...)](https://forum.xda-developers.com/t/guide-how-to-port-manufacturer-rom-sense-touchwizz-updated-for-kitkat.2245786/)
 
 ### Tools
 
@@ -549,6 +634,19 @@ There is a summary available in this project for navigate more easily and find m
 * [mAid](https://maid.binbash.rocks/index.html) ([sources](https://code.binbash.rocks:8443/mAid)) - An easy and ready-to-use Linux distribution for developing Android.
 * [Projekt Scribt](https://github.com/ScriBt/ScriBt) ([XDA thread](https://forum.xda-developers.com/t/guide-tool-linux-projekt-scribt-v2-2-1-build-a-rom-newbie-friendly.3503018/)) - ROM envsetup, sync and build script for learning developers.
 * [Building from source Any ROM](https://forum.xda-developers.com/t/guide-building-from-source-any-rom.2200926/)
+* [Easy EDL Flashing Tool](https://forum.xda-developers.com/t/easy-edl-flashing-tool.3958723/)
+* [AABox2](https://forum.xda-developers.com/t/frp-unlock-bypass-with-all-tools-online-updated-expoits.3709593/) - Frp Unlock tool.
+* [Android Advanced Box](https://forum.xda-developers.com/t/tool-android-advanced-box-samsung-mtk-spd-huawei-sony-lenovo-etc.3289128/) - Frp Unlock tool.
+* [Android Script Creator](https://forum.xda-developers.com/t/tool-win-linux-mac-update-script-android-script-creator.2747279/)
+* [DroidFlasher](https://github.com/ZorgeR/DroidFlasher)
+* [GSD Android Tool](https://forum.xda-developers.com/t/dev-tool-gsd-android-tool-rvsecurity-maker-unlock-all-screen-lock-encryption-data.3690772/)
+* [Pack of static Linux binaries for ARM/Android](https://forum.xda-developers.com/t/exe-static-linux-binaries-for-arm-android-cryptsetup-encfs-f2fs-tools-testdisk-photorec.3709380/)
+* [TOOL ALL IN ONE](https://forum.xda-developers.com/t/tool-tool-all-in-one-drivers-unlock-twrp-factory-image-stock-recovery.3358711/)
+* [f2fs-tools for cygwin](https://forum.xda-developers.com/t/tool-f2fs-tools-for-cygwin.4518521/)
+* [Universal A/B-cloner](https://forum.xda-developers.com/t/slot-a-b-devices-universal-a-b-cloner.3973751/)
+* [PC/GSI Build Automation Toolkit](https://forum.xda-developers.com/t/android-generic-project-pc-gsi-build-automation-toolkit.4132031/)
+* [FRP Destroyer](https://forum.xda-developers.com/t/frp-destroyer-flashable-zip.3920067/)
+* [Android Ultimate Toolbox Pro](https://forum.xda-developers.com/t/4-5-2013-util-win-android-ultimate-toolbox-pro-the-ultimate-android-utility.1886562/)
 
 ### Generator
 
@@ -565,6 +663,17 @@ There is a summary available in this project for navigate more easily and find m
 * [Firmware Extraction](https://github.com/Akianonymus/Firmware_Extraction) - Regroupment of available firmware extractors.
 * [imjtool](http://newandroidbook.com/tools/imjtool.html) - A quick extractor of Android images.
 * [ROME](https://code.binbash.rocks:8443/mAid/android_rome) - [ROM] [E]xtractor, a simple GUI for extracting custom and stock ROMs containing.
+* [Universal Deodexer V5](https://forum.xda-developers.com/t/massive-update-software-gui-windows-universal-deodexer-v5-version-5.2213235/)
+* [DJBTool](https://forum.xda-developers.com/t/tool-win-2017-09-10-djbtool-v1-05-apk-jar-de-compiling-tools.3455067/)
+* [kpack](https://forum.xda-developers.com/t/unpack-repack-kernel-image-partition-ramdisk.4098497/)
+* [mmcblk0 Extractor](https://forum.xda-developers.com/t/tool-linux-mmcblk0-extractor-v1-0-1-3-16-16.3306883/)
+* [ANDROID_IMG_REPACK_TOOLS](https://forum.xda-developers.com/t/tool-android_img_repack_tools.2600364/)
+* [Henry's unpacker - unpack repack system/vendor images](https://forum.xda-developers.com/t/tool-works-with-android-11-henrys-unpacker-unpack-repack-system-vendor-images.4139005/)
+* [Multi Image Kitchen](https://forum.xda-developers.com/t/kitchen-windows-multi-image-kitchen-repack-android-partitions.4326387/)
+* [Dex Manager](https://forum.xda-developers.com/t/tool-windows-dex-manager-v1-1-designed-to-play-with-classes-dex-updated.2988532/)
+* [DexPatcher](https://forum.xda-developers.com/t/tool-dexpatcher-modify-android-applications-at-source-level-in-android-studio.3060854/)
+* [TurkDevs İmage Kitchen](https://forum.xda-developers.com/t/tool-turkdevs-image-kitchen-boot-recovery-system-img-dat-ext4-win-up-v2-1.3816395/)
+* [unmkbootimg](https://forum.xda-developers.com/t/util-unmkbootimg.1877807/)
 
 ### Kernel
 
@@ -581,10 +690,12 @@ There is a summary available in this project for navigate more easily and find m
 * [dumpyara](https://github.com/AndroidDumps/dumpyara) - Dumping vendor and Android content of a device.
 * [dumpyara (Python)](https://github.com/sebaubuntu-python/dumpyara) - Like dumpyara but code in Python.
 * [ldcheck](https://github.com/that1/ldcheck) - Check dependencies and missing for a blob file.
+* [Apktool](https://forum.xda-developers.com/t/util-nov-24-2022-apktool-tool-for-reverse-engineering-apk-files.1755243/)
 
 ### Conversion
 
 * [hidl2aidl](https://source.android.com/docs/core/architecture/aidl/aidl-hals#converting-to-aidl) - For Converting an existing HAL from HIDL to AIDL.
+* [OMC Decoder Encoder](https://forum.xda-developers.com/t/decode-or-encode-omc-files-with-omc-decoder-encoder.3791471/)
 
 ### Informations
 
@@ -595,6 +706,12 @@ There is a summary available in this project for navigate more easily and find m
 * [Kaltura Device Info](https://bitbucket.org/oF2pks/kaltura-device-info-android/src/master/) ([playstore](https://play.google.com/store/apps/details?id=com.kaltura.kalturadeviceinfo)/[f-droid](https://f-droid.org/fr/packages/com.oF2pks.kalturadeviceinfos/))
 * [Devstat](https://ianfield.com/DevStat/) ([source](https://github.com/IanField90/DevStat)/[izzyondroid](https://apt.izzysoft.de/fdroid/index/apk/uk.co.ianfield.devstat)) - Help you debug a number device issues like identifying various features you request in your AndroidManifest.xml.
 * [SysInfo](https://github.com/kl3jvi/sysinfo_app) ([izzyondroid](https://apt.izzysoft.de/fdroid/index/apk/com.kl3jvi.sysinfo)) - Simple and powerful application that gives you complete information about your mobile device.
+* [Getevent](https://source.android.com/docs/core/interaction/input/getevent) - Provides information about input devices and a live dump of kernel input events.
+* [validatekeymaps](https://source.android.com/docs/core/interaction/input/validate-keymaps) - Validate the syntax of input device configuration files, key layout files, key character maps files and virtual key definition files.
+* [LibChecker](https://github.com/LibChecker/LibChecker) ([f-droid](https://f-droid.org/packages/com.absinthe.libchecker/)/[playstore](https://play.google.com/store/apps/details?id=com.absinthe.libchecker)) - View the third-party libraries used by applications in your device.
+* [Debugging enabler](https://forum.xda-developers.com/t/tool-universal-deprecated-debugging-enabler.3467434/) [deprecated] - Allow a user to debug their device.
+* [Bootimage ADB Unsecure Patcher](https://forum.xda-developers.com/t/mod-bootimage-adb-unsecure-patcher.3618558/) - Modify the ramdisk to set ADB into an unsecure mode in order to debug Android stock ROMs.
+* [PhoNetInfo](https://www.patrickfrei.ch/phonetinfo/) [[playstore](https://play.google.com/store/apps/details?id=ch.patrickfrei.phonetinfo.free)/[paid](https://play.google.com/store/apps/details?id=ch.patrickfrei.phonetinfo)]
 
 ### Debugging
 
@@ -632,12 +749,27 @@ There is a summary available in this project for navigate more easily and find m
 * [SALT](https://forum.xda-developers.com/t/tool-locked-unlocked-salt-the-lg-up-revolution-begins.3717864/) [sources](https://github.com/steadfasterX/SALT) - Utility able to communicate with your device while in download mode.
 
 #### MediaTek
+* [SP Flash Tool](https://spflashtools.com/category/windows) [other source](https://spflashtool.com/)  - An application which mainly helps you to flash Stock ROM, Custom recovery and fixing in some extreme cases.
+* [SP MDT Tool](https://spmdttool.com/)
+* [SoftwareDownload Tool](https://www.hovatek.com/forum/thread-23709.html)
+* [Bypass utility](https://github.com/MTK-bypass/bypass_utility) with [exploits_collection](https://github.com/MTK-bypass/exploits_collection) - Small utility to disable bootrom protection.
 
-* [SP Flash Tool](https://spflashtool.com/) - An application which mainly helps you to flash Stock ROM, Custom recovery and fixing in some extreme cases.
+#### Qualcomm
+
+* [QFIL Tool](https://qfiltool.com/)
+* [QPST Tool](https://qpsttool.com/)
+* [Qualcomm USB driver](https://androiddatahost.com/nbyn6)
 
 #### Samsung
 
 * [Heimdall](https://github.com/Benjamin-Dobell/Heimdall) and [website](https://glassechidna.com.au/heimdall/) - A cross-platform open-source tool suite used to flash firmware onto Samsung devices.
+* [Akhil99's Samsung Firmware Extractor](https://forum.xda-developers.com/t/tool-script-linux-win10-akhil99s-samsung-firmware-extractor-beta.4162333/)
+* [frija](https://forum.xda-developers.com/t/tool-frija-samsung-firmware-downloader-checker.3910594/) [sources](https://github.com/SlackingVeteran/frija) - Download latest firmware for a Samsung device.
+* [Bifrost](https://github.com/zacharee/SamloaderKotlin) - Yet another firmware downloader for Samsung devices.
+* [FRP Removal Tool](https://forum.xda-developers.com/t/tool-samsung-your-frp-frp-removal-tool-updated-5-5-2020.4439497/)
+* [Odin](https://forum.xda-developers.com/t/patched-odin-3-13-1.3762572/)
+* [Freya](https://forum.xda-developers.com/t/tool-freya-v1-0-2-0-samsung-open-source-flash-tool.4518091/) [[source](https://github.com/Alephgsm/Freya)]
+* [Thor](https://forum.xda-developers.com/t/abandoned-thor-open-source-samsung-flash-tool-with-additinal-features.4453437/) [[source](https://github.com/Samsung-Loki/thor)/[download](https://nightly.link/Samsung-Loki/Thor/workflows/build/main)[documentation](https://samsung-loki.github.io/samsung-docs/)] - An alternative to well-known Heimdall.
 
 #### Sony
 
@@ -647,6 +779,24 @@ There is a summary available in this project for navigate more easily and find m
 #### Huawei (and Honor)
 
 * [PotatoNV](https://github.com/mashed-potatoes/PotatoNV) - Unlock bootloader for Huawei & Honor devices on Kirin SoC.
+
+#### Xiaomi
+
+* MiFlash
+* [XiaoMiTool V2](https://www.xiaomitool.com/V2/)
+* [Mi Flash Pro](https://miflashpro.com/)
+* [Xiaomi Flash Tool](https://xiaomiflashtool.com/)
+* [Xiaomi Flashable Firmware Creator](https://forum.xda-developers.com/t/tool-win-linux-mac-xiaomi-flashable-firmware-creator-v2-gui-cli.3871311/)
+* [Xiaomi Firmware Updater](https://forum.xda-developers.com/t/all-devices-xiaomi-firmware-updater-v5-auto-updated-daily.3741446/) [[sources](https://github.com/XiaomiFirmwareUpdater/mi-firmware-updater)]
+
+#### Motorola
+
+* [RSD Lite](http://www.droidrzr.com/topic/57858-motorola-tools-rsd-lite-usb-driver/) [[other source](https://rsdlitetool.com/)/[other source](https://androidmtk.com/download-rsd-lite-tool)]
+* [House of Moto](http://www.droidrzr.com/topic/61124-house-of-moto-43/)
+* [Fastboot Flasher](http://www.droidrzr.com/topic/35863-fastboot-flasher-prototype/)
+* [RSD Flasher](http://www.droidrzr.com/topic/48904-rsd-flasher-beta-windows-only/)
+* [Motorola OTA Link Generator Tool](https://forum.xda-developers.com/t/tool-motorola-ota-link-generator-tool.3537039/) [[sources](https://github.com/erfanoabdi/Motorola-OTA-Link-Generator-Tool)/[instance](https://motoota.lolinet.com/)]
+* [LMSA: Lenovo's Motorola Smart Assistant ](https://support.lenovo.com/us/en/downloads/ds101291) [[help](https://forum.xda-developers.com/t/rescue-and-smart-assistant-lmsa-motorola-lenovo-only.3951714/)] - Is an official tool installs on PC.
 
 ### Users scripts
 
@@ -792,6 +942,15 @@ There is a summary available in this project for navigate more easily and find m
 
 * [Android Dumps](https://dumps.tadiphone.dev/dumps) - Get complete files dumps of specific devices.
 * The Muppets ([Gitlab](https://gitlab.com/the-muppets)/[Github](https://github.com/TheMuppets?type=source)) - A regroupment of different vendor files.
+* Samsung firmware - *there are tools availables to directly download firmware, look at tools chapter*
+  * [sammobile](https://www.sammobile.com/firmwares/)
+  * [Galaxy Firmware](https://galaxyfirmware.com/)
+  * [SamFw](https://samfw.com/)
+  * [samfrew](https://samfrew.com/)
+* Motorola firmware
+  * [easy-firmware](https://easy-firmware.com/index.php?a=downloads&b=folder&id=12733)
+* Xiaomi
+  * [Xiaomi Firmware Updater](https://xiaomifirmwareupdater.com/)
 
 ## ROMs
 
@@ -842,6 +1001,10 @@ There is a summary available in this project for navigate more easily and find m
 * [android-linux-stable (archive)](https://github.com/android-linux-stable)
 * [Minimal manifest for TWRP](https://github.com/minimal-manifest-twrp)
 * [Linux kernel](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/)
+* [Freedreno](https://docs.mesa3d.org/drivers/freedreno.html), an open source GPU driver for Qualcomm SoC
+  * [Wiki](https://gitlab.freedesktop.org/freedreno/freedreno/-/wikis/home)
+  * [Sources](https://gitlab.freedesktop.org/mesa/mesa/-/tree/main/src/freedreno)
+  * [Issues](https://gitlab.freedesktop.org/mesa/mesa/-/issues/?label_name%5B%5D=freedreno)
 
 ### Device project
 
@@ -865,6 +1028,8 @@ There is a summary available in this project for navigate more easily and find m
 
 ## Todo
 * <https://github.com/davisRoman/aosp-research>
+* <https://forum.xda-developers.com/t/lists-guide-ride-from-a-newbie-to-a-dev-get-all-you-need-here.2281656/>
+* <https://forum.xda-developers.com/t/guide-basic-and-intermediate-development-guides-for-interested-devs-collection.1750733/>
 
 ## Contributing
 
