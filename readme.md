@@ -139,6 +139,7 @@ There is a summary available in this project for navigate more easily and find m
 * [Android rom building made easy - a beginers Guide part 1](https://www.youtube.com/watch?v=LPXK2Lv0nmk) [part 2](https://www.youtube.com/watch?v=Zr7esDS-QrI) (2017/video)
 * [Android: What is...](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1nbaEuyRi60ZWVP8_gGQb0J) (video playlist)
 * [Android device configuration for AOSP](https://stackoverflow.com/questions/11352709/android-device-configuration-for-aosp/11353248#11353248)
+* [How To Setup And Use Fastboot](https://forum.xda-developers.com/t/guide-how-to-setup-and-use-fastboot.2277112/)
 
 #### General
 
@@ -341,6 +342,7 @@ There is a summary available in this project for navigate more easily and find m
 * [How to Decompile APKs with ODEX files](https://forum.xda-developers.com/t/guide-how-to-decompile-apks-with-odex-files-noob-friendly.3325340/)
 * [How to easily edit/modify .apk files](https://forum.xda-developers.com/t/guide-how-to-easily-edit-modify-apk-files-simple-noob-friendly.2058850/)
 * [Working with proprietary blobs](https://wiki.lineageos.org/proprietary_blobs.html)
+* [Android definition-tool (vndk-lib-extra-list)](https://android.googlesource.com/platform/development/+/master/vndk/tools/definition-tool/datasets)
 
 #### Feature
 
@@ -348,6 +350,7 @@ There is a summary available in this project for navigate more easily and find m
 
 * [Enable VoLTE trhough modem mod (NV Items) ](https://www.reddit.com/r/GooglePixel/comments/7n8pes/enable_volte_trhough_modem_mod_nv_items/)
 * [Android Telephony Basics](https://lineageos.org/engineering/Telephony/)
+* [Remove HD ICON (IMS)](https://gist.github.com/Akianonymus/b7bbee7bdb3fe7dc2349fd0431279e41)
 
 ##### Encryption
 
@@ -414,6 +417,8 @@ There is a summary available in this project for navigate more easily and find m
 * [HOW TO USE ADB,DDMS AND TAKE A LOGCAT](https://forum.xda-developers.com/t/win-tutorial-how-to-use-adb-ddms-and-take-a-logcat-pictorial-explanation.2303834/)
 * [Using ADB and fastboot](https://wiki.lineageos.org/adb_fastboot_guide.html)
 * [How to get useful logs](https://forum.xda-developers.com/t/reference-how-to-get-useful-logs.2185929/)
+* [How to get & read a logcat/ Troubleshoot your own issues](https://forum.xda-developers.com/t/universal-logcat-how-to-get-read-a-logcat-troubleshoot-your-own-issues.2274119/)
+* [Authorize ADB for a non-booting device](https://gist.github.com/AlvaroBrey/83d90a6a156790e06b8789447d273ace)
 
 #### Vendor specific
 
@@ -688,6 +693,10 @@ There is a summary available in this project for navigate more easily and find m
 * [DexPatcher](https://forum.xda-developers.com/t/tool-dexpatcher-modify-android-applications-at-source-level-in-android-studio.3060854/)
 * [TurkDevs İmage Kitchen](https://forum.xda-developers.com/t/tool-turkdevs-image-kitchen-boot-recovery-system-img-dat-ext4-win-up-v2-1.3816395/)
 * [unmkbootimg](https://forum.xda-developers.com/t/util-unmkbootimg.1877807/)
+* [payload_dumper.py](https://gist.github.com/ius/42bd02a5df2226633a342ab7a9c60f15)
+* [update_payload_extractor](https://github.com/gmrt/update_payload_extractor)
+* [IMG Patch Tools](https://github.com/erfanoabdi/imgpatchtools)
+* [Firmware_extractor](https://github.com/erfanoabdi/Firmware_extractor)
 
 ### Kernel
 
@@ -699,7 +708,7 @@ There is a summary available in this project for navigate more easily and find m
 ### Blob & vendor
 
 * [Android-Blob-Utility](https://forum.xda-developers.com/t/blob-utility-for-aosp-based-roms.2794413/) [(sources)](https://github.com/JackpotClavin/Android-Blob-Utility) - Easily find which proprietary blobs is needed.
-* [aosp-missing-blobs](https://github.com/joshuous/AospMissingBlobs) - Identify required blobs that are missing from AOSP ROM builds with dependencies.
+* [aosp-missing-blobs](https://github.com/joshchoo/aosp-missing-blobs) - Identify required blobs that are missing from AOSP ROM builds with dependencies.
 * [DumprX](https://github.com/DumprX/DumprX) - Firmware extractor based on dumpyara.
 * [dumpyara](https://github.com/AndroidDumps/dumpyara) - Dumping vendor and Android content of a device.
 * [dumpyara (Python)](https://github.com/sebaubuntu-python/dumpyara) - Like dumpyara but code in Python.
@@ -859,6 +868,7 @@ There is a summary available in this project for navigate more easily and find m
 * [TWRP Building Support Group](https://t.me/build_twrp) - Support group for building TWRP touch recovery.
 * [RomDevelopment](https://t.me/alaskalinuxuser_romdevelopment)
 * [XDA-Hub](https://t.me/xdadevelopershub) - Hub for finding specific XDA Telegram group.
+* [Android dumps](https://t.me/android_dumps)
 
 ### Forum
 
@@ -980,6 +990,8 @@ There is a summary available in this project for navigate more easily and find m
   * [mirrors.lolinet.com](https://mirrors.lolinet.com/firmware/lenovo/)
 * Motorola
   * [mirrors.lolinet.com](https://mirrors.lolinet.com/firmware/motorola/)
+* [firmware.mobi](https://desktop.firmware.mobi/)
+* [OnePlus](https://service.oneplus.com/fr/search/search-detail?id=2096330&articleIndex=1)
 
 ## ROMs
 
