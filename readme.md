@@ -486,6 +486,7 @@ There is a summary available in this project for navigate more easily and find m
 * [Recovering from a hard brick](https://forum.xda-developers.com/t/guide-recovering-from-a-hard-brick.3989753/)
 * [Motorola Firmware XML to Bat Converter Tool for Windows](https://www.youtube.com/watch?v=dqAGWVPYmNo)
 * [P2K Tools](https://firmware.center/software/Motorola/)
+* [How download latest fastboot firmware with Lenovo Moto Smart Assistant](https://forum.xda-developers.com/t/guide-stock-how-download-latest-fastboot-firmware-with-lenovo-moto-smart-assistant.3916778/)
 
 ##### Other vendors
 
