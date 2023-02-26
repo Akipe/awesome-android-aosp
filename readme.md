@@ -60,6 +60,7 @@ There is also a list of all pages for the official AOSP Android documentation he
       - [OmniROM](#omnirom)
       - [Other](#other)
   - [Tools](#tools)
+    - [C language](#c-language)
     - [Bash \& shell](#bash--shell)
     - [Git, Gerrit \& merging](#git-gerrit--merging)
     - [GNU Make](#gnu-make)
@@ -137,6 +138,7 @@ There is a summary available in this project for navigate more easily and find m
 * [Getting Started | AOSP Rom Development](https://adityatelange.in/blog/aosp/aosp-getting-started/) (2020)
 * [Android rom building made easy - a beginers Guide part 1](https://www.youtube.com/watch?v=LPXK2Lv0nmk) [part 2](https://www.youtube.com/watch?v=Zr7esDS-QrI) (2017/video)
 * [Android: What is...](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1nbaEuyRi60ZWVP8_gGQb0J) (video playlist)
+* [Android device configuration for AOSP](https://stackoverflow.com/questions/11352709/android-device-configuration-for-aosp/11353248#11353248)
 
 #### General
 
@@ -299,6 +301,7 @@ There is a summary available in this project for navigate more easily and find m
 * [Kernel Building - Essentials | Build a Kernel Easily](https://forum.xda-developers.com/t/tool-dev-1-0-official-kernel-building-essentials-build-a-kernel-easily.3814023/)
 * [Compile your own android kernel from source](https://forum.xda-developers.com/t/ultimate-guide-noob-friendly-compile-your-own-android-kernel-from-source.2871276/)
 * [Compile an Android kernel module outside the kernel source tree.](https://hex.ro/wp/blog/compile-an-android-kernel-module-outside-the-kernel-source-tree/)
+* [Compile our own Android Kernel in 5 Simple Steps](https://www.geeksforgeeks.org/compile-our-own-android-kernel-in-5-simple-steps/)
 
 ##### Qualcomm
 
@@ -337,6 +340,7 @@ There is a summary available in this project for navigate more easily and find m
 * [Guide for full firmware extractors](https://github.com/Akianonymus/Firmware_Extraction)
 * [How to Decompile APKs with ODEX files](https://forum.xda-developers.com/t/guide-how-to-decompile-apks-with-odex-files-noob-friendly.3325340/)
 * [How to easily edit/modify .apk files](https://forum.xda-developers.com/t/guide-how-to-easily-edit-modify-apk-files-simple-noob-friendly.2058850/)
+* [Working with proprietary blobs](https://wiki.lineageos.org/proprietary_blobs.html)
 
 #### Feature
 
@@ -384,6 +388,7 @@ There is a summary available in this project for navigate more easily and find m
 * [Android VTS](https://budhdisharma.medium.com/android-vts-9e6ff95f075f)
 * [Android CTS](https://budhdisharma.medium.com/android-cts-c790df99080)
 * [Android System Stability Basics](https://budhdisharma.medium.com/android-system-stability-basics-e3bf63a928ca)
+* [Android CTS](https://sc.vern.cc/@budhdisharma/android-cts-c790df99080)
 
 #### Treble GSI
 
@@ -407,6 +412,8 @@ There is a summary available in this project for navigate more easily and find m
 * [Errors - Common or Not](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1kokIK8VfyE09RoCNqefoY3)
 * [How to take system logcats, kernel logs, and dmesg on Android](https://www.xda-developers.com/how-to-take-logs-android/)
 * [HOW TO USE ADB,DDMS AND TAKE A LOGCAT](https://forum.xda-developers.com/t/win-tutorial-how-to-use-adb-ddms-and-take-a-logcat-pictorial-explanation.2303834/)
+* [Using ADB and fastboot](https://wiki.lineageos.org/adb_fastboot_guide.html)
+* [How to get useful logs](https://forum.xda-developers.com/t/reference-how-to-get-useful-logs.2185929/)
 
 #### Vendor specific
 
@@ -538,6 +545,10 @@ There is a summary available in this project for navigate more easily and find m
 
 ### Tools
 
+#### C language
+
+* [The C Beginner's Handbook: Learn C Programming Language basics in just a few hours](https://www.freecodecamp.org/news/the-c-beginners-handbook/)
+
 #### Bash & shell
 
 *There is also an awesome list with more resources : [awesome-shell](https://github.com/alebcay/awesome-shell#readme)*.
@@ -559,6 +570,7 @@ There is a summary available in this project for navigate more easily and find m
 * [Working with git bisect](https://nathanchance.dev/posts/working-with-git-bisect/) - To allows you to find out specifically which change or commit caused a particular issue.
 * [git-cherry-pick documentation](https://git-scm.com/docs/git-cherry-pick)
 * [GitHub and GitLab](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1mm6avXq9ZxehWsb4gYuRb9)
+* [How to make your own repos to send us](https://telegra.ph/HOW-TO-MAKE-YOUR-OWN-REPOS-TO-SEND-US-04-20)
 
 #### GNU Make
 
@@ -652,6 +664,7 @@ There is a summary available in this project for navigate more easily and find m
 
 * [TwrpBuilder](https://github.com/TwrpBuilder/twrpbuilder_tree_generator) - Generate twrp device tree just using recovery.img and build.prop.
 * [twrpdtgen](https://github.com/twrpdtgen/twrpdtgen) [(doc)](https://github.com/twrpdtgen/twrpdtgen/wiki) - Create a TWRP device tree only from an Android recovery stock image ROM.
+* [aospdtgen](https://github.com/sebaubuntu-python/aospdtgen) - Create a LineageOS-compatible device tree from an Android stock ROM dump made with dumpyara.
 
 ### Extractor
 
@@ -731,6 +744,8 @@ There is a summary available in this project for navigate more easily and find m
 * [Simpleperf](https://android.googlesource.com/platform/system/extras/+/master/simpleperf/doc/README.md) - A native CPU profiling tool for Android (include in Android Studio).
 * [Simple-ADB](https://forum.xda-developers.com/t/win-mac-linx-simple-adb.3417155/) ([sources](https://github.com/mhashim6/Simple-ADB)) - ADB/Fastboot with a Graphical User Interface.
 * [strace](https://forum.xda-developers.com/t/utility-strace-4-8-ultimate-debugging-utility-now-ported-to-android.2516002/) - A debugging utility to monitor a program system calls or signals it receives. 
+* [logcatTrimmer](https://ronaxdevil.github.io/logcatTrimmer/) [[source](https://github.com/ronaxdevil/logcatTrimmer)] - Logcat Trimmer on Website rather than 'grep'.
+* [SysLog](https://github.com/Tortel/SysLog) [[f-droid](https://f-droid.org/packages/com.tortel.syslog/)/[playstore](https://play.google.com/store/apps/details?id=com.tortel.syslog)]
 
 ### Partitions, storage & data
 
@@ -775,6 +790,7 @@ There is a summary available in this project for navigate more easily and find m
 
 * [Flashtool](https://github.com/Androxyde/Flashtool) and [website](https://flashtool.net/download.html) - An Xperia device flashing tool.
 * [UnSIN ~ SIN v3/v4/v5 Unpacker](https://forum.xda-developers.com/t/tool-unsin-sin-v3-v4-v5-unpacker-v1-13.3128106/) - An unpacker for Sony devices images.
+* [XperiFirm](https://forum.xda-developers.com/t/tool-xperifirm-xperia-firmware-downloader-v5-6-5.2834142/) - Download the current firmware for all Sony Xperia-line smartphones, tablets and accessories.
 
 #### Huawei (and Honor)
 
@@ -808,6 +824,7 @@ There is a summary available in this project for navigate more easily and find m
 * [ShivamKumarJha/android_tools (Github)](https://github.com/ShivamKumarJha/android_tools) - Collection of scripts to help with Android ROM stuff.
 * [android_helpful](https://github.com/hpnightowl/android_helpful)
 * [Android Build Environment Scripts](https://github.com/CyberJalagam/android_rom_building_scripts)
+* [XSans0/my-script](https://github.com/XSans0/my-script)
 
 ## Books
 
@@ -950,7 +967,17 @@ There is a summary available in this project for navigate more easily and find m
 * Motorola firmware
   * [easy-firmware](https://easy-firmware.com/index.php?a=downloads&b=folder&id=12733)
 * Xiaomi
+  * [Official website download](https://new.c.mi.com/global/miuidownload/index)
   * [Xiaomi Firmware Updater](https://xiaomifirmwareupdater.com/)
+  * [MiROM](https://mirom.ezbox.idv.tw/en/phone/)
+* Google Nexus & Pixel
+  * [Factory images](https://developers.google.com/android/images)
+  * [Full OTA images](https://developers.google.com/android/ota)
+  * [Vendor images](https://developers.google.com/android/drivers)
+* Lenovo
+  * [mirrors.lolinet.com](https://mirrors.lolinet.com/firmware/lenovo/)
+* Motorola
+  * [mirrors.lolinet.com](https://mirrors.lolinet.com/firmware/motorola/)
 
 ## ROMs
 
@@ -1005,6 +1032,8 @@ There is a summary available in this project for navigate more easily and find m
   * [Wiki](https://gitlab.freedesktop.org/freedreno/freedreno/-/wikis/home)
   * [Sources](https://gitlab.freedesktop.org/mesa/mesa/-/tree/main/src/freedreno)
   * [Issues](https://gitlab.freedesktop.org/mesa/mesa/-/issues/?label_name%5B%5D=freedreno)
+* [LineageOS Source Device Tree Template](https://github.com/imasaru/android_device_tree_template) - Build device trees and port custom ROMs and recoveries to new devices easily with this template.
+* [Example commit to log device startup](https://github.com/aoleary/device_lge_g4-common/commit/073490b8a5056d5d59c2bea04d6648f423db3a35)
 
 ### Device project
 

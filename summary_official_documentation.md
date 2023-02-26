@@ -726,6 +726,8 @@ Summary of both official Android documentation (<https://source.android.com/> & 
 
 * [Android Runtime (ART) and Dalvik](https://source.android.com/docs/core/runtime)
 * ...
+* [Change the value of an app's resources at runtime](https://source.android.com/docs/core/runtime/rros)
+* ...
 
 #### Settings
 
@@ -962,3 +964,4 @@ Summary of both official Android documentation (<https://source.android.com/> & 
 * [Inspect CPU activity with CPU Profiler](https://developer.android.com/studio/profile/cpu-profiler)
 * [Analyze with Profile GPU Rendering](https://developer.android.com/topic/performance/rendering/profile-gpu)
 * [Inspect GPU rendering speed and overdraw](https://developer.android.com/topic/performance/rendering/inspect-gpu-rendering)
+* [Android Debug Bridge (adb)](https://developer.android.com/studio/command-line/adb)
