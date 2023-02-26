@@ -864,6 +864,7 @@ There is a summary available in this project for navigate more easily and find m
 
 * [androidforums](https://androidforums.com/)
 * [android-porting (Google Groups)](https://groups.google.com/g/android-porting)
+* [droidrzr.com](http://www.droidrzr.com/index)
 * [phonandroid (french)](https://www.phonandroid.com/forum/forums/developpement.13/) - French forum for ROM development.
 * [XDA Forum](https://forum.xda-developers.com/)
 
