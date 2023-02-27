@@ -67,6 +67,7 @@ There is also a list of all pages for the official AOSP Android documentation he
       - [ArrowOS](#arrowos)
       - [OmniROM](#omnirom)
       - [Other](#other)
+    - [Hardware](#hardware)
   - [Tools](#tools)
     - [C language](#c-language)
     - [Bash \& shell](#bash--shell)
@@ -141,6 +142,7 @@ There is a summary available in this project for navigate more easily and find m
 * [How to build Android.... Where do I start?](https://www.youtube.com/watch?v=yNVe3mjCI1k) (2019/video) - Where newcomers should start.
 * [Linux Device Driver Programming Using Beaglebone Black](https://www.udemy.com/course/linux-device-driver-programming-using-beaglebone-black/) (kernel/udemy/not free) - Foundation course on practical Linux device driver programming
 * [AOSP - Android OS Internals Series](https://www.youtube.com/playlist?app=desktop&list=PLAlSOSt8vS8Ss3uEshNXQe3cbx9qtl8m4) (recent/video playlist) - Explore Android 12 from an AOSP point of view.
+* [Beginners guide to programming C, C++, Bash, Python, java](https://forum.xda-developers.com/t/guide-beginners-guide-to-programming-c-c-bash-python-java-guide.2585260/)
 
 ### Specific point
 
@@ -215,6 +217,9 @@ There is a summary available in this project for navigate more easily and find m
 * [Keep apps running in background via crond](https://forum.xda-developers.com/t/keep-apps-running-in-background-via-crond.4303475/)
 * [Hands-On Exercises for Embedded Android](https://www.opersys.com/downloads/cc-slides/embedded-android/exercises-201103.pdf) [2020]
 * [Android 3rd Party Recordings opersys](https://www.youtube.com/watch?v=oea7CWdZrsQ&list=PL7OsLr7k6qp39gjnjYE-QysSI4JUwfX2q) [2015] [playlist]
+* [Understanding the Android Source Code](https://forum.xda-developers.com/t/guide-understanding-the-android-source-code.2620389/)
+* [Build Rom From Source](https://forum.xda-developers.com/t/howto-stepbystep-build-rom-from-source.2455005/)
+* [A COMPLETE ANDROID DEVELOPMENT GUIDE FOR NEWBIES](https://forum.xda-developers.com/t/guide-win-linux-a-complete-android-development-guide-for-newbies-sarnab-c-r.2179918/)
 
 #### Building
 
@@ -259,6 +264,7 @@ There is a summary available in this project for navigate more easily and find m
 * [Compile busybox (Magisk) for Android with ndk](https://blog.mx17.net/2021/11/22/compile-busybox-magisk-for-android-with-ndk/)
 * [Cross compile fstrim for Android on Ubuntu 18.10](https://blog.mx17.net/2019/01/10/cross-compile-fstrim-for-android-on-ubuntu-18-10/)
 * [How to compile rsync for Android in Ubuntu](https://blog.mx17.net/2014/06/10/compile-rsync-android-ubuntu/)
+* [Learn about the repo tool , manifests and local manifests and 5 important tips !](https://forum.xda-developers.com/t/learn-about-the-repo-tool-manifests-and-local-manifests-and-5-important-tips.2329228/)
 
 ##### Automation
 
@@ -347,6 +353,7 @@ There is a summary available in this project for navigate more easily and find m
 * [Building the android kernel (Mac OS)](https://forum.xda-developers.com/t/tutorial-reference-building-the-android-kernel-mac-os.3856676/)
 * [Automated Linux Kernel CVE Patcher](https://forum.xda-developers.com/t/tool-automated-linux-kernel-cve-patcher.4249547/)
 * [How Do Linux Kernel Drivers Work?](https://www.youtube.com/watch?v=juGNPLdjLH4)
+* [Governors explained](https://forum.xda-developers.com/t/governors-explained.2005306/)
 
 ##### Reverse engineering
 
@@ -366,6 +373,7 @@ There is a summary available in this project for navigate more easily and find m
 
 * [A Noob Guide On Building Your Own Custom Kernel (ARM & ARM64 & MTK)](https://forum.xda-developers.com/t/guide-a-noob-guide-on-building-your-own-custom-kernel-arm-arm64-mtk.3581057/)
 * [A Noob Guide On Building Your Own Custom Kernel on WIN10](https://forum.xda-developers.com/t/guide-a-noob-guide-on-building-your-own-custom-kernel-on-win10-arm-arm64-mtk.3775494/)
+* [Building a Kernel from source {Mediatek}](https://forum.xda-developers.com/t/guide-building-a-kernel-from-source-mediatek.2754513/)
 
 ##### Sony
 
@@ -400,6 +408,7 @@ There is a summary available in this project for navigate more easily and find m
 * [Android's HIDL: Treble in the HAL](https://www.youtube.com/watch?app=desktop&v=UFaWqdxBW4E) [2018] [video]
 * [Android Framework - Creating custom HIDL in Android](https://www.youtube.com/watch?v=j1v5yTOfo-4) [2022] [video]
 * [Android Treble: Blessing or Trouble?](https://www.youtube.com/watch?v=2XJAdK9XKcQ) [2018] [video]
+* [Re-Odex a Rom](https://forum.xda-developers.com/t/how-to-re-odex-a-rom.1500475/)
 
 ##### Reverse Engineering
 
@@ -465,6 +474,15 @@ There is a summary available in this project for navigate more easily and find m
 * [How to change the official samsung splash/boot screen/logo](https://forum.xda-developers.com/t/how-to-change-the-official-samsung-splash-boot-screen-logo-samsung.3374170/)
 * [Make Your Own Bootanimations](https://forum.xda-developers.com/t/guide-make-your-own-bootanimations.1321360/)
 * [Introductory Guide To Theming](https://forum.xda-developers.com/t/guide-miui-introductory-guide-to-theming-updated-11-14-11.1342895/)
+* [How to make your own boot animations (with sound if you want)](https://forum.xda-developers.com/t/tutorial-how-to-make-your-own-boot-animations-with-sound-if-you-want.1096068/)
+* [How to change the default wallpaper when creating a Custom ROM?](https://forum.xda-developers.com/t/solved-how-to-change-the-default-wallpaper-when-creating-a-custom-rom.810552/)
+* [How to create and install android bootanimations from scratch](https://forum.xda-developers.com/t/tutorial-how-to-create-and-install-android-bootanimations-from-scratch.1852621/)
+* [The Definitive APK Modding and Theming Thread](https://forum.xda-developers.com/t/guide-the-definitive-apk-modding-and-theming-thread.2295002/)
+* [Ultimate Guide Decompiling Theming](https://forum.xda-developers.com/t/guide-ultimate-guide-decompiling-9-pngs-theming.2326393/)
+* [Add N-Style to your Theme + APK](https://forum.xda-developers.com/t/guide-theme-5-0-add-n-style-to-your-theme-apk.3354382/)
+* [Make your own Themes for your Samsung device](https://forum.xda-developers.com/t/guide-make-your-own-themes-for-your-samsung-device.3356099/)
+* [How to theme Lollipop and Marshmallow ROMs](https://forum.xda-developers.com/t/guide-themes-how-to-theme-lollipop-and-marshmallow-roms.2978121/)
+* [How to use your own handwriting as a font in android](https://forum.xda-developers.com/t/guide-how-to-use-your-own-handwriting-as-a-font-in-android.3371940/)
 
 #### Security
 
@@ -499,6 +517,7 @@ There is a summary available in this project for navigate more easily and find m
 * [Speed up your app](https://blog.udinic.com/2015/09/15/speed-up-your-app/)
 * [Timing Boot Time Reduction Technique](https://bootlin.com/pub/conferences/2019/elce/opdenacker-timing-boot-time-reduction-techniques/opdenacker-timing-boot-time-reduction-techniques.pdf)
 * [Low-RAM Property Patcher for Android](https://forum.xda-developers.com/t/mod-low-ram-property-patcher-for-android.3737373/)
+* [Learn to Overclock and Undervolt your phone](https://forum.xda-developers.com/t/guide-learn-to-overclock-and-undervolt-your-phone.1778812/)
 
 #### Android CTS/VTS & test
 
@@ -541,6 +560,11 @@ There is a summary available in this project for navigate more easily and find m
 * [ADB Workshop and Guide for everyone](https://forum.xda-developers.com/t/guide-adb-workshop-and-guide-for-everyone.879701/)
 * [What You Know about Rosie?](https://forum.xda-developers.com/t/how-to-diy-what-you-know-about-rosie.1152549/)
 * [Want to learn how to theme?](https://forum.xda-developers.com/t/guide-want-to-learn-how-to-theme.916814/)
+* [Simple methods to get LOGCAT, DMESG](https://forum.xda-developers.com/t/guide-have-a-look-dont-know-something-check-here-first.1974338/#post-33706644)
+* [Easiest How to use adb, logcat, etc for noobs and newbies](https://forum.xda-developers.com/t/guide-adb-easiest-how-to-use-adb-logcat-etc-for-noobs-and-newbies.2141817/)
+* [How To Logcat](https://forum.xda-developers.com/t/tutorial-how-to-logcat.1726238/)
+* [How to make a LOGCAT](https://forum.xda-developers.com/t/how-to-make-a-logcat-noob-friendly.2112010/)
+* [Howto LOGCAT](https://forum.xda-developers.com/t/guide-howto-logcat.1761295/)
 
 #### Magisk
 
@@ -714,6 +738,16 @@ There is a summary available in this project for navigate more easily and find m
 * [Build or Port MIUI ROM to Any Device](https://forum.xda-developers.com/t/guide-complete-build-or-port-miui-rom-to-any-device.3250984/)
 * [How to port manufacturer ROM (Sense/Touchwizz...)](https://forum.xda-developers.com/t/guide-how-to-port-manufacturer-rom-sense-touchwizz-updated-for-kitkat.2245786/)
 * [How to Build OrangeFox Recovery on a fox_6.0](https://forum.xda-developers.com/t/guide-how-to-build-orangefox-recovery-on-a-fox_6-0-android-6-0-build-system-recovery-manifest.4315785/)
+* [Easiest way to port ParanoidAndroid Rom](https://forum.xda-developers.com/t/guide-easiest-way-to-port-paranoidandroid-rom-both-ics-and-jb-versions.2232773/)
+* [Definitive FAQ for newest miui porting](https://forum.xda-developers.com/t/guide-ics-jb-common-definitive-faq-for-newest-miui-porting.1777999/)
+* [How to port sense to non-HTC devices.](https://forum.xda-developers.com/t/guide-how-to-port-sense-to-non-htc-devices.1707177/)
+* [Porting rom to MDPI FROM MIUI AND HDPI](https://forum.xda-developers.com/t/guide-porting-rom-to-mdpi-from-miui-and-hdpi-aroma-tut-coming-soon.1923675/)
+* [The Comprehensive AOKP Building Guide](https://forum.xda-developers.com/t/guide-the-comprehensive-aokp-building-guide.2217175/)
+* [Compile CWM Recovery](https://forum.xda-developers.com/t/guide-compile-cwm-recovery.1866545/)
+
+#### Hardware
+
+* [All about SD CARDS - which one, why and how](https://forum.xda-developers.com/t/guide-info-all-about-sd-cards-which-one-why-and-how-posts-1-3.1947560/)
 
 ### Tools
 
@@ -744,6 +778,7 @@ There is a summary available in this project for navigate more easily and find m
 * [GitHub and GitLab](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1mm6avXq9ZxehWsb4gYuRb9)
 * [How to make your own repos to send us](https://telegra.ph/HOW-TO-MAKE-YOUR-OWN-REPOS-TO-SEND-US-04-20)
 * [How to use Github](https://forum.xda-developers.com/t/guide-how-to-use-github.1877040/)
+* [Understanding and using Gerrit](https://forum.xda-developers.com/t/guide-understanding-and-using-gerrit-easy-explained.2628545/)
 
 #### GNU Make
 
@@ -1048,6 +1083,7 @@ There is a summary available in this project for navigate more easily and find m
   * [NullKbd-1.2.apk](https://www.temblast.com/download/NullKbd-1.2.apk) – an IME that does nothing.
   * [Recorder-1.2.apk](https://www.temblast.com/download/Recorder-1.2.apk) – an audio recorder that can record 16 or 24 bit audio directly through ALSA.
   * [Touch-1.0.apk](https://www.temblast.com/download/Touch-1.0.apk) – a utility for testing Nook touch screens.
+* [AIOlog](https://forum.xda-developers.com/t/tool-14th-dec-aiolog-all-in-one-android-logger-v0-5.1944776/) [[sources](https://github.com/wcypierre/AIOlog)] - All in One Android Logger.
 
 ### Partitions, storage & data
 
@@ -1474,6 +1510,7 @@ There is a summary available in this project for navigate more easily and find m
 * [Reverse-Engineering](https://github.com/OshekharO/Reverse-Engineering) - List resources about reverse engineering.
 * [awesome-reversing](https://github.com/tylerha97/awesome-reversing)
 * [Awesome Java](https://github.com/akullpp/awesome-java)
+* [Guide Ride-From a Newbie to a Dev, Get all you need here](https://forum.xda-developers.com/t/lists-guide-ride-from-a-newbie-to-a-dev-get-all-you-need-here.2281656/#post-41491514)
 
 ## Todo
 * <https://github.com/davisRoman/aosp-research>
