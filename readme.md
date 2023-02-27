@@ -108,6 +108,7 @@ There is also a list of all pages for the official AOSP Android documentation he
     - [Huawei (and Honor)](#huawei-and-honor)
     - [Xiaomi](#xiaomi)
     - [Motorola](#motorola-1)
+    - [Other](#other-3)
   - [Users scripts](#users-scripts)
 - [Books](#books)
 - [Online groupes](#online-groupes)
@@ -422,6 +423,7 @@ There is a summary available in this project for navigate more easily and find m
   * [Name](https://www.temblast.com/ref/akeysname.htm)
   * [API](https://www.temblast.com/ref/akeysapi.htm)
 * [Android Versions](https://www.temblast.com/ref/aversions.htm)
+* [fastboot oem sha1sum](https://securityresear.ch/2017/01/04/fastboot-oem-sha1sum/)
 
 #### Feature
 
@@ -461,6 +463,8 @@ There is a summary available in this project for navigate more easily and find m
 * [How to Change Boot Logo (Splash Screen) for Snapdragon Devices](https://forum.xda-developers.com/t/guide-how-to-change-boot-logo-splash-screen-for-snapdragon-devices-splash-img.3470473/)
 * [Change Boot Logo for Exynos Samsung devices](https://forum.xda-developers.com/t/twrp-change-boot-logo-for-exynos-samsung-devices.4249909/)
 * [How to change the official samsung splash/boot screen/logo](https://forum.xda-developers.com/t/how-to-change-the-official-samsung-splash-boot-screen-logo-samsung.3374170/)
+* [Make Your Own Bootanimations](https://forum.xda-developers.com/t/guide-make-your-own-bootanimations.1321360/)
+* [Introductory Guide To Theming](https://forum.xda-developers.com/t/guide-miui-introductory-guide-to-theming-updated-11-14-11.1342895/)
 
 #### Security
 
@@ -534,6 +538,9 @@ There is a summary available in this project for navigate more easily and find m
 * [How to enable/disable Android logcat when using a custom kernel](https://blog.mx17.net/2015/01/13/enabledisable-android-logcat-using-custom-kernel/)
 * [Debugging IO on Android](https://blog.mx17.net/2013/05/16/debugging-io-on-android/)
 * [How to find Android deprecated API](https://blog.mx17.net/2012/09/11/how-to-find-android-deprecated-api/)
+* [ADB Workshop and Guide for everyone](https://forum.xda-developers.com/t/guide-adb-workshop-and-guide-for-everyone.879701/)
+* [What You Know about Rosie?](https://forum.xda-developers.com/t/how-to-diy-what-you-know-about-rosie.1152549/)
+* [Want to learn how to theme?](https://forum.xda-developers.com/t/guide-want-to-learn-how-to-theme.916814/)
 
 #### Magisk
 
@@ -586,6 +593,9 @@ There is a summary available in this project for navigate more easily and find m
 * [How to port twrp to qualcomm devices.](https://forum.xda-developers.com/t/guide-how-to-port-twrp-to-qualcomm-devices.3420013/)
 * [MSM8909 Service Rom From Source / QPST Root + Unlock + Unbrick](https://forum.xda-developers.com/t/wip-rom-msm8909-service-rom-from-source-qpst-root-unlock-unbrick.3544178/)
 * [Building Qualcomm modem from sources (msm8626)](https://forum.xda-developers.com/t/dev-guide-building-qualcomm-modem-from-sources-msm8626.3489833/)
+* [MSM8909 Service Rom From Source / QPST Root + Unlock + Unbrick](https://forum.xda-developers.com/t/wip-rom-msm8909-service-rom-from-source-qpst-root-unlock-unbrick.3544178/)
+* [How to Enable Qualcomm Diagnostic Mode](https://forum.gsmhosting.com/vbb/f606/qualcomm-diag-mode-enable-diag-port-qualcomm-phones-2618360/)
+* [How to program eMMC images into blank flash with USB only in MSM7630](https://jnisz.blogspot.com/)
 
 ##### MediaTek
 
@@ -661,6 +671,7 @@ There is a summary available in this project for navigate more easily and find m
 * [OnePlus One / Two / 3 / 3T / 5 Mega UNBRICK Guide + TWRP Flashing](https://www.androidbrick.com/unbrick-oneplus-one-two-3-3t-qualcomm-hs-usb-qdloader-9008/)
 * [Modding the Redmi Note 8 Pro — An Adventure](https://medium.com/swlh/modding-the-redmi-note-8-pro-an-adventure-e473e84d4d14)
 * [FM Radio app by HTC: Reverse Engineer](https://forum.xda-developers.com/t/success-fm-radio-app-by-htc-reverse-engineer-please-help.971303/)
+* [emmc basic knowledge from micromedia sttsi](https://forum.gsmhosting.com/vbb/f606/emmc-basic-knowledge-micromedia-sttsi-2521872/)
 
 #### Rom specific
 
@@ -806,6 +817,7 @@ There is a summary available in this project for navigate more easily and find m
 * [arm Developer documentation](https://developer.arm.com/documentation/)
 * [Linux kernel Backport wiki](https://backports.wiki.kernel.org/index.php/Main_Page)
 * [Linux kernel Wireless wiki](https://wireless.wiki.kernel.org/welcome)
+* [Qualcomm Developer documentation](https://developer.qualcomm.com/)
 
 #### Qualcomm
 
@@ -952,6 +964,7 @@ There is a summary available in this project for navigate more easily and find m
 * [Uber Apk Signer](https://github.com/patrickfav/uber-apk-signer) - A tool that helps to sign, zip aligning and verifying multiple Android application packages.
 * [APKiD](https://github.com/rednaga/apkid) - Gives you information about how an APK was made.
 * [APK Studio](https://vaibhavpandey.com/apkstudio/) [[source](https://github.com/vaibhavpandeyvpz/apkstudio)] - IDE for reverse-engineering Android application packages.
+* [INZ APKTool](https://forum.gsmhosting.com/vbb/f831/inz-apktool-2-0-windows-gui-apk-tool-2722815/) - Easy and Small application for Decompiling/Recompiling APK, DEX and JAR files.
 
 ### Conversion
 
@@ -1148,6 +1161,11 @@ There is a summary available in this project for navigate more easily and find m
 * [Motorola OTA Link Generator Tool](https://forum.xda-developers.com/t/tool-motorola-ota-link-generator-tool.3537039/) [[sources](https://github.com/erfanoabdi/Motorola-OTA-Link-Generator-Tool)/[instance](https://motoota.lolinet.com/)]
 * [LMSA: Lenovo's Motorola Smart Assistant ](https://support.lenovo.com/us/en/downloads/ds101291) [[help](https://forum.xda-developers.com/t/rescue-and-smart-assistant-lmsa-motorola-lenovo-only.3951714/)] - Is an official tool installs on PC.
 
+#### Other
+
+* [One+_TooL](https://forum.xda-developers.com/t/one-_tool-with-grayed-out-oem_unlock-bootloader-unlock-enabler-engineer-decrypt.4380419/) - Grayed out Oem_Unlock (Bootloader Unlock)enabler & Engineer Decrypt
+* [Universal HTC RUU/ROM Decryption Tool](https://forum.xda-developers.com/t/tool-28-nov-2017-universal-htc-ruu-rom-decryption-tool-3-6-8.3382928/) [[sources](https://github.com/nkk71/HTC-RUU-Decrypt-Tool)]
+
 ### Users scripts
 
 *You can use them as inspiration to create your own or find solutions*
@@ -1314,6 +1332,9 @@ There is a summary available in this project for navigate more easily and find m
   * [mirrors.lolinet.com](https://mirrors.lolinet.com/firmware/lenovo/)
 * Motorola
   * [mirrors.lolinet.com](https://mirrors.lolinet.com/firmware/motorola/)
+* VIVO
+  * [needrom](https://www.needrom.com/category/vivo/)
+  * [romjd](http://www.romjd.com/Rom/ModelList/57)
 * [firmware.mobi](https://desktop.firmware.mobi/)
 * [OnePlus](https://service.oneplus.com/fr/search/search-detail?id=2096330&articleIndex=1)
 
