@@ -414,6 +414,14 @@ There is a summary available in this project for navigate more easily and find m
 * [Patching the adb daemon to run as root](https://harrisonsand.com/posts/patching-adb-root/)
 * [Intro to Android App Reverse Engineering workshop](https://www.ragingrock.com/AndroidAppRE/)
   * [Github](https://github.com/maddiestone/AndroidAppRE)
+* Android Attributes
+  * [Value](https://www.temblast.com/ref/attrvalue.htmh)
+  * [Name](ttps://www.temblast.com/ref/attrname.htm)
+* Android Keycodes
+  * [Code](https://www.temblast.com/ref/akeyscode.htm)
+  * [Name](https://www.temblast.com/ref/akeysname.htm)
+  * [API](https://www.temblast.com/ref/akeysapi.htm)
+* [Android Versions](https://www.temblast.com/ref/aversions.htm)
 
 #### Feature
 
@@ -999,6 +1007,34 @@ There is a summary available in this project for navigate more easily and find m
 * [drmemory](https://github.com/dynamorio/drmemory) - Memory Debugger for Windows, Linux, Mac, and Android.
 * [LiME - Linux Memory Extractor](https://github.com/504ensicslabs/lime) - A Loadable Kernel Module (LKM) which allows for volatile memory acquisition from Linux and Linux-based devices, such as Android.
 * [Tinker](https://github.com/tencent/tinker) - A hot-fix solution library for Android, it supports dex, library and resources update without reinstalling apk.
+* [binxml](https://www.temblast.com/android.htm) [[download](https://www.temblast.com/download/binxml)/[guide](https://www.temblast.com/ntxhwcfg.htm)] - Dump Android binary XML files (AndroidManifest.xml).
+* [setvalues](https://www.temblast.com/android.htm) [[download](https://www.temblast.com/download/setvalues)] - Android settings from the shell.
+* [zerostat](https://www.temblast.com/android.htm) [[download](https://www.temblast.com/download/zerostat)] - List partitions and show what percentage they are filled with actual data.
+* [dtbview.exe](https://www.temblast.com/android.htm) [[download](https://www.temblast.com/download/dtbview.exe)] - A utility for viewing Device Trees (dtb files).
+* [binxml.exe](https://www.temblast.com/android.htm) [[download](https://www.temblast.com/download/binxml.exe)] - A utility for dumping Android binary XML files (AndroidManifest.xml).
+* [elfview.exe](https://www.temblast.com/android.htm) [[download](https://www.temblast.com/download/elfview.exe)] - A utility for viewing ELF executable files.
+* [ImgUtil](https://www.temblast.com/imgutil.htm) [[download](https://www.temblast.com/download/imgutil.exe)] - ImgUtil is a Win32 utility for modifying Android boot images.
+* [AdbSync](https://www.temblast.com/adbsync.htm) [[download](https://www.temblast.com/download/adbsync.exe)] - AdbSync is a Win32 utility for syncing files to and from an Android device.
+* [DexDump](https://www.temblast.com/dexdump.htm) [[download](https://www.temblast.com/download/dexdump.exe)] - A simple utility for enumerating the classes in an application (.apk), a framework (.jar) or an extracted dex file.
+* [JavaStub](https://www.temblast.com/javastub.htm) [[download](https://www.temblast.com/download/javastub.exe)] - For turning Android Dalvik Smali files into Java "stub" files.
+* [MergeSmali](https://www.temblast.com/mergesmali.htm) [[download](https://www.temblast.com/download/mergesmali.exe)]
+* [QcomView Utility](https://www.temblast.com/qcomview.htm) [[download](https://www.temblast.com/download/qcomview.exe)] - Itility for analyzing Qualcomm signed executables.
+* [SepUtil](https://www.temblast.com/seputil.htm) [[download](https://www.temblast.com/download/seputil.exe)] - For modifying SE Linux sepolicy files.
+* [https://www.temblast.com/adbgrab.htm](https://www.temblast.com/adbgrab.htm) [[download](https://www.temblast.com/download/adbgrab.exe)] - AdbGrab is a Win32 utility for grabbing the frame buffer of an Android device.
+* [EDL Utility](https://www.temblast.com/edl.htm) [[download](https://www.temblast.com/edl.htm)] - A Win32 utility for accessing the Qualcomm Emergency Download interface on Qualcomm processors.
+* [UsbMode](https://www.temblast.com/usbmode.htm)
+  * [UsbMode-2.4.apk](https://www.temblast.com/download/UsbMode-2.4.apk)
+  * [the usbhostd daemon](https://www.temblast.com/download/usbhostd)
+* [WhatIsIt](https://www.temblast.com/whatisit.htm)
+  * [Win32](https://www.temblast.com/download/whatisit.exe)
+  * [Android](https://www.temblast.com/download/whatisit)
+* [Temblast Android Applications](https://www.temblast.com/android.htm)
+  * [AudioCtl-1.0.apk](https://www.temblast.com/download/AudioCtl-1.0.apk) – a simple utility for testing audio.
+  * [Library-1.14.apk](https://www.temblast.com/download/Library-1.14.apk) – a simple library application.
+  * [Lights-1.0.apk](https://www.temblast.com/download/Lights-1.0.apk) – a simple utility to adjust brightness and color of eink screens.
+  * [NullKbd-1.2.apk](https://www.temblast.com/download/NullKbd-1.2.apk) – an IME that does nothing.
+  * [Recorder-1.2.apk](https://www.temblast.com/download/Recorder-1.2.apk) – an audio recorder that can record 16 or 24 bit audio directly through ALSA.
+  * [Touch-1.0.apk](https://www.temblast.com/download/Touch-1.0.apk) – a utility for testing Nook touch screens.
 
 ### Partitions, storage & data
 
