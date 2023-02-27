@@ -412,6 +412,8 @@ There is a summary available in this project for navigate more easily and find m
 * [patch adbd to run as root](https://blog.mx17.net/2021/11/17/tolino-shine-3-patch-adbd-to-run-as-root/)
 * [Getting ADB root access on a Tolino](https://cweiske.de/tagebuch/android-root-adb.htm)
 * [Patching the adb daemon to run as root](https://harrisonsand.com/posts/patching-adb-root/)
+* [Intro to Android App Reverse Engineering workshop](https://www.ragingrock.com/AndroidAppRE/)
+  * [Github](https://github.com/maddiestone/AndroidAppRE)
 
 #### Feature
 
@@ -750,6 +752,9 @@ There is a summary available in this project for navigate more easily and find m
 * [Introduction to Firmware Reversing](https://www.youtube.com/watch?v=GIU4yJn2-2A) [video]
 * [Patching Binaries (with vim, Binary Ninja, Ghidra and radare2)](https://www.youtube.com/watch?v=LyNyf3UM9Yc)
 * [In-depth: ELF - The Extensible & Linkable Format](https://www.youtube.com/watch?v=nC1U1LJQL8o) [video]
+* [android-scripts](https://github.com/strazzere/android-scripts) - Collection of Android reverse engineering scripts that makes life easier.
+* [Frida Operation Manual - Android Environment Preparation](https://bbs-kanxue-com.translate.goog/thread-248293.htm?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=fr&_x_tr_pto=wapp) [[orginal language](https://bbs.kanxue.com/thread-248293.htm)]
+* [Preliminary Exploration of Android Ransomware Virus](https://paper-seebug-org.translate.goog/1085/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=fr&_x_tr_pto=wapp) [[original link](https://paper.seebug.org/1085/)]
 
 ##### IDA
 
@@ -929,6 +934,16 @@ There is a summary available in this project for navigate more easily and find m
 * [Apktool](https://forum.xda-developers.com/t/util-nov-24-2022-apktool-tool-for-reverse-engineering-apk-files.1755243/)
 * [Automated Device/Vendor Tree Deblobber](https://forum.xda-developers.com/t/tool-automated-device-vendor-tree-deblobber.4249559/)
 * [Ghidra](https://ghidra-sre.org/) [[sources](https://github.com/NationalSecurityAgency/ghidra)] - A software reverse .engineering (SRE) framework
+* [androguard](https://github.com/androguard/androguard) - Reverse engineering and pentesting for Android applications.
+* [Dexcalibur](https://github.com/frenchyeti/dexcalibur) - An Android reverse engineering platform focus on instrumentation automation.
+* [androidre](https://github.com/cryptax/androidre) - Reverse engineering Android.
+* [gnirehtet](https://github.com/genymobile/gnirehtet) - Provides reverse tethering for Android.
+* [Simplify](https://github.com/calebfenton/simplify) - Generic Android Deobfuscator.
+* [Bytecode Viewer](https://github.com/konloch/bytecode-viewer) - A lightweight user-friendly Java/Android Bytecode Viewer, Decompiler & More.
+* [Dobby](https://github.com/jmpews/Dobby) - A lightweight, multi-platform, multi-architecture hook framework.
+* [Uber Apk Signer](https://github.com/patrickfav/uber-apk-signer) - A tool that helps to sign, zip aligning and verifying multiple Android application packages.
+* [APKiD](https://github.com/rednaga/apkid) - Gives you information about how an APK was made.
+* [APK Studio](https://vaibhavpandey.com/apkstudio/) [[source](https://github.com/vaibhavpandeyvpz/apkstudio)] - IDE for reverse-engineering Android application packages.
 
 ### Conversion
 
@@ -981,6 +996,9 @@ There is a summary available in this project for navigate more easily and find m
 * [εxodus trackers apk static analysis](https://forum.xda-developers.com/t/dexdump-exodus-trackers-apk-static-analysis.3833391/)
 * [native-shim](https://github.com/rednaga/native-shim) - A "shim" for loading native jni files for Android active debugging.
 * [reverse-hal.sh](https://github.com/phhusson/treble_experimentations/blob/master/vendor-HAL/reverse-hal.sh)
+* [drmemory](https://github.com/dynamorio/drmemory) - Memory Debugger for Windows, Linux, Mac, and Android.
+* [LiME - Linux Memory Extractor](https://github.com/504ensicslabs/lime) - A Loadable Kernel Module (LKM) which allows for volatile memory acquisition from Linux and Linux-based devices, such as Android.
+* [Tinker](https://github.com/tencent/tinker) - A hot-fix solution library for Android, it supports dex, library and resources update without reinstalling apk.
 
 ### Partitions, storage & data
 
