@@ -802,7 +802,8 @@ There is a summary available in this project for navigate more easily and find m
 
 * [EVERYONE in Cyber Security Should Understand Reversing (its EASY)](https://www.youtube.com/watch?v=gh2RXE9BIN8) [2023] [video]
 * [Simple Tools and Techniques for Reversing a binary](https://www.youtube.com/watch?v=3NTXFUxcKPc) [2016] [video]
-* [Reverse Engineering #0 - Comment bien débuter et gagner du temps](https://www.youtube.com/watch?v=ur0iyh40HK0) [2021] [french]
+* [Reverse Engineering #0 - Comment bien débuter et gagner du temps](https://www.youtube.com/watch?v=ur0iyh40HK0) [2021] [french/video]
+* [Self-Learning Reverse Engineering in 2022](https://www.youtube.com/watch?v=gPsYkV7-yJk) [video]
 * [Introduction to Firmware Reversing](https://www.youtube.com/watch?v=GIU4yJn2-2A) [video]
 * [Patching Binaries (with vim, Binary Ninja, Ghidra and radare2)](https://www.youtube.com/watch?v=LyNyf3UM9Yc)
 * [In-depth: ELF - The Extensible & Linkable Format](https://www.youtube.com/watch?v=nC1U1LJQL8o) [video]
@@ -1000,6 +1001,9 @@ There is a summary available in this project for navigate more easily and find m
 * [APKiD](https://github.com/rednaga/apkid) - Gives you information about how an APK was made.
 * [APK Studio](https://vaibhavpandey.com/apkstudio/) [[source](https://github.com/vaibhavpandeyvpz/apkstudio)] - IDE for reverse-engineering Android application packages.
 * [INZ APKTool](https://forum.gsmhosting.com/vbb/f831/inz-apktool-2-0-windows-gui-apk-tool-2722815/) - Easy and Small application for Decompiling/Recompiling APK, DEX and JAR files.
+* [dogbolt.org](https://dogbolt.org/) - An online decompiler explorer.
+* [godbolt.org](https://godbolt.org/) - Compiler explorer.
+* [radare2](https://github.com/radareorg/radare2) - UNIX-like reverse engineering framework and command-line toolset.
 
 ### Conversion
 
