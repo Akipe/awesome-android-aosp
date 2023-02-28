@@ -12,7 +12,9 @@ Contributions are welcome! I am looking for any kind of information that can hel
 
 *English is not my primary language, there might be some language mistakes (feel free to correct them!).*
 
-There is also a list of all pages for the official AOSP Android documentation here : [summary_official_documentation.md](summary_official_documentation.md)
+There are also other nice resources references available on this repository :
+- pages from the official AOSP Android documentation : [official_documentation.md](official_documentation.md)
+- videos from some interesting video channel : [channel_videos.md](channel_videos.md)
 
 ## Contents
 
@@ -118,7 +120,7 @@ There is also a list of all pages for the official AOSP Android documentation he
 - [News](#news)
 - [Vendors sources](#vendors-sources)
 - [Blob](#blob)
-- [GAPPS](#gapps)
+- [GApps](#gapps)
 - [ROMs](#roms)
 - [Sources example](#sources-example)
   - [Device project](#device-project)
@@ -132,7 +134,9 @@ There is also a list of all pages for the official AOSP Android documentation he
 
 It is recommended to start with the official documentation available at <https://source.android.com/> & <https://developer.android.com/>.
 
-There is a summary available in this project for navigate more easily and find more quickly what you search : [summary_official_documentation.md](./summary_official_documentation.md)
+There is a summary available in this project for navigate more easily and find more quickly what you search : [official_documentation.md](./official_documentation.md).
+
+There are also nice complete guide in videos available at [channel_videos.md](channel_videos.md).
 
 * [Android Porting Guidebook](https://github.com/eyedeekay/android_porting_guidebook) (2015/unfinished) - An (incomplete) guide book for porting Android ROM.
 * [Android OS Internals / AOSP Mobile ROM Development](https://www.udemy.com/course/android-os-internals-aosp-mobile-development-2020-edition/) (udemy/not free) - Mobile Development.
@@ -146,7 +150,7 @@ There is a summary available in this project for navigate more easily and find m
 
 ### Specific point
 
-*You may find also information and solution to the official documentation at [summary_official_documentation.md](summary_official_documentation.md)*
+*You may find also information at [official_documentation.md](official_documentation.md)* and at [channel_videos.md](channel_videos.md)
 
 #### Introduction
 
@@ -867,6 +871,8 @@ There is a summary available in this project for navigate more easily and find m
 
 ### Video Channel
 
+*List of videos of this channels are available at [channel_videos.md](channel_videos.md).*
+
 * [AlaskaLinuxUser AKLU](https://www.youtube.com/c/AlaskaLinuxUserAKLU)
 * [Android & Linux Development (@remainder30000)](https://www.youtube.com/@remainder30000)
 * [Dimple S](https://www.youtube.com/@dimples_android_geek)
@@ -1378,7 +1384,7 @@ There is a summary available in this project for navigate more easily and find m
 * [firmware.mobi](https://desktop.firmware.mobi/)
 * [OnePlus](https://service.oneplus.com/fr/search/search-detail?id=2096330&articleIndex=1)
 
-## GAPPS
+## GApps
 
 * [BiTGApps](https://bitgapps.github.io/)
   * [Github](https://github.com/BiTGApps/BiTGApps)
