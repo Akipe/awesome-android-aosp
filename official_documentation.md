@@ -1,4 +1,4 @@
-# Awesome Android AOSP - Official Android AOSP documentation
+# Official Android AOSP documentation
 
 Summary of both official Android documentation (<https://source.android.com/> & <https://developer.android.com/>) for easily navigate and find resources.
 

@@ -70,7 +70,7 @@ There are also other nice resources references available on this repository :
       - [OmniROM](#omnirom)
       - [Other](#other)
     - [Hardware](#hardware)
-  - [Tools](#tools)
+  - [Learning tools](#learning-tools)
     - [C language](#c-language)
     - [Bash \& shell](#bash--shell)
     - [Git, Gerrit \& merging](#git-gerrit--merging)
@@ -88,7 +88,7 @@ There are also other nice resources references available on this repository :
   - [Video Channel](#video-channel)
 - [Information](#information)
   - [Devices databases](#devices-databases)
-- [Tools](#tools-1)
+- [Tools](#tools)
   - [General](#general-1)
   - [Generator](#generator)
   - [Extractor/Repack/Patcher](#extractorrepackpatcher)
@@ -753,7 +753,7 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 
 * [All about SD CARDS - which one, why and how](https://forum.xda-developers.com/t/guide-info-all-about-sd-cards-which-one-why-and-how-posts-1-3.1947560/)
 
-### Tools
+### Learning tools
 
 #### C language
 
