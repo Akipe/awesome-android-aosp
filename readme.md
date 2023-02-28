@@ -117,6 +117,7 @@ There are also other nice resources references available on this repository :
 - [Online groupes](#online-groupes)
   - [Telegram channel](#telegram-channel)
   - [Forum](#forum)
+  - [Other Groups](#other-groups)
 - [News](#news)
 - [Vendors sources](#vendors-sources)
 - [Blob](#blob)
@@ -858,6 +859,7 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 * [Linux kernel Backport wiki](https://backports.wiki.kernel.org/index.php/Main_Page)
 * [Linux kernel Wireless wiki](https://wireless.wiki.kernel.org/welcome)
 * [Qualcomm Developer documentation](https://developer.qualcomm.com/)
+* [JCRDoc](https://jcrdoc.com/) - Wiki designed to contain errors and fixes for android build errors.
 
 #### Qualcomm
 
@@ -1265,6 +1267,10 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 * [droidrzr.com](http://www.droidrzr.com/index)
 * [phonandroid (french)](https://www.phonandroid.com/forum/forums/developpement.13/) - French forum for ROM development.
 * [XDA Forum](https://forum.xda-developers.com/)
+
+### Other Groups
+
+* [Reddit r/building_android](https://www.reddit.com/r/building_android/) - Reddit group about Android build and port.
 
 ## News
 
