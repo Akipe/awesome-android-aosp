@@ -116,6 +116,7 @@ There are also other nice resources references available on this repository :
 - [Books](#books)
 - [Online groupes](#online-groupes)
   - [Telegram channel](#telegram-channel)
+  - [Discord group](#discord-group)
   - [Forum](#forum)
   - [Other Groups](#other-groups)
 - [News](#news)
@@ -164,6 +165,7 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 * [Android: What is...](https://www.youtube.com/playlist?list=PLRJ9-cX1yE1nbaEuyRi60ZWVP8_gGQb0J) (video playlist)
 * [Android device configuration for AOSP](https://stackoverflow.com/questions/11352709/android-device-configuration-for-aosp/11353248#11353248)
 * [How To Setup And Use Fastboot](https://forum.xda-developers.com/t/guide-how-to-setup-and-use-fastboot.2277112/)
+* [Android Platform (AOSP) Development (Part 1): Getting Started](https://scribe.bus-hit.me/android-platform-aosp-development-part-1-getting-started-55e2c5af07dd)
 
 #### General
 
@@ -225,6 +227,8 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 * [Understanding the Android Source Code](https://forum.xda-developers.com/t/guide-understanding-the-android-source-code.2620389/)
 * [Build Rom From Source](https://forum.xda-developers.com/t/howto-stepbystep-build-rom-from-source.2455005/)
 * [A COMPLETE ANDROID DEVELOPMENT GUIDE FOR NEWBIES](https://forum.xda-developers.com/t/guide-win-linux-a-complete-android-development-guide-for-newbies-sarnab-c-r.2179918/)
+* [Building the Android Open Source Project](https://www.kodeco.com/10197539-building-the-android-open-source-project)
+* [BOOT FROM SD CARD on QMobile Z8 with BRICKED/DEAD eMMC](https://forum.xda-developers.com/t/how-to-boot-from-sd-card-successfully-on-qmobile-z8-with-bricked-dead-emmc.3712171/)
 
 #### Building
 
@@ -270,6 +274,8 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 * [Cross compile fstrim for Android on Ubuntu 18.10](https://blog.mx17.net/2019/01/10/cross-compile-fstrim-for-android-on-ubuntu-18-10/)
 * [How to compile rsync for Android in Ubuntu](https://blog.mx17.net/2014/06/10/compile-rsync-android-ubuntu/)
 * [Learn about the repo tool , manifests and local manifests and 5 important tips !](https://forum.xda-developers.com/t/learn-about-the-repo-tool-manifests-and-local-manifests-and-5-important-tips.2329228/)
+* [Repo Command Reference](https://source.android.com/docs/setup/create/repo) [official]
+* [Building LineageOS for your device](https://scribe.nixnet.services/@daltonfury42/building-lineageos-for-your-device-a7d26ab50549)
 
 ##### Automation
 
@@ -570,6 +576,7 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 * [How To Logcat](https://forum.xda-developers.com/t/tutorial-how-to-logcat.1726238/)
 * [How to make a LOGCAT](https://forum.xda-developers.com/t/how-to-make-a-logcat-noob-friendly.2112010/)
 * [Howto LOGCAT](https://forum.xda-developers.com/t/guide-howto-logcat.1761295/)
+* [Android Fatal signal 11 (SIGSEGV) at 0x636f7d89 (code=1). How can it be tracked down? (how dumping hard error)](https://stackoverflow.com/questions/17840521/android-fatal-signal-11-sigsegv-at-0x636f7d89-code-1-how-can-it-be-tracked/43252786)
 
 #### Magisk
 
@@ -625,6 +632,7 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 * [MSM8909 Service Rom From Source / QPST Root + Unlock + Unbrick](https://forum.xda-developers.com/t/wip-rom-msm8909-service-rom-from-source-qpst-root-unlock-unbrick.3544178/)
 * [How to Enable Qualcomm Diagnostic Mode](https://forum.gsmhosting.com/vbb/f606/qualcomm-diag-mode-enable-diag-port-qualcomm-phones-2618360/)
 * [How to program eMMC images into blank flash with USB only in MSM7630](https://jnisz.blogspot.com/)
+* [i.MX Yocto Project User's Guide (Qualcomm based)](https://www.nxp.com/docs/en/user-guide/IMX_YOCTO_PROJECT_USERS_GUIDE.pdf) [2022] [pdf]
 
 ##### MediaTek
 
@@ -727,6 +735,7 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 * [How-to Build LineageOS​](https://forum.xda-developers.com/t/guide-build-lineageos-how-to-use-github.3551484/)
 * [How To Port CyanogenMod Android To Your Own Device (archive wiki)](https://web.archive.org/web/20161224192644/https://wiki.cyanogenmod.org/w/Doc:_porting_intro)
 * [How to port SONY Small Apps to Any Device Cm Based Roms](https://forum.xda-developers.com/t/guide-how-to-port-sony-small-apps-to-any-device-cm-based-roms.2228969/)
+* [Building LineageOS for an Unsupported Device](https://forum.xda-developers.com/t/guide-how-to-building-lineageos-for-an-unsupported-device.4419263/)
 
 ##### ArrowOS
 
@@ -931,6 +940,7 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 * [Android_Unlocker](https://forum.xda-developers.com/t/official-android_unlocker-for-almost-all-smartphone.4206061/) [[sources](https://github.com/FabioFabRob7/Android_Unlocker)]
 * [JURASSIC Universal Android Tool](https://forum.xda-developers.com/t/tool-sharing-jurassic-universal-android-tool-v-5-0-2-universal-win.3282400/)
 * [DualBootPatcher](https://forum.xda-developers.com/t/guide-dualbootpatcher-use-build-from-source-using-docker-travis-and-add-new-devices.3663076/)
+* [repo](https://android.googlesource.com/tools/repo)) - Official tool for managing Android Git repositories.
 
 ### Generator
 
@@ -1177,6 +1187,7 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 * [Freya](https://forum.xda-developers.com/t/tool-freya-v1-0-2-0-samsung-open-source-flash-tool.4518091/) [[source](https://github.com/Alephgsm/Freya)]
 * [Thor](https://forum.xda-developers.com/t/abandoned-thor-open-source-samsung-flash-tool-with-additinal-features.4453437/) [[source](https://github.com/Samsung-Loki/thor)/[download](https://nightly.link/Samsung-Loki/Thor/workflows/build/main)[documentation](https://samsung-loki.github.io/samsung-docs/)] - An alternative to well-known Heimdall.
 * [Multi CSC/OMC Auto-Maker [OMC/OPTICS/PRISM]](https://forum.xda-developers.com/t/tool-samsung-multi-csc-omc-auto-maker-omc-optics-prism.4222825/)
+* [samloader](https://github.com/samloader/samloader) - Download firmware for Samsung devices.
 
 #### Sony
 
@@ -1259,6 +1270,10 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 * [RomDevelopment](https://t.me/alaskalinuxuser_romdevelopment)
 * [XDA-Hub](https://t.me/xdadevelopershub) - Hub for finding specific XDA Telegram group.
 * [Android dumps](https://t.me/android_dumps)
+
+### Discord group
+
+* [XDA](https://discord.com/invite/e4v8qtkcBw)
 
 ### Forum
 
