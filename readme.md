@@ -194,7 +194,6 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 * [Android Build System Ultimate Guide](https://aabdelfattah.me/2013/04/08/android-build-system-ultimate-guide/) (2013)
 * [A practical approach to the AOSP build system](https://blog.jayway.com/2012/10/24/a-practical-approach-to-the-aosp-build-system/) (2012)
 * [AOSP Build System](https://budhdisharma.medium.com/aosp-build-system-767deeb535fa) (2019)
-* [AOSP System Image](https://scribe.privacydev.net/android-news/aosp-system-image-b80e44ddf4) (2019)
 * [Android internals](https://www.youtube.com/playlist?list=PLEq1q16moI5uvGNEdu0eODGiSJAk3VXfy) (old/video playlists)
 * [android internals](https://www.youtube.com/playlist?list=PL07D15CEBAC16A98B) (2012/video playlist)
 * [How to port roms in Windows​](https://xdaforums.com/t/guide-how-to-port-roms-snapdragon-windows-linux.3801391/) (2019)
@@ -275,7 +274,6 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 * [How to compile rsync for Android in Ubuntu](https://blog.mx17.net/2014/06/10/compile-rsync-android-ubuntu/)
 * [Learn about the repo tool , manifests and local manifests and 5 important tips !](https://xdaforums.com/t/learn-about-the-repo-tool-manifests-and-local-manifests-and-5-important-tips.2329228/)
 * [Repo Command Reference](https://source.android.com/docs/setup/create/repo) [official]
-* [Building LineageOS for your device](https://scribe.nixnet.services/@daltonfury42/building-lineageos-for-your-device-a7d26ab50549)
 
 ##### Automation
 
@@ -311,17 +309,10 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 #### Android Framework
 
 * [Fundamental of Android Framework](https://budhdisharma.medium.com/fundamental-of-android-framework-761e6da812b8)
-* [Android Binder Framework](https://scribe.froth.zone/android-news/android-binder-framework-8a28fb38699a)
-* [AndroidManifest.xml](https://scribe.esmailelbob.xyz/android-news/androidmanifest-xml-4d5a3e821f91)
 * [Android's HIDL: Treble in the HAL](https://fr.slideshare.net/opersys/androids-hidl-treble-in-the-hal)
-* [Connecting a native HIDL (Project Treble) to a Custom System Service](https://scribe.nixnet.services/@gilzhaiek/connecting-a-native-hidl-project-treble-to-a-custom-system-service-2194c9ed7e91)
 * [What is HIDL ?](https://news.ycombinator.com/item?id=17770251)
-* [System Service In AOSP](https://scribe.nixnet.services/android-news/system-service-in-aosp-750007d39555)
-* [Android: Unix Domain Socket](https://scribe.nixnet.services/android-knowledge-store/android-unix-domain-socket-2cfec4a12ee7)
-* [Get Android System write permission](https://scribe.nixnet.services/android-knowledge-store/get-android-system-write-permission-ba53742405f3)
 * [RRO (Runtime Resource Overlay) in Android AOSP](https://budhdisharma.medium.com/rro-runtime-resource-overlay-in-android-aosp-e094be17f4bc)
 * [Android AIDL Deep Dive](https://budhdisharma.medium.com/aidl-and-its-uses-in-android-e7a2520093e)
-* [Android Boot Process](https://scribe.froth.zone/android-news/android-boot-process-8f7d94ff9889)
 * [Android HIDL and Project Treble](https://devarea.com/android-hidl-and-project-treble/)
 * [Project Treble. What Makes Android 8 different?](https://events19.linuxfoundation.org/wp-content/uploads/2017/11/Project-Treble.-What-Makes-Android-8-Different_-Fedor-Tcymbal-Mera-Software-Services.pdf)
 
@@ -520,7 +511,6 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 #### App integration
 
 * [How to Port OEM Apps / Vendor Apps to Your Current ROM](https://xdaforums.com/t/guide-tips-how-to-port-oem-apps-vendor-apps-to-your-current-rom.2476050/)
-* [System App In Android](https://scribe.nixnet.services/android-news/system-app-in-android-f003d418b4cc)
 * [System App In Android](https://sc.vern.cc/android-news/system-app-in-android-f003d418b4cc)
 
 #### Optimization
@@ -544,10 +534,7 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 
 #### Debugging
 
-* [Battery Status: Android](https://scribe.nixnet.services/android-knowledge-store/battery-status-android-fe3fd63f7ae5)
-* [How to Find App UID](https://scribe.froth.zone/swlh/how-to-find-app-uid-9c9029063666)
 * [Make Android Application Debugging Easier with STrace](https://www.xda-developers.com/make-android-application-debugging-easier-with-strace/)
-* [Android Debug Bridge Fundamentals](https://scribe.privacydev.net/android-news/android-debug-bridge-fundamentals-2071363824cd)
 * [Can I enable USB debugging using adb?](https://android.stackexchange.com/questions/120394/can-i-enable-usb-debugging-using-adb)
 * [Enable ADB from recovery](https://gist.github.com/varhub/7b9555cdd1e5ad785ffde2300fcfd0bd)
 * [7 Strace Examples to Debug the Execution of a Program in Linux](https://www.thegeekstuff.com/2011/11/strace-examples/)
@@ -677,7 +664,7 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 
 ##### Motorola
 
-* [Downgrade Motorola Devices](http://www.droidrzr.com/topic/54902-how-to-downgrade-motorola-devices/)
+* [Downgrade Motorola Devices](https://xdaforums.com/t/guide-using-fastboot-exe-with-motorola-devices.4042039/page-4#post-84863341)
 * [Motorola Flashing Utilities and Firmware (Unbrick Your Moto)](https://xdaforums.com/t/index-motorola-flashing-utilities-and-firmware-unbrick-your-moto.3042687/)
 * [Motorola Stock Firmware](https://xdaforums.com/t/index-motorola-stock-firmware.4222605/)
 * [Using Fastboot.exe with Motorola devices](https://xdaforums.com/t/guide-using-fastboot-exe-with-motorola-devices.4042039/)
@@ -1213,10 +1200,7 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 
 #### Motorola
 
-* [RSD Lite](http://www.droidrzr.com/topic/57858-motorola-tools-rsd-lite-usb-driver/) [[other source](https://rsdlitetool.com/) potential virus!/[other source](https://androidmtk.com/download-rsd-lite-tool) potential virus!]
-* [House of Moto](http://www.droidrzr.com/topic/61124-house-of-moto-43/)
-* [Fastboot Flasher](http://www.droidrzr.com/topic/35863-fastboot-flasher-prototype/)
-* [RSD Flasher](http://www.droidrzr.com/topic/48904-rsd-flasher-beta-windows-only/)
+* [RSD Lite](https://xdaforums.com/t/index-motorola-flashing-utilities-and-firmware-unbrick-your-moto.3042687/#post-59348530) [[other source](https://rsdlitetool.com/) potential virus!/[other source](https://androidmtk.com/download-rsd-lite-tool) potential virus!]
 * [Motorola OTA Link Generator Tool](https://xdaforums.com/t/tool-motorola-ota-link-generator-tool.3537039/) [[sources](https://github.com/erfanoabdi/Motorola-OTA-Link-Generator-Tool)/[instance](https://motoota.lolinet.com/)]
 * [LMSA: Lenovo's Motorola Smart Assistant ](https://support.lenovo.com/us/en/downloads/ds101291) [[help](https://xdaforums.com/t/rescue-and-smart-assistant-lmsa-motorola-lenovo-only.3951714/)] - Is an official tool installs on PC.
 
@@ -1279,7 +1263,6 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 
 * [androidforums](https://androidforums.com/)
 * [android-porting (Google Groups)](https://groups.google.com/g/android-porting)
-* [droidrzr.com](http://www.droidrzr.com/index)
 * [phonandroid (french)](https://www.phonandroid.com/forum/forums/developpement.13/) - French forum for ROM development.
 * [XDA Forum](https://xdaforums.com/)
 
