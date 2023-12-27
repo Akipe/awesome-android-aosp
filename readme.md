@@ -298,7 +298,7 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 * [SuperPatcherGSI Automated Script for patching the super partition](https://xdaforums.com/t/superpatchergsi-automated-script-for-patching-the-super-partition-super-img.4528589/)
 * [Allow SDCard write access & switch SDCard Path](https://xdaforums.com/t/guide-app-6-x-x-7-x-x-allow-sdcard-write-access-switch-sdcard-path.3593021/)
 
-#### Trebble
+#### Treble
 
 * [How to make GSIs overlay file for your phone](https://xdaforums.com/t/guide-how-to-make-gsis-overlay-file-for-your-phone.3878974/)
 * [GSI Porting Tools for Android](https://xdaforums.com/t/gsi-porting-tools-for-android-auto-script-a-to-a-b-wip.4089193/)
@@ -1248,7 +1248,7 @@ There are also nice complete guide in videos available at [channel_videos.md](ch
 * [Android ROM Development](https://t.me/androidromdev) - Discussion about Android ROM development and testing.
 * [AOSP Tracker](https://t.me/aosptracker) - Tracking Android source tags and branches.
 * [Bringup/FW chat](https://t.me/androidbringup) - Chat for device bringup/debugging and firmware.
-* [Codeaurora Releases](https://t.me/s/CAFReleases) - Tracking CAF new releases.
+* [Codelinaro Releases](https://t.me/CLOReleases) - Tracking CLO new releases.
 * [Linux Kernel Brickers](https://t.me/LinuxKernelNewbies)
 * [TWRP Building Support Group](https://t.me/build_twrp) - Support group for building TWRP touch recovery.
 * [RomDevelopment](https://t.me/alaskalinuxuser_romdevelopment)
